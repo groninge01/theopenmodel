@@ -104,10 +104,12 @@ check("rosters", () => {
 
   const csv = join(ROOT, "data", "clubelo-latest.csv");
   if (!existsSync(csv)) return;
+  // Keyed by country+club: the rating file is global and names collide
+  // (Liverpool ENG vs Liverpool URU, Everton ENG vs Everton CHI).
   const elo = new Map(readFileSync(csv, "utf8").trim().split("\n").slice(1)
-    .map((l) => { const c = l.split(","); return [c[1], Number(c[4])]; }));
+    .map((l) => { const c = l.split(","); return [`${c[2]}|${c[1]}`, Number(c[4])]; }));
   const drifted = clubs.filter((c) => {
-    const source = elo.get(c.club);
+    const source = elo.get(`${c.country}|${c.club}`);
     return source != null && Math.abs(source - c.elo) >= 1;
   });
   if (drifted.length) {
