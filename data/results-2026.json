@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T08:18:15.315Z",
+ "updated": "2026-10-02T12:23:05.160Z",
  "results": {
   "1550087": {
    "id": 1550087,
@@ -271,6 +271,177 @@
    "hg": 1,
    "ag": 2
   },
+  "1550117": {
+   "id": 1550117,
+   "date": "2026-09-12T18:45:00+00:00",
+   "league": "serie-a",
+   "home": "Atalanta",
+   "away": "Cagliari",
+   "hg": 1,
+   "ag": 2
+  },
+  "1550118": {
+   "id": 1550118,
+   "date": "2026-09-14T16:30:00+00:00",
+   "league": "serie-a",
+   "home": "Como",
+   "away": "Parma",
+   "hg": 2,
+   "ag": 1
+  },
+  "1550119": {
+   "id": 1550119,
+   "date": "2026-09-12T13:00:00+00:00",
+   "league": "serie-a",
+   "home": "Genoa",
+   "away": "Frosinone",
+   "hg": 1,
+   "ag": 1
+  },
+  "1550120": {
+   "id": 1550120,
+   "date": "2026-09-14T18:45:00+00:00",
+   "league": "serie-a",
+   "home": "Inter",
+   "away": "Udinese",
+   "hg": 5,
+   "ag": 3
+  },
+  "1550121": {
+   "id": 1550121,
+   "date": "2026-09-12T16:00:00+00:00",
+   "league": "serie-a",
+   "home": "Lazio",
+   "away": "Milan",
+   "hg": 2,
+   "ag": 2
+  },
+  "1550122": {
+   "id": 1550122,
+   "date": "2026-09-13T13:00:00+00:00",
+   "league": "serie-a",
+   "home": "Lecce",
+   "away": "Monza",
+   "hg": 3,
+   "ag": 2
+  },
+  "1550123": {
+   "id": 1550123,
+   "date": "2026-09-13T16:00:00+00:00",
+   "league": "serie-a",
+   "home": "Napoli",
+   "away": "Bologna",
+   "hg": 1,
+   "ag": 0
+  },
+  "1550124": {
+   "id": 1550124,
+   "date": "2026-09-13T18:45:00+00:00",
+   "league": "serie-a",
+   "home": "Sassuolo",
+   "away": "Juventus",
+   "hg": 3,
+   "ag": 2
+  },
+  "1550125": {
+   "id": 1550125,
+   "date": "2026-09-14T16:30:00+00:00",
+   "league": "serie-a",
+   "home": "Torino",
+   "away": "Roma",
+   "hg": 0,
+   "ag": 2
+  },
+  "1550127": {
+   "id": 1550127,
+   "date": "2026-09-20T18:45:00+00:00",
+   "league": "serie-a",
+   "home": "Milan",
+   "away": "Lecce",
+   "hg": 3,
+   "ag": 0
+  },
+  "1550128": {
+   "id": 1550128,
+   "date": "2026-09-19T16:00:00+00:00",
+   "league": "serie-a",
+   "home": "Roma",
+   "away": "Inter",
+   "hg": 2,
+   "ag": 2
+  },
+  "1550129": {
+   "id": 1550129,
+   "date": "2026-09-19T13:00:00+00:00",
+   "league": "serie-a",
+   "home": "Bologna",
+   "away": "Torino",
+   "hg": 1,
+   "ag": 1
+  },
+  "1550130": {
+   "id": 1550130,
+   "date": "2026-09-20T10:30:00+00:00",
+   "league": "serie-a",
+   "home": "Fiorentina",
+   "away": "Napoli",
+   "hg": 1,
+   "ag": 1
+  },
+  "1550131": {
+   "id": 1550131,
+   "date": "2026-09-20T13:00:00+00:00",
+   "league": "serie-a",
+   "home": "Frosinone",
+   "away": "Como",
+   "hg": 2,
+   "ag": 0
+  },
+  "1550132": {
+   "id": 1550132,
+   "date": "2026-09-20T16:00:00+00:00",
+   "league": "serie-a",
+   "home": "Juventus",
+   "away": "Atalanta",
+   "hg": 2,
+   "ag": 0
+  },
+  "1550133": {
+   "id": 1550133,
+   "date": "2026-09-18T18:45:00+00:00",
+   "league": "serie-a",
+   "home": "Monza",
+   "away": "Sassuolo",
+   "hg": 2,
+   "ag": 1
+  },
+  "1550134": {
+   "id": 1550134,
+   "date": "2026-09-20T13:00:00+00:00",
+   "league": "serie-a",
+   "home": "Parma",
+   "away": "Genoa",
+   "hg": 2,
+   "ag": 1
+  },
+  "1550135": {
+   "id": 1550135,
+   "date": "2026-09-19T13:00:00+00:00",
+   "league": "serie-a",
+   "home": "Udinese",
+   "away": "Cagliari",
+   "hg": 0,
+   "ag": 1
+  },
+  "1550136": {
+   "id": 1550136,
+   "date": "2026-09-19T18:45:00+00:00",
+   "league": "serie-a",
+   "home": "Venezia",
+   "away": "Lazio",
+   "hg": 0,
+   "ag": 2
+  },
   "1552729": {
    "id": 1552729,
    "date": "2026-08-23T13:00:00+00:00",
@@ -513,6 +684,159 @@
    "away": "Strasbourg",
    "hg": 2,
    "ag": 6
+  },
+  "1552756": {
+   "id": 1552756,
+   "date": "2026-09-12T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Auxerre",
+   "away": "Nice",
+   "hg": 1,
+   "ag": 0
+  },
+  "1552757": {
+   "id": 1552757,
+   "date": "2026-09-13T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Brest",
+   "away": "Paris SG",
+   "hg": 0,
+   "ag": 1
+  },
+  "1552758": {
+   "id": 1552758,
+   "date": "2026-09-12T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Le Havre",
+   "away": "Angers",
+   "hg": 0,
+   "ag": 0
+  },
+  "1552759": {
+   "id": 1552759,
+   "date": "2026-09-13T15:15:00+00:00",
+   "league": "ligue-1",
+   "home": "Le Mans",
+   "away": "Lens",
+   "hg": 2,
+   "ag": 2
+  },
+  "1552760": {
+   "id": 1552760,
+   "date": "2026-09-13T13:00:00+00:00",
+   "league": "ligue-1",
+   "home": "Lille",
+   "away": "Troyes",
+   "hg": 2,
+   "ag": 0
+  },
+  "1552761": {
+   "id": 1552761,
+   "date": "2026-09-12T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Lorient",
+   "away": "Toulouse",
+   "hg": 2,
+   "ag": 2
+  },
+  "1552762": {
+   "id": 1552762,
+   "date": "2026-09-12T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Paris FC",
+   "away": "Lyon",
+   "hg": 0,
+   "ag": 0
+  },
+  "1552764": {
+   "id": 1552764,
+   "date": "2026-09-12T15:15:00+00:00",
+   "league": "ligue-1",
+   "home": "Strasbourg",
+   "away": "Monaco",
+   "hg": 1,
+   "ag": 1
+  },
+  "1552765": {
+   "id": 1552765,
+   "date": "2026-09-19T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Angers",
+   "away": "Troyes",
+   "hg": 2,
+   "ag": 0
+  },
+  "1552766": {
+   "id": 1552766,
+   "date": "2026-09-20T13:00:00+00:00",
+   "league": "ligue-1",
+   "home": "Auxerre",
+   "away": "Brest",
+   "hg": 2,
+   "ag": 1
+  },
+  "1552767": {
+   "id": 1552767,
+   "date": "2026-09-19T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Le Mans",
+   "away": "Lorient",
+   "hg": 2,
+   "ag": 1
+  },
+  "1552768": {
+   "id": 1552768,
+   "date": "2026-09-19T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Lyon",
+   "away": "Rennes",
+   "hg": 4,
+   "ag": 0
+  },
+  "1552769": {
+   "id": 1552769,
+   "date": "2026-09-18T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Monaco",
+   "away": "Lens",
+   "hg": 2,
+   "ag": 1
+  },
+  "1552770": {
+   "id": 1552770,
+   "date": "2026-09-20T15:15:00+00:00",
+   "league": "ligue-1",
+   "home": "Nice",
+   "away": "Lille",
+   "hg": 2,
+   "ag": 1
+  },
+  "1552771": {
+   "id": 1552771,
+   "date": "2026-09-19T15:15:00+00:00",
+   "league": "ligue-1",
+   "home": "Paris FC",
+   "away": "Strasbourg",
+   "hg": 2,
+   "ag": 1
+  },
+  "1552772": {
+   "id": 1552772,
+   "date": "2026-09-19T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Toulouse",
+   "away": "Le Havre",
+   "hg": 3,
+   "ag": 2
+  },
+  "1552773": {
+   "id": 1552773,
+   "date": "2026-09-20T18:45:00+00:00",
+   "league": "ligue-1",
+   "home": "Marseille",
+   "away": "Paris SG",
+   "hg": 1,
+   "ag": 2
   },
   "1557367": {
    "id": 1557367,
@@ -783,6 +1107,186 @@
    "away": "Tottenham",
    "hg": 0,
    "ag": 0
+  },
+  "1557397": {
+   "id": 1557397,
+   "date": "2026-09-12T14:00:00+00:00",
+   "league": "premier-league",
+   "home": "Aston Villa",
+   "away": "Forest",
+   "hg": 1,
+   "ag": 2
+  },
+  "1557398": {
+   "id": 1557398,
+   "date": "2026-09-12T14:00:00+00:00",
+   "league": "premier-league",
+   "home": "Bournemouth",
+   "away": "Brentford",
+   "hg": 2,
+   "ag": 2
+  },
+  "1557399": {
+   "id": 1557399,
+   "date": "2026-09-12T14:00:00+00:00",
+   "league": "premier-league",
+   "home": "Chelsea",
+   "away": "Hull",
+   "hg": 2,
+   "ag": 2
+  },
+  "1557400": {
+   "id": 1557400,
+   "date": "2026-09-13T13:00:00+00:00",
+   "league": "premier-league",
+   "home": "Coventry",
+   "away": "Brighton",
+   "hg": 0,
+   "ag": 5
+  },
+  "1557401": {
+   "id": 1557401,
+   "date": "2026-09-12T14:00:00+00:00",
+   "league": "premier-league",
+   "home": "Crystal Palace",
+   "away": "Ipswich",
+   "hg": 2,
+   "ag": 3
+  },
+  "1557402": {
+   "id": 1557402,
+   "date": "2026-09-14T19:00:00+00:00",
+   "league": "premier-league",
+   "home": "Leeds",
+   "away": "Newcastle",
+   "hg": 4,
+   "ag": 1
+  },
+  "1557403": {
+   "id": 1557403,
+   "date": "2026-09-12T14:00:00+00:00",
+   "league": "premier-league",
+   "home": "Liverpool",
+   "away": "Fulham",
+   "hg": 0,
+   "ag": 0
+  },
+  "1557404": {
+   "id": 1557404,
+   "date": "2026-09-13T15:30:00+00:00",
+   "league": "premier-league",
+   "home": "Man United",
+   "away": "Man City",
+   "hg": 0,
+   "ag": 1
+  },
+  "1557405": {
+   "id": 1557405,
+   "date": "2026-09-12T19:00:00+00:00",
+   "league": "premier-league",
+   "home": "Sunderland",
+   "away": "Arsenal",
+   "hg": 0,
+   "ag": 2
+  },
+  "1557406": {
+   "id": 1557406,
+   "date": "2026-09-12T16:30:00+00:00",
+   "league": "premier-league",
+   "home": "Tottenham",
+   "away": "Everton",
+   "hg": 0,
+   "ag": 0
+  },
+  "1557407": {
+   "id": 1557407,
+   "date": "2026-09-20T13:00:00+00:00",
+   "league": "premier-league",
+   "home": "Bournemouth",
+   "away": "Liverpool",
+   "hg": 0,
+   "ag": 1
+  },
+  "1557408": {
+   "id": 1557408,
+   "date": "2026-09-18T19:00:00+00:00",
+   "league": "premier-league",
+   "home": "Brentford",
+   "away": "Chelsea",
+   "hg": 3,
+   "ag": 0
+  },
+  "1557409": {
+   "id": 1557409,
+   "date": "2026-09-19T14:00:00+00:00",
+   "league": "premier-league",
+   "home": "Brighton",
+   "away": "Arsenal",
+   "hg": 3,
+   "ag": 0
+  },
+  "1557410": {
+   "id": 1557410,
+   "date": "2026-09-19T14:00:00+00:00",
+   "league": "premier-league",
+   "home": "Everton",
+   "away": "Ipswich",
+   "hg": 1,
+   "ag": 0
+  },
+  "1557411": {
+   "id": 1557411,
+   "date": "2026-09-20T15:30:00+00:00",
+   "league": "premier-league",
+   "home": "Fulham",
+   "away": "Man United",
+   "hg": 1,
+   "ag": 1
+  },
+  "1557412": {
+   "id": 1557412,
+   "date": "2026-09-20T13:00:00+00:00",
+   "league": "premier-league",
+   "home": "Leeds",
+   "away": "Crystal Palace",
+   "hg": 0,
+   "ag": 0
+  },
+  "1557413": {
+   "id": 1557413,
+   "date": "2026-09-20T13:00:00+00:00",
+   "league": "premier-league",
+   "home": "Man City",
+   "away": "Sunderland",
+   "hg": 5,
+   "ag": 3
+  },
+  "1557414": {
+   "id": 1557414,
+   "date": "2026-09-19T14:00:00+00:00",
+   "league": "premier-league",
+   "home": "Newcastle",
+   "away": "Hull",
+   "hg": 2,
+   "ag": 1
+  },
+  "1557415": {
+   "id": 1557415,
+   "date": "2026-09-19T16:30:00+00:00",
+   "league": "premier-league",
+   "home": "Forest",
+   "away": "Coventry",
+   "hg": 0,
+   "ag": 1
+  },
+  "1557416": {
+   "id": 1557416,
+   "date": "2026-09-19T11:30:00+00:00",
+   "league": "premier-league",
+   "home": "Tottenham",
+   "away": "Aston Villa",
+   "hg": 2,
+   "ag": 3
   },
   "1570333": {
    "id": 1570333,
@@ -1144,6 +1648,159 @@
    "hg": 2,
    "ag": 3
   },
+  "1570373": {
+   "id": 1570373,
+   "date": "2026-09-12T16:30:00+00:00",
+   "league": "la-liga",
+   "home": "Bilbao",
+   "away": "Elche",
+   "hg": 1,
+   "ag": 1
+  },
+  "1570374": {
+   "id": 1570374,
+   "date": "2026-09-13T12:00:00+00:00",
+   "league": "la-liga",
+   "home": "Celta",
+   "away": "Malaga",
+   "hg": 1,
+   "ag": 1
+  },
+  "1570375": {
+   "id": 1570375,
+   "date": "2026-09-13T16:30:00+00:00",
+   "league": "la-liga",
+   "home": "Getafe",
+   "away": "Depor",
+   "hg": 1,
+   "ag": 1
+  },
+  "1570376": {
+   "id": 1570376,
+   "date": "2026-09-13T14:15:00+00:00",
+   "league": "la-liga",
+   "home": "Levante",
+   "away": "Barcelona",
+   "hg": 2,
+   "ag": 4
+  },
+  "1570377": {
+   "id": 1570377,
+   "date": "2026-09-12T14:15:00+00:00",
+   "league": "la-liga",
+   "home": "Osasuna",
+   "away": "Espanyol",
+   "hg": 0,
+   "ag": 2
+  },
+  "1570378": {
+   "id": 1570378,
+   "date": "2026-09-12T12:00:00+00:00",
+   "league": "la-liga",
+   "home": "Santander",
+   "away": "Alaves",
+   "hg": 2,
+   "ag": 1
+  },
+  "1570379": {
+   "id": 1570379,
+   "date": "2026-09-12T19:00:00+00:00",
+   "league": "la-liga",
+   "home": "Real Madrid",
+   "away": "Rayo Vallecano",
+   "hg": 4,
+   "ag": 1
+  },
+  "1570380": {
+   "id": 1570380,
+   "date": "2026-09-13T19:00:00+00:00",
+   "league": "la-liga",
+   "home": "Sociedad",
+   "away": "Atletico",
+   "hg": 0,
+   "ag": 3
+  },
+  "1570382": {
+   "id": 1570382,
+   "date": "2026-09-14T19:00:00+00:00",
+   "league": "la-liga",
+   "home": "Villarreal",
+   "away": "Betis",
+   "hg": 1,
+   "ag": 2
+  },
+  "1570383": {
+   "id": 1570383,
+   "date": "2026-09-15T18:00:00+00:00",
+   "league": "la-liga",
+   "home": "Alaves",
+   "away": "Valencia",
+   "hg": 0,
+   "ag": 1
+  },
+  "1570384": {
+   "id": 1570384,
+   "date": "2026-09-16T17:00:00+00:00",
+   "league": "la-liga",
+   "home": "Atletico",
+   "away": "Osasuna",
+   "hg": 4,
+   "ag": 0
+  },
+  "1570385": {
+   "id": 1570385,
+   "date": "2026-09-16T19:30:00+00:00",
+   "league": "la-liga",
+   "home": "Barcelona",
+   "away": "Santander",
+   "hg": 7,
+   "ag": 2
+  },
+  "1570386": {
+   "id": 1570386,
+   "date": "2026-09-17T17:00:00+00:00",
+   "league": "la-liga",
+   "home": "Betis",
+   "away": "Getafe",
+   "hg": 1,
+   "ag": 0
+  },
+  "1570387": {
+   "id": 1570387,
+   "date": "2026-09-16T17:00:00+00:00",
+   "league": "la-liga",
+   "home": "Depor",
+   "away": "Sevilla",
+   "hg": 0,
+   "ag": 1
+  },
+  "1570388": {
+   "id": 1570388,
+   "date": "2026-09-15T19:30:00+00:00",
+   "league": "la-liga",
+   "home": "Elche",
+   "away": "Real Madrid",
+   "hg": 2,
+   "ag": 3
+  },
+  "1570390": {
+   "id": 1570390,
+   "date": "2026-09-17T19:30:00+00:00",
+   "league": "la-liga",
+   "home": "Malaga",
+   "away": "Villarreal",
+   "hg": 1,
+   "ag": 3
+  },
+  "1570391": {
+   "id": 1570391,
+   "date": "2026-09-15T17:00:00+00:00",
+   "league": "la-liga",
+   "home": "Rayo Vallecano",
+   "away": "Espanyol",
+   "hg": 2,
+   "ag": 1
+  },
   "1570392": {
    "id": 1570392,
    "date": "2026-09-03T19:00:00+00:00",
@@ -1152,6 +1809,96 @@
    "away": "Celta",
    "hg": 0,
    "ag": 0
+  },
+  "1570393": {
+   "id": 1570393,
+   "date": "2026-09-19T14:15:00+00:00",
+   "league": "la-liga",
+   "home": "Bilbao",
+   "away": "Alaves",
+   "hg": 0,
+   "ag": 0
+  },
+  "1570394": {
+   "id": 1570394,
+   "date": "2026-09-20T14:15:00+00:00",
+   "league": "la-liga",
+   "home": "Atletico",
+   "away": "Real Madrid",
+   "hg": 2,
+   "ag": 1
+  },
+  "1570395": {
+   "id": 1570395,
+   "date": "2026-09-19T16:30:00+00:00",
+   "league": "la-liga",
+   "home": "Celta",
+   "away": "Santander",
+   "hg": 5,
+   "ag": 0
+  },
+  "1570396": {
+   "id": 1570396,
+   "date": "2026-09-20T16:30:00+00:00",
+   "league": "la-liga",
+   "home": "Depor",
+   "away": "Betis",
+   "hg": 1,
+   "ag": 1
+  },
+  "1570397": {
+   "id": 1570397,
+   "date": "2026-09-18T19:00:00+00:00",
+   "league": "la-liga",
+   "home": "Espanyol",
+   "away": "Elche",
+   "hg": 1,
+   "ag": 3
+  },
+  "1570398": {
+   "id": 1570398,
+   "date": "2026-09-20T12:00:00+00:00",
+   "league": "la-liga",
+   "home": "Getafe",
+   "away": "Malaga",
+   "hg": 1,
+   "ag": 0
+  },
+  "1570399": {
+   "id": 1570399,
+   "date": "2026-09-19T12:00:00+00:00",
+   "league": "la-liga",
+   "home": "Osasuna",
+   "away": "Rayo Vallecano",
+   "hg": 1,
+   "ag": 1
+  },
+  "1570400": {
+   "id": 1570400,
+   "date": "2026-09-19T19:00:00+00:00",
+   "league": "la-liga",
+   "home": "Sevilla",
+   "away": "Barcelona",
+   "hg": 1,
+   "ag": 3
+  },
+  "1570401": {
+   "id": 1570401,
+   "date": "2026-09-20T19:00:00+00:00",
+   "league": "la-liga",
+   "home": "Valencia",
+   "away": "Sociedad",
+   "hg": 2,
+   "ag": 3
+  },
+  "1570402": {
+   "id": 1570402,
+   "date": "2026-09-20T16:30:00+00:00",
+   "league": "la-liga",
+   "home": "Villarreal",
+   "away": "Levante",
+   "hg": 3,
+   "ag": 1
   },
   "1575140": {
    "id": 1575140,
@@ -1313,6 +2060,159 @@
    "home": "Paderborn",
    "away": "Freiburg",
    "hg": 0,
+   "ag": 1
+  },
+  "1575158": {
+   "id": 1575158,
+   "date": "2026-09-12T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Dortmund",
+   "away": "Paderborn",
+   "hg": 3,
+   "ag": 0
+  },
+  "1575159": {
+   "id": 1575159,
+   "date": "2026-09-13T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "RB Leipzig",
+   "away": "Hamburg",
+   "hg": 5,
+   "ag": 0
+  },
+  "1575160": {
+   "id": 1575160,
+   "date": "2026-09-12T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Hoffenheim",
+   "away": "Stuttgart",
+   "hg": 2,
+   "ag": 1
+  },
+  "1575161": {
+   "id": 1575161,
+   "date": "2026-09-12T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Freiburg",
+   "away": "Gladbach",
+   "hg": 5,
+   "ag": 0
+  },
+  "1575162": {
+   "id": 1575162,
+   "date": "2026-09-12T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Augsburg",
+   "away": "Leverkusen",
+   "hg": 2,
+   "ag": 2
+  },
+  "1575163": {
+   "id": 1575163,
+   "date": "2026-09-12T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Mainz",
+   "away": "Frankfurt",
+   "hg": 1,
+   "ag": 3
+  },
+  "1575165": {
+   "id": 1575165,
+   "date": "2026-09-12T16:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Koeln",
+   "away": "Werder",
+   "hg": 1,
+   "ag": 1
+  },
+  "1575166": {
+   "id": 1575166,
+   "date": "2026-09-13T15:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Elversberg",
+   "away": "Bayern",
+   "hg": 1,
+   "ag": 2
+  },
+  "1575167": {
+   "id": 1575167,
+   "date": "2026-09-18T18:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Bayern",
+   "away": "Union Berlin",
+   "hg": 7,
+   "ag": 0
+  },
+  "1575168": {
+   "id": 1575168,
+   "date": "2026-09-19T16:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Stuttgart",
+   "away": "Dortmund",
+   "hg": 0,
+   "ag": 1
+  },
+  "1575169": {
+   "id": 1575169,
+   "date": "2026-09-20T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Leverkusen",
+   "away": "RB Leipzig",
+   "hg": 2,
+   "ag": 0
+  },
+  "1575170": {
+   "id": 1575170,
+   "date": "2026-09-19T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Frankfurt",
+   "away": "Freiburg",
+   "hg": 2,
+   "ag": 2
+  },
+  "1575171": {
+   "id": 1575171,
+   "date": "2026-09-19T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Hamburg",
+   "away": "Koeln",
+   "hg": 2,
+   "ag": 1
+  },
+  "1575172": {
+   "id": 1575172,
+   "date": "2026-09-19T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Werder",
+   "away": "Augsburg",
+   "hg": 3,
+   "ag": 2
+  },
+  "1575173": {
+   "id": 1575173,
+   "date": "2026-09-20T15:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Schalke",
+   "away": "Elversberg",
+   "hg": 0,
+   "ag": 0
+  },
+  "1575174": {
+   "id": 1575174,
+   "date": "2026-09-19T13:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Gladbach",
+   "away": "Mainz",
+   "hg": 3,
+   "ag": 4
+  },
+  "1575175": {
+   "id": 1575175,
+   "date": "2026-09-20T17:30:00+00:00",
+   "league": "bundesliga",
+   "home": "Paderborn",
+   "away": "Hoffenheim",
+   "hg": 3,
    "ag": 1
   }
  }
