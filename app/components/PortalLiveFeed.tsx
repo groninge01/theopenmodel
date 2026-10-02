@@ -41,7 +41,7 @@ export function PortalLiveFeed({
         const snapshot = await response.json() as PublicPortalSnapshot;
         if (
           !cancelled
-          && snapshot.provider === "api-football"
+          && (snapshot.provider === "api-football" || snapshot.provider === "football-data")
           && typeof snapshot.asOf === "string"
           && Array.isArray(snapshot.fixtures)
         ) {

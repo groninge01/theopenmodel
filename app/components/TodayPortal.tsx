@@ -25,7 +25,7 @@ function dateLabel(iso: string) {
 
 export function TodayPortal({ predictionSlot, tickerSlot }: { predictionSlot?: ReactNode; tickerSlot?: ReactNode } = {}) {
   const portal = portalSnapshot();
-  const providerReady = portal.provider === "api-football";
+  const providerReady = portal.provider === "api-football" || portal.provider === "football-data";
   const initialLiveFixtures = providerReady
     ? portal.fixtures.map((fixture) => ({
         ...fixture,
