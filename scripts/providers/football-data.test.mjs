@@ -137,6 +137,79 @@ test("toPortalFixture falls back to fd.org ids with a null providerId when unres
   assert.equal(f.participants[0].id, 500);
 });
 
+// ── Eredivisie: a league seeded rather than inherited from API-Football ────
+// The identity join is what makes a prediction attributable, so these cover the
+// naming differences the two providers have for Dutch clubs and the id stamping
+// a seeded fixture depends on.
+const DED_FIXTURES = {
+  eredivisie: [
+    { id: 558214, date: "2026-08-07T18:00:00+00:00", round: "Regular Season - 1", venue: null, city: null, homeId: 420, awayId: 196, home: "Cambuur", away: "Excelsior" },
+    { id: 558215, date: "2026-08-08T16:45:00+00:00", round: "Regular Season - 1", venue: null, city: null, homeId: 197, awayId: 413, home: "PSV Eindhoven", away: "NEC Nijmegen" },
+  ],
+};
+
+const dedMatch = (over = {}) => ({
+  id: 900001,
+  utcDate: "2026-08-07T18:00:00Z",
+  status: "FINISHED",
+  matchday: 1,
+  stage: "REGULAR_SEASON",
+  venue: null,
+  competition: { id: 2003, name: "Eredivisie", code: "DED", emblem: "https://crests.football-data.org/ED.png" },
+  season: { id: 2493, startDate: "2026-08-07", endDate: "2027-05-23", currentMatchday: 8 },
+  homeTeam: { id: 1909, name: "SC Cambuur-Leeuwarden", shortName: "Cambuur", tla: "CAM", crest: "https://crests.football-data.org/1909.png" },
+  awayTeam: { id: 670, name: "SBV Excelsior", shortName: "Excelsior", tla: "EXC", crest: "https://crests.football-data.org/670.png" },
+  score: { winner: "AWAY_TEAM", duration: "REGULAR", fullTime: { home: 0, away: 4 }, halfTime: { home: 0, away: 3 } },
+  ...over,
+});
+
+test("normalizeTeamKey maps Dutch provider naming differences", () => {
+  assert.equal(normalizeTeamKey("SC Cambuur-Leeuwarden"), "cambuur");
+  assert.equal(normalizeTeamKey("SBV Excelsior"), "excelsior");
+  assert.equal(normalizeTeamKey("PSV Eindhoven"), "psv");
+  assert.equal(normalizeTeamKey("AZ Alkmaar"), "az");
+  assert.equal(normalizeTeamKey("NEC Nijmegen"), "nec");
+  assert.equal(normalizeTeamKey("Willem II Tilburg"), "willem ii");
+  assert.equal(normalizeTeamKey("Feyenoord Rotterdam"), "feyenoord");
+});
+
+test("resolveFixture joins Eredivisie matches onto seeded fixture ids", () => {
+  const index = buildFixtureIndex(DED_FIXTURES);
+  assert.equal(index.resolve(dedMatch())?.row.id, 558214);
+});
+
+test("toPortalFixture stamps the seeded id and reads the score through", () => {
+  const index = buildFixtureIndex(DED_FIXTURES);
+  const f = toPortalFixture(dedMatch(), { index });
+  assert.equal(f.providerId, 558214);
+  assert.equal(f.id, "api-football:558214");
+  assert.equal(f.name, "Cambuur vs Excelsior");
+  assert.equal(f.league.id, 88);
+  assert.equal(f.league.name, "Eredivisie");
+  assert.deepEqual(f.score, { home: 0, away: 4, halfTimeHome: 0, halfTimeAway: 3 });
+  assert.equal(f.resultInfo, "0-4");
+  assert.equal(f.participants[1].winner, true);
+});
+
+test("toStandingTable tags Eredivisie rows with the API-Football league id", () => {
+  const table = toStandingTable({
+    standings: [{
+      type: "TOTAL",
+      table: [{ position: 1, team: { id: 674, name: "PSV", shortName: "PSV", tla: "PSV", crest: "https://crests.football-data.org/674.png" }, points: 20, playedGames: 8 }],
+    }],
+  }, "DED", new Map([["psv", 197]]), 2026);
+  assert.equal(table.leagueId, 88);
+  assert.equal(table.rows[0].participantId, 197);
+});
+
+test("mergeSeasonFixtures leaves a seeded Eredivisie schedule untouched", () => {
+  const merged = mergeSeasonFixtures(DED_FIXTURES, [dedMatch()]);
+  assert.equal(merged.unmatched.length, 0);
+  assert.equal(merged.changed.length, 0);
+  assert.equal(merged.rows.eredivisie.length, 2);
+});
+
+
 // ── standings translation ─────────────────────────────────
 test("toStandingTable maps fd.org tables to the stored PortalStandingTable shape", () => {
   const teamIds = buildTeamIdIndex({

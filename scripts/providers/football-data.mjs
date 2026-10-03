@@ -48,6 +48,13 @@ export const COMPETITIONS = [
     apiLeagueId: 61,
     name: 'Ligue 1',
   },
+  {
+    code: 'DED',
+    fdId: 2003,
+    slug: 'eredivisie',
+    apiLeagueId: 88,
+    name: 'Eredivisie',
+  },
 ];
 const byFdId = new Map(COMPETITIONS.map((c) => [c.fdId, c]));
 const byCode = new Map(COMPETITIONS.map((c) => [c.code, c]));
@@ -120,6 +127,16 @@ const TEAM_ALIASES = new Map([
   ['bayer 04 leverkusen', 'bayer leverkusen'],
   ['coventry city', 'coventry'],
   ['ipswich town', 'ipswich'],
+  // Eredivisie: the two providers disagree on both legal-form prefixes and the
+  // longer form of several club names.
+  ['psv eindhoven', 'psv'],
+  ['nec nijmegen', 'nec'],
+  ['az alkmaar', 'az'],
+  ['sbv excelsior', 'excelsior'],
+  ['willem ii tilburg', 'willem ii'],
+  ['feyenoord rotterdam', 'feyenoord'],
+  ['cambuur leeuwarden', 'cambuur'],
+  ['twente 65', 'twente'],
 ]);
 
 export function normalizeTeamKey(name) {
