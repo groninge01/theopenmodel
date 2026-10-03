@@ -20,14 +20,26 @@ export interface League {
   country: string;
   flag: string;       // emoji (fallback)
   flagCode: string;   // flagcdn.com code
+  // What a finishing position is worth in this competition. The season model
+  // reports the same three chances for every league, but "top 4" means
+  // Champions League in England and nothing special in the Netherlands — so the
+  // places, and the labels built from them, belong to the league, not the model.
+  cl: number;         // direct Champions League places
+  eu: number;         // places that lead anywhere in Europe
+  rel: number;        // clubs that go down automatically
 }
 
 export const LEAGUES: League[] = [
-  { slug: "premier-league", name: "Premier League", country: "ENG", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", flagCode: "gb-eng" },
-  { slug: "la-liga",        name: "La Liga",        country: "ESP", flag: "🇪🇸", flagCode: "es" },
-  { slug: "serie-a",        name: "Serie A",        country: "ITA", flag: "🇮🇹", flagCode: "it" },
-  { slug: "bundesliga",     name: "Bundesliga",     country: "GER", flag: "🇩🇪", flagCode: "de" },
-  { slug: "ligue-1",        name: "Ligue 1",        country: "FRA", flag: "🇫🇷", flagCode: "fr" },
+  // The five original leagues keep the zones the model has always used, so adding a
+  // league cannot move a published number for a club that was already covered.
+  { slug: "premier-league", name: "Premier League", country: "ENG", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", flagCode: "gb-eng", cl: 4, eu: 6, rel: 3 },
+  { slug: "la-liga",        name: "La Liga",        country: "ESP", flag: "🇪🇸", flagCode: "es", cl: 4, eu: 6, rel: 3 },
+  { slug: "serie-a",        name: "Serie A",        country: "ITA", flag: "🇮🇹", flagCode: "it", cl: 4, eu: 6, rel: 3 },
+  { slug: "bundesliga",     name: "Bundesliga",     country: "GER", flag: "🇩🇪", flagCode: "de", cl: 4, eu: 6, rel: 3 },
+  { slug: "ligue-1",        name: "Ligue 1",        country: "FRA", flag: "🇫🇷", flagCode: "fr", cl: 4, eu: 6, rel: 3 },
+  // Two automatic Champions League places (the third comes via the playoffs), four
+  // places that lead anywhere in Europe, two clubs down automatically.
+  { slug: "eredivisie",     name: "Eredivisie",     country: "NED", flag: "🇳🇱", flagCode: "nl", cl: 2, eu: 4, rel: 2 },
 ];
 
 export const flagUrl = (code: string, w: 20 | 40 | 80 = 40) => `https://flagcdn.com/w${w}/${code}.png`;
@@ -80,7 +92,7 @@ export function logoFor(slug: string): string | undefined {
   return clubBySlug(slug)?.logo;
 }
 
-// Top-N teams across the five leagues
+// Top-N teams across every covered league
 export function topTeams(n = 20): ClubRow[] {
   return [...allClubs()].sort((a, b) => b.elo - a.elo).slice(0, n);
 }

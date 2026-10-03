@@ -2,8 +2,45 @@
 // (5,000 runs) → title / top-4 / relegation probabilities per club.
 // This is the flagship "open model" product page — no fixture list needed pre-season:
 // a double round-robin is fully defined by the club list.
-import { ClubRow } from "./data";
+import { ClubRow, LEAGUES } from "./data";
 import { expectedGoals, HOME_ADV_CLUB } from "./model";
+
+// How many of each finishing place is worth something. Defaults to the big-five
+// shape; every league overrides it in lib/data.ts, because the Eredivisie sends
+// two clubs straight into the Champions League and drops two automatically, and
+// reporting a top-four chance there would describe a race that doesn't exist.
+export interface RaceZones {
+  cl: number;     // direct Champions League places
+  eu: number;     // places that lead anywhere in Europe
+  rel: number;    // clubs that go down automatically
+}
+const DEFAULT_ZONES: RaceZones = { cl: 4, eu: 6, rel: 3 };
+
+// The zones a league is simulated with, for callers that label the numbers.
+export function raceZones(leagueSlug: string): RaceZones {
+  const l = LEAGUES.find((x) => x.slug === leagueSlug);
+  return l ? { cl: l.cl, eu: l.eu, rel: l.rel } : DEFAULT_ZONES;
+}
+
+// Wording derived from those zones, so a page never prints "top four" about a
+// league whose Champions League places are two.
+export function raceLabels(leagueSlug: string): RaceZones & {
+  clLabel: string;
+  euLabel: string;
+  relLabel: string;
+  clChance: string;
+  relChance: string;
+} {
+  const z = raceZones(leagueSlug);
+  return {
+    ...z,
+    clLabel: `top ${z.cl}`,
+    euLabel: `top ${z.eu}`,
+    relLabel: `bottom ${z.rel}`,
+    clChance: `chance of finishing in the top ${z.cl} (Champions League)`,
+    relChance: `chance of finishing in the bottom ${z.rel} and going down`,
+  };
+}
 
 // deterministic RNG (mulberry32) so builds are reproducible
 function mulberry32(seed: number) {
@@ -24,20 +61,29 @@ function poisson(lambda: number, rng: () => number): number {
 
 export interface SeasonOdds {
   avgRank?: number;   // mean finishing position (1 = top)
-  europe?: number;    // P(top 6)
+  europe?: number;    // P(finish inside the league's European places)
   ptsLo?: number;     // 10th-percentile points
   ptsHi?: number;     // 90th-percentile points
   slug: string;
   club: string;
   elo: number;
   title: number;     // P(1st)
-  top4: number;      // P(top 4)
-  releg: number;     // P(bottom 3)
+  // top4/releg are field names kept for compatibility. They mean "the league's
+  // Champions League places" and "the clubs that go down"; how many of each is
+  // per-league (League.cl / League.rel), not a constant.
+  top4: number;
+  releg: number;
   avgPts: number;
 }
 
-export function simulateSeason(clubs: ClubRow[], sims = 5000, seed = 26): SeasonOdds[] {
+export function simulateSeason(clubs: ClubRow[], sims = 5000, seed = 26, zones: RaceZones = DEFAULT_ZONES): SeasonOdds[] {
   const n = clubs.length;
+  // Never count a place that doesn't exist, and never let the relegation band
+  // overlap the European one: an 18-club league with 2 automatic drops and 4
+  // European places needs both bands clamped to what the competition actually has.
+  const cl = Math.max(1, Math.min(zones.cl, n - 1));
+  const eu = Math.max(cl, Math.min(zones.eu, n - 1));
+  const rel = Math.max(1, Math.min(zones.rel, n - cl));
   const rng = mulberry32(seed);
   const titleCt = new Array(n).fill(0);
   const top4Ct = new Array(n).fill(0);
@@ -76,9 +122,9 @@ export function simulateSeason(clubs: ClubRow[], sims = 5000, seed = 26): Season
     for (let i = 0; i < n; i++) order[i] = i;
     order.sort((x: number, y: number) => pts[y] - pts[x] || rng() - 0.5);
     titleCt[order[0]]++;
-    for (let k = 0; k < 4; k++) top4Ct[order[k]]++;
-    for (let k = 0; k < 6; k++) europeCt[order[k]]++;
-    for (let k = n - 3; k < n; k++) relegCt[order[k]]++;
+    for (let k = 0; k < cl; k++) top4Ct[order[k]]++;
+    for (let k = 0; k < eu; k++) europeCt[order[k]]++;
+    for (let k = n - rel; k < n; k++) relegCt[order[k]]++;
     for (let k = 0; k < n; k++) rankSum[order[k]] += k + 1;
     for (let i = 0; i < n; i++) { ptsSum[i] += pts[i]; ptsDist[i][s] = pts[i]; }
   }
@@ -103,9 +149,9 @@ export function simulateSeason(clubs: ClubRow[], sims = 5000, seed = 26): Season
   })).sort((a, b) => b.avgPts - a.avgPts);
 }
 
-// build-time cache so 5 leagues × 5k sims runs once per build
+// build-time cache so every league × 5k sims runs once per build
 const cache = new Map<string, SeasonOdds[]>();
 export function seasonOdds(leagueSlug: string, clubs: ClubRow[]): SeasonOdds[] {
-  if (!cache.has(leagueSlug)) cache.set(leagueSlug, simulateSeason(clubs));
+  if (!cache.has(leagueSlug)) cache.set(leagueSlug, simulateSeason(clubs, 5000, 26, raceZones(leagueSlug)));
   return cache.get(leagueSlug)!;
 }
