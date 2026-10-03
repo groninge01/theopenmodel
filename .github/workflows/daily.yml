@@ -29,7 +29,7 @@ jobs:
 
       # Deliberately allowed to fail the whole run. The schedule decides kickoff times,
       # match slugs and which predictions count as pre-kickoff, so shipping a bad one is
-      # worse than not shipping: Cloudflare keeps serving the last good deploy while a
+      # worse than not shipping: the host keeps serving the last good deploy while a
       # failure here sends a notification. A silent skip is what let placeholder kickoff
       # times reach the site for weeks.
       - name: Refresh season schedule + provider snapshot
@@ -39,7 +39,6 @@ jobs:
 
       - name: Build (fetch data, lock snapshot, static export)
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
           # Public by design — it only identifies which Kit form a submission belongs to.
           # Unset means the signup form renders nowhere rather than collecting into a void.
@@ -61,15 +60,10 @@ jobs:
           git diff --cached --quiet || git commit -m "record: daily snapshot & results $(date -u +%F)"
           git push
 
-      - name: Deploy static export to Cloudflare Workers
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npx wrangler deploy
-
       - name: Verify site is up
         run: |
           for path in / /record/ /data/season-forecast.csv; do
-            code=$(curl -s -o /dev/null -w '%{http_code}' "https://theopenmodel.com$path")
+            code=$(curl -s -o /dev/null -w '%{http_code}' "https://theopenmodel-five.vercel.app$path")
             echo "$path -> $code"; [ "$code" = "200" ] || exit 1
           done
 
