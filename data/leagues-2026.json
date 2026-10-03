@@ -198,7 +198,7 @@
    "slug": "villarreal",
    "club": "Villarreal",
    "country": "ESP",
-   "elo": 1799,
+   "elo": 1798,
    "apiId": 533,
    "logo": "https://media.api-sports.io/football/teams/533.png"
   },
@@ -302,7 +302,7 @@
    "slug": "santander",
    "club": "Santander",
    "country": "ESP",
-   "elo": 1684,
+   "elo": 1685,
    "apiId": 4665,
    "logo": "https://media.api-sports.io/football/teams/4665.png"
   },
@@ -368,7 +368,7 @@
    "slug": "atalanta",
    "club": "Atalanta",
    "country": "ITA",
-   "elo": 1807,
+   "elo": 1806,
    "apiId": 499,
    "logo": "https://media.api-sports.io/football/teams/499.png"
   },
@@ -464,7 +464,7 @@
    "slug": "venezia",
    "club": "Venezia",
    "country": "ITA",
-   "elo": 1646,
+   "elo": 1645,
    "apiId": 517,
    "logo": "https://media.api-sports.io/football/teams/517.png"
   },
@@ -570,7 +570,7 @@
    "slug": "werder",
    "club": "Werder",
    "country": "GER",
-   "elo": 1688,
+   "elo": 1687,
    "apiId": 162,
    "logo": "https://media.api-sports.io/football/teams/162.png"
   },
@@ -668,7 +668,7 @@
    "slug": "lille",
    "club": "Lille",
    "country": "FRA",
-   "elo": 1780,
+   "elo": 1779,
    "apiId": 79,
    "logo": "https://media.api-sports.io/football/teams/79.png"
   },
