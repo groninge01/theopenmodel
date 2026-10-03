@@ -776,5 +776,151 @@
    "apiId": 1298,
    "logo": "https://media.api-sports.io/football/teams/1298.png"
   }
+ ],
+ "eredivisie": [
+  {
+   "slug": "psv",
+   "club": "PSV",
+   "country": "NED",
+   "elo": 1784,
+   "apiId": 197,
+   "logo": "https://media.api-sports.io/football/teams/197.png"
+  },
+  {
+   "slug": "feyenoord",
+   "club": "Feyenoord",
+   "country": "NED",
+   "elo": 1718,
+   "apiId": 209,
+   "logo": "https://media.api-sports.io/football/teams/209.png"
+  },
+  {
+   "slug": "az",
+   "club": "AZ",
+   "country": "NED",
+   "elo": 1691,
+   "apiId": 201,
+   "logo": "https://media.api-sports.io/football/teams/201.png"
+  },
+  {
+   "slug": "ajax",
+   "club": "Ajax",
+   "country": "NED",
+   "elo": 1687,
+   "apiId": 194,
+   "logo": "https://media.api-sports.io/football/teams/194.png"
+  },
+  {
+   "slug": "twente",
+   "club": "Twente",
+   "country": "NED",
+   "elo": 1666,
+   "apiId": 415,
+   "logo": "https://media.api-sports.io/football/teams/415.png"
+  },
+  {
+   "slug": "nijmegen",
+   "club": "Nijmegen",
+   "country": "NED",
+   "elo": 1585,
+   "apiId": 413,
+   "logo": "https://media.api-sports.io/football/teams/413.png"
+  },
+  {
+   "slug": "utrecht",
+   "club": "Utrecht",
+   "country": "NED",
+   "elo": 1574,
+   "apiId": 207,
+   "logo": "https://media.api-sports.io/football/teams/207.png"
+  },
+  {
+   "slug": "heerenveen",
+   "club": "Heerenveen",
+   "country": "NED",
+   "elo": 1552,
+   "apiId": 210,
+   "logo": "https://media.api-sports.io/football/teams/210.png"
+  },
+  {
+   "slug": "go-ahead-eagles",
+   "club": "Go Ahead Eagles",
+   "country": "NED",
+   "elo": 1551,
+   "apiId": 410,
+   "logo": "https://media.api-sports.io/football/teams/410.png"
+  },
+  {
+   "slug": "groningen",
+   "club": "Groningen",
+   "country": "NED",
+   "elo": 1526,
+   "apiId": 202,
+   "logo": "https://media.api-sports.io/football/teams/202.png"
+  },
+  {
+   "slug": "excelsior",
+   "club": "Excelsior",
+   "country": "NED",
+   "elo": 1506,
+   "apiId": 196,
+   "logo": "https://media.api-sports.io/football/teams/196.png"
+  },
+  {
+   "slug": "sparta",
+   "club": "Sparta",
+   "country": "NED",
+   "elo": 1495,
+   "apiId": 426,
+   "logo": "https://media.api-sports.io/football/teams/426.png"
+  },
+  {
+   "slug": "sittard",
+   "club": "Sittard",
+   "country": "NED",
+   "elo": 1488,
+   "apiId": 205,
+   "logo": "https://media.api-sports.io/football/teams/205.png"
+  },
+  {
+   "slug": "zwolle",
+   "club": "Zwolle",
+   "country": "NED",
+   "elo": 1465,
+   "apiId": 193,
+   "logo": "https://media.api-sports.io/football/teams/193.png"
+  },
+  {
+   "slug": "telstar",
+   "club": "Telstar",
+   "country": "NED",
+   "elo": 1448,
+   "apiId": 427,
+   "logo": "https://media.api-sports.io/football/teams/427.png"
+  },
+  {
+   "slug": "den-haag",
+   "club": "Den Haag",
+   "country": "NED",
+   "elo": 1436,
+   "apiId": 198,
+   "logo": "https://media.api-sports.io/football/teams/198.png"
+  },
+  {
+   "slug": "cambuur",
+   "club": "Cambuur",
+   "country": "NED",
+   "elo": 1408,
+   "apiId": 420,
+   "logo": "https://media.api-sports.io/football/teams/420.png"
+  },
+  {
+   "slug": "willem-ii",
+   "club": "Willem II",
+   "country": "NED",
+   "elo": 1405,
+   "apiId": 195,
+   "logo": "https://media.api-sports.io/football/teams/195.png"
+  }
  ]
 }

@@ -433,5 +433,95 @@
   "apiId": 172,
   "apiName": "VfB Stuttgart",
   "logo": "https://media.api-sports.io/football/teams/172.png"
+ },
+ "twente": {
+  "apiId": 415,
+  "apiName": "Twente",
+  "logo": "https://media.api-sports.io/football/teams/415.png"
+ },
+ "excelsior": {
+  "apiId": 196,
+  "apiName": "Excelsior",
+  "logo": "https://media.api-sports.io/football/teams/196.png"
+ },
+ "willem-ii": {
+  "apiId": 195,
+  "apiName": "Willem II",
+  "logo": "https://media.api-sports.io/football/teams/195.png"
+ },
+ "heerenveen": {
+  "apiId": 210,
+  "apiName": "Heerenveen",
+  "logo": "https://media.api-sports.io/football/teams/210.png"
+ },
+ "psv-eindhoven": {
+  "apiId": 197,
+  "apiName": "PSV Eindhoven",
+  "logo": "https://media.api-sports.io/football/teams/197.png"
+ },
+ "feyenoord": {
+  "apiId": 209,
+  "apiName": "Feyenoord",
+  "logo": "https://media.api-sports.io/football/teams/209.png"
+ },
+ "utrecht": {
+  "apiId": 207,
+  "apiName": "Utrecht",
+  "logo": "https://media.api-sports.io/football/teams/207.png"
+ },
+ "groningen": {
+  "apiId": 202,
+  "apiName": "Groningen",
+  "logo": "https://media.api-sports.io/football/teams/202.png"
+ },
+ "ajax": {
+  "apiId": 194,
+  "apiName": "Ajax",
+  "logo": "https://media.api-sports.io/football/teams/194.png"
+ },
+ "ado-den-haag": {
+  "apiId": 198,
+  "apiName": "ADO Den Haag",
+  "logo": "https://media.api-sports.io/football/teams/198.png"
+ },
+ "az-alkmaar": {
+  "apiId": 201,
+  "apiName": "AZ Alkmaar",
+  "logo": "https://media.api-sports.io/football/teams/201.png"
+ },
+ "pec-zwolle": {
+  "apiId": 193,
+  "apiName": "PEC Zwolle",
+  "logo": "https://media.api-sports.io/football/teams/193.png"
+ },
+ "go-ahead-eagles": {
+  "apiId": 410,
+  "apiName": "GO Ahead Eagles",
+  "logo": "https://media.api-sports.io/football/teams/410.png"
+ },
+ "cambuur": {
+  "apiId": 420,
+  "apiName": "Cambuur",
+  "logo": "https://media.api-sports.io/football/teams/420.png"
+ },
+ "telstar": {
+  "apiId": 427,
+  "apiName": "Telstar",
+  "logo": "https://media.api-sports.io/football/teams/427.png"
+ },
+ "nec-nijmegen": {
+  "apiId": 413,
+  "apiName": "NEC Nijmegen",
+  "logo": "https://media.api-sports.io/football/teams/413.png"
+ },
+ "fortuna-sittard": {
+  "apiId": 205,
+  "apiName": "Fortuna Sittard",
+  "logo": "https://media.api-sports.io/football/teams/205.png"
+ },
+ "sparta-rotterdam": {
+  "apiId": 426,
+  "apiName": "Sparta Rotterdam",
+  "logo": "https://media.api-sports.io/football/teams/426.png"
  }
 }

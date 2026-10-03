@@ -5,8 +5,8 @@
 // relegation, so API-Football owns membership; ClubElo owns strength.
 import { readFileSync, writeFileSync } from "node:fs";
 
-const LG = { 39: "premier-league", 140: "la-liga", 135: "serie-a", 78: "bundesliga", 61: "ligue-1" };
-const LG_COUNTRY = { 39: "ENG", 140: "ESP", 135: "ITA", 78: "GER", 61: "FRA" };
+const LG = { 39: "premier-league", 140: "la-liga", 135: "serie-a", 78: "bundesliga", 61: "ligue-1", 88: "eredivisie" };
+const LG_COUNTRY = { 39: "ENG", 140: "ESP", 135: "ITA", 78: "GER", 61: "FRA", 88: "NED" };
 const slugify = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
 // API-Football display name → ClubElo club name, where canon() can't bridge.
@@ -49,6 +49,8 @@ const ALIAS = {
   "FC Schalke 04": "Schalke",
   "Union Berlin": "Union Berlin",
   "Hellas Verona": "Verona",
+  "PSV Eindhoven": "PSV",
+  "NEC Nijmegen": "Nijmegen",
 };
 
 const canon = (s) => slugify(s)
