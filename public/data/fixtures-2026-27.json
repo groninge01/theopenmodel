@@ -3,6 +3,162 @@
  "license": "CC BY 4.0 — link to theopenmodel.com",
  "rows": [
   {
+   "date": "2026-08-07T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "Cambuur",
+   "away": "Excelsior",
+   "pHome": 0.3029,
+   "pDraw": 0.2825,
+   "pAway": 0.4146,
+   "xgHome": 1.27,
+   "xgAway": 1.51,
+   "url": "https://theopenmodel.com/match/cambuur-vs-excelsior-2026-08-07/"
+  },
+  {
+   "date": "2026-08-08T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "Nijmegen",
+   "away": "Telstar",
+   "pHome": 0.5781,
+   "pDraw": 0.2516,
+   "pAway": 0.1703,
+   "xgHome": 1.85,
+   "xgAway": 0.93,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-telstar-2026-08-08/"
+  },
+  {
+   "date": "2026-08-08T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "Go Ahead Eagles",
+   "away": "Willem II",
+   "pHome": 0.5888,
+   "pDraw": 0.2484,
+   "pAway": 0.1627,
+   "xgHome": 1.88,
+   "xgAway": 0.9,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-willem-ii-2026-08-08/"
+  },
+  {
+   "date": "2026-08-08T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "PSV",
+   "away": "Sittard",
+   "pHome": 0.7579,
+   "pDraw": 0.1802,
+   "pAway": 0.062,
+   "xgHome": 2.25,
+   "xgAway": 0.53,
+   "url": "https://theopenmodel.com/match/psv-vs-sittard-2026-08-08/"
+  },
+  {
+   "date": "2026-08-08T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "AZ",
+   "away": "Den Haag",
+   "pHome": 0.7141,
+   "pDraw": 0.2012,
+   "pAway": 0.0847,
+   "xgHome": 2.15,
+   "xgAway": 0.63,
+   "url": "https://theopenmodel.com/match/az-vs-den-haag-2026-08-08/"
+  },
+  {
+   "date": "2026-08-09T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "Sparta",
+   "away": "Feyenoord",
+   "pHome": 0.1802,
+   "pDraw": 0.2555,
+   "pAway": 0.5644,
+   "xgHome": 0.96,
+   "xgAway": 1.83,
+   "url": "https://theopenmodel.com/match/sparta-vs-feyenoord-2026-08-09/"
+  },
+  {
+   "date": "2026-08-09T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "Groningen",
+   "away": "Utrecht",
+   "pHome": 0.3584,
+   "pDraw": 0.2849,
+   "pAway": 0.3567,
+   "xgHome": 1.39,
+   "xgAway": 1.39,
+   "url": "https://theopenmodel.com/match/groningen-vs-utrecht-2026-08-09/"
+  },
+  {
+   "date": "2026-08-09T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "Zwolle",
+   "away": "Ajax",
+   "pHome": 0.181,
+   "pDraw": 0.2558,
+   "pAway": 0.5632,
+   "xgHome": 0.96,
+   "xgAway": 1.82,
+   "url": "https://theopenmodel.com/match/zwolle-vs-ajax-2026-08-09/"
+  },
+  {
+   "date": "2026-08-09T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 1",
+   "home": "Heerenveen",
+   "away": "Twente",
+   "pHome": 0.2858,
+   "pDraw": 0.2807,
+   "pAway": 0.4335,
+   "xgHome": 1.23,
+   "xgAway": 1.55,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-twente-2026-08-09/"
+  },
+  {
+   "date": "2026-08-14T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Telstar",
+   "away": "Sparta",
+   "pHome": 0.3595,
+   "pDraw": 0.2849,
+   "pAway": 0.3555,
+   "xgHome": 1.4,
+   "xgAway": 1.39,
+   "url": "https://theopenmodel.com/match/telstar-vs-sparta-2026-08-14/"
+  },
+  {
+   "date": "2026-08-15T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Willem II",
+   "away": "Nijmegen",
+   "pHome": 0.2194,
+   "pDraw": 0.268,
+   "pAway": 0.5126,
+   "xgHome": 1.06,
+   "xgAway": 1.72,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-nijmegen-2026-08-15/"
+  },
+  {
+   "date": "2026-08-15T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Utrecht",
+   "away": "AZ",
+   "pHome": 0.2826,
+   "pDraw": 0.2803,
+   "pAway": 0.4371,
+   "xgHome": 1.22,
+   "xgAway": 1.56,
+   "url": "https://theopenmodel.com/match/utrecht-vs-az-2026-08-15/"
+  },
+  {
    "date": "2026-08-15T17:30:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 1",
@@ -16,6 +172,32 @@
    "url": "https://theopenmodel.com/match/alaves-vs-getafe-2026-08-15/"
   },
   {
+   "date": "2026-08-15T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Excelsior",
+   "away": "PSV",
+   "pHome": 0.1353,
+   "pDraw": 0.2351,
+   "pAway": 0.6296,
+   "xgHome": 0.82,
+   "xgAway": 1.96,
+   "url": "https://theopenmodel.com/match/excelsior-vs-psv-2026-08-15/"
+  },
+  {
+   "date": "2026-08-15T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Sittard",
+   "away": "Cambuur",
+   "pHome": 0.5096,
+   "pDraw": 0.2686,
+   "pAway": 0.2218,
+   "xgHome": 1.71,
+   "xgAway": 1.07,
+   "url": "https://theopenmodel.com/match/sittard-vs-cambuur-2026-08-15/"
+  },
+  {
    "date": "2026-08-15T19:30:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 1",
@@ -27,6 +209,58 @@
    "xgHome": 1.55,
    "xgAway": 1.23,
    "url": "https://theopenmodel.com/match/sevilla-vs-rayo-vallecano-2026-08-15/"
+  },
+  {
+   "date": "2026-08-16T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Den Haag",
+   "away": "Groningen",
+   "pHome": 0.3116,
+   "pDraw": 0.2832,
+   "pAway": 0.4052,
+   "xgHome": 1.29,
+   "xgAway": 1.49,
+   "url": "https://theopenmodel.com/match/den-haag-vs-groningen-2026-08-16/"
+  },
+  {
+   "date": "2026-08-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Feyenoord",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.6137,
+   "pDraw": 0.2405,
+   "pAway": 0.1457,
+   "xgHome": 1.93,
+   "xgAway": 0.85,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-go-ahead-eagles-2026-08-16/"
+  },
+  {
+   "date": "2026-08-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Twente",
+   "away": "Zwolle",
+   "pHome": 0.6534,
+   "pDraw": 0.2265,
+   "pAway": 0.1202,
+   "xgHome": 2.02,
+   "xgAway": 0.77,
+   "url": "https://theopenmodel.com/match/twente-vs-zwolle-2026-08-16/"
+  },
+  {
+   "date": "2026-08-16T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 2",
+   "home": "Ajax",
+   "away": "Heerenveen",
+   "pHome": 0.5757,
+   "pDraw": 0.2523,
+   "pAway": 0.172,
+   "xgHome": 1.85,
+   "xgAway": 0.93,
+   "url": "https://theopenmodel.com/match/ajax-vs-heerenveen-2026-08-16/"
   },
   {
    "date": "2026-08-16T15:00:00+00:00",
@@ -185,6 +419,19 @@
    "url": "https://theopenmodel.com/match/forest-vs-leeds-2026-08-22/"
   },
   {
+   "date": "2026-08-22T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "Sittard",
+   "away": "AZ",
+   "pHome": 0.198,
+   "pDraw": 0.2617,
+   "pAway": 0.5403,
+   "xgHome": 1.01,
+   "xgAway": 1.78,
+   "url": "https://theopenmodel.com/match/sittard-vs-az-2026-08-22/"
+  },
+  {
    "date": "2026-08-22T15:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 2",
@@ -248,6 +495,19 @@
    "xgHome": 2.29,
    "xgAway": 0.49,
    "url": "https://theopenmodel.com/match/internazionale-vs-monza-2026-08-22/"
+  },
+  {
+   "date": "2026-08-22T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "Sparta",
+   "away": "Utrecht",
+   "pHome": 0.3236,
+   "pDraw": 0.284,
+   "pAway": 0.3923,
+   "xgHome": 1.32,
+   "xgAway": 1.47,
+   "url": "https://theopenmodel.com/match/sparta-vs-utrecht-2026-08-22/"
   },
   {
    "date": "2026-08-22T17:30:00+00:00",
@@ -341,6 +601,19 @@
    "url": "https://theopenmodel.com/match/le-mans-vs-brest-2026-08-22/"
   },
   {
+   "date": "2026-08-22T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "Heerenveen",
+   "away": "Zwolle",
+   "pHome": 0.5181,
+   "pDraw": 0.2668,
+   "pAway": 0.2151,
+   "xgHome": 1.73,
+   "xgAway": 1.05,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-zwolle-2026-08-22/"
+  },
+  {
    "date": "2026-08-22T19:30:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 2",
@@ -352,6 +625,32 @@
    "xgHome": 0.81,
    "xgAway": 1.97,
    "url": "https://theopenmodel.com/match/espanyol-vs-real-madrid-2026-08-22/"
+  },
+  {
+   "date": "2026-08-23T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "Go Ahead Eagles",
+   "away": "Den Haag",
+   "pHome": 0.5518,
+   "pDraw": 0.2588,
+   "pAway": 0.1894,
+   "xgHome": 1.8,
+   "xgAway": 0.98,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-den-haag-2026-08-23/"
+  },
+  {
+   "date": "2026-08-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "PSV",
+   "away": "Groningen",
+   "pHome": 0.7174,
+   "pDraw": 0.1997,
+   "pAway": 0.0829,
+   "xgHome": 2.16,
+   "xgAway": 0.62,
+   "url": "https://theopenmodel.com/match/psv-vs-groningen-2026-08-23/"
   },
   {
    "date": "2026-08-23T13:00:00+00:00",
@@ -391,6 +690,19 @@
    "xgHome": 1.11,
    "xgAway": 1.67,
    "url": "https://theopenmodel.com/match/angers-vs-lille-2026-08-23/"
+  },
+  {
+   "date": "2026-08-23T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "Cambuur",
+   "away": "Feyenoord",
+   "pHome": 0.1121,
+   "pDraw": 0.2214,
+   "pAway": 0.6665,
+   "xgHome": 0.74,
+   "xgAway": 2.04,
+   "url": "https://theopenmodel.com/match/cambuur-vs-feyenoord-2026-08-23/"
   },
   {
    "date": "2026-08-23T15:00:00+00:00",
@@ -653,6 +965,19 @@
    "url": "https://theopenmodel.com/match/santander-vs-elche-2026-08-28/"
   },
   {
+   "date": "2026-08-28T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "Groningen",
+   "away": "Sittard",
+   "pHome": 0.4592,
+   "pDraw": 0.2775,
+   "pAway": 0.2634,
+   "xgHome": 1.61,
+   "xgAway": 1.17,
+   "url": "https://theopenmodel.com/match/groningen-vs-sittard-2026-08-28/"
+  },
+  {
    "date": "2026-08-28T18:30:00+00:00",
    "league": "bundesliga",
    "round": "Regular Season - 1",
@@ -822,6 +1147,19 @@
    "url": "https://theopenmodel.com/match/coventry-vs-hull-2026-08-29/"
   },
   {
+   "date": "2026-08-29T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "Excelsior",
+   "away": "Sparta",
+   "pHome": 0.427,
+   "pDraw": 0.2814,
+   "pAway": 0.2916,
+   "xgHome": 1.54,
+   "xgAway": 1.24,
+   "url": "https://theopenmodel.com/match/excelsior-vs-sparta-2026-08-29/"
+  },
+  {
    "date": "2026-08-29T15:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 3",
@@ -913,6 +1251,19 @@
    "url": "https://theopenmodel.com/match/dortmund-vs-hamburg-2026-08-29/"
   },
   {
+   "date": "2026-08-29T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "AZ",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.5817,
+   "pDraw": 0.2506,
+   "pAway": 0.1677,
+   "xgHome": 1.86,
+   "xgAway": 0.92,
+   "url": "https://theopenmodel.com/match/az-vs-go-ahead-eagles-2026-08-29/"
+  },
+  {
    "date": "2026-08-29T17:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 3",
@@ -991,6 +1342,19 @@
    "url": "https://theopenmodel.com/match/auxerre-vs-angers-2026-08-29/"
   },
   {
+   "date": "2026-08-29T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "Zwolle",
+   "away": "Nijmegen",
+   "pHome": 0.2795,
+   "pDraw": 0.2799,
+   "pAway": 0.4407,
+   "xgHome": 1.21,
+   "xgAway": 1.57,
+   "url": "https://theopenmodel.com/match/zwolle-vs-nijmegen-2026-08-29/"
+  },
+  {
    "date": "2026-08-29T19:30:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 3",
@@ -1002,6 +1366,45 @@
    "xgHome": 1.14,
    "xgAway": 1.64,
    "url": "https://theopenmodel.com/match/sevilla-vs-atletico-2026-08-29/"
+  },
+  {
+   "date": "2026-08-30T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "Utrecht",
+   "away": "PSV",
+   "pHome": 0.1917,
+   "pDraw": 0.2596,
+   "pAway": 0.5488,
+   "xgHome": 0.99,
+   "xgAway": 1.79,
+   "url": "https://theopenmodel.com/match/utrecht-vs-psv-2026-08-30/"
+  },
+  {
+   "date": "2026-08-30T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "Willem II",
+   "away": "Heerenveen",
+   "pHome": 0.2517,
+   "pDraw": 0.2754,
+   "pAway": 0.4729,
+   "xgHome": 1.15,
+   "xgAway": 1.64,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-heerenveen-2026-08-30/"
+  },
+  {
+   "date": "2026-08-30T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "Feyenoord",
+   "away": "Den Haag",
+   "pHome": 0.7432,
+   "pDraw": 0.1875,
+   "pAway": 0.0693,
+   "xgHome": 2.22,
+   "xgAway": 0.56,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-den-haag-2026-08-30/"
   },
   {
    "date": "2026-08-30T13:00:00+00:00",
@@ -1067,6 +1470,19 @@
    "xgHome": 1.79,
    "xgAway": 0.99,
    "url": "https://theopenmodel.com/match/freiburg-vs-werder-2026-08-30/"
+  },
+  {
+   "date": "2026-08-30T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "Telstar",
+   "away": "Ajax",
+   "pHome": 0.1665,
+   "pDraw": 0.25,
+   "pAway": 0.5835,
+   "xgHome": 0.92,
+   "xgAway": 1.87,
+   "url": "https://theopenmodel.com/match/telstar-vs-ajax-2026-08-30/"
   },
   {
    "date": "2026-08-30T15:00:00+00:00",
@@ -1145,6 +1561,19 @@
    "xgHome": 1.48,
    "xgAway": 1.3,
    "url": "https://theopenmodel.com/match/depor-vs-valencia-2026-08-30/"
+  },
+  {
+   "date": "2026-08-30T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 4",
+   "home": "Cambuur",
+   "away": "Twente",
+   "pHome": 0.1509,
+   "pDraw": 0.2431,
+   "pAway": 0.606,
+   "xgHome": 0.87,
+   "xgAway": 1.91,
+   "url": "https://theopenmodel.com/match/cambuur-vs-twente-2026-08-30/"
   },
   {
    "date": "2026-08-30T18:45:00+00:00",
@@ -1301,6 +1730,19 @@
    "xgHome": 1.98,
    "xgAway": 0.8,
    "url": "https://theopenmodel.com/match/lyon-vs-auxerre-2026-09-04/"
+  },
+  {
+   "date": "2026-09-04T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Sparta",
+   "away": "Zwolle",
+   "pHome": 0.4496,
+   "pDraw": 0.2788,
+   "pAway": 0.2716,
+   "xgHome": 1.59,
+   "xgAway": 1.19,
+   "url": "https://theopenmodel.com/match/sparta-vs-zwolle-2026-09-04/"
   },
   {
    "date": "2026-09-04T18:30:00+00:00",
@@ -1537,6 +1979,19 @@
    "url": "https://theopenmodel.com/match/bilbao-vs-atletico-2026-09-05/"
   },
   {
+   "date": "2026-09-05T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Nijmegen",
+   "away": "Feyenoord",
+   "pHome": 0.266,
+   "pDraw": 0.2779,
+   "pAway": 0.4562,
+   "xgHome": 1.18,
+   "xgAway": 1.6,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-feyenoord-2026-09-05/"
+  },
+  {
    "date": "2026-09-05T15:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 3",
@@ -1602,6 +2057,19 @@
    "url": "https://theopenmodel.com/match/schalke-vs-bayern-munchen-2026-09-05/"
   },
   {
+   "date": "2026-09-05T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Ajax",
+   "away": "PSV",
+   "pHome": 0.304,
+   "pDraw": 0.2826,
+   "pAway": 0.4134,
+   "xgHome": 1.27,
+   "xgAway": 1.51,
+   "url": "https://theopenmodel.com/match/ajax-vs-psv-2026-09-05/"
+  },
+  {
    "date": "2026-09-05T18:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 3",
@@ -1652,6 +2120,58 @@
    "xgHome": 1.7,
    "xgAway": 1.08,
    "url": "https://theopenmodel.com/match/villarreal-vs-depor-2026-09-05/"
+  },
+  {
+   "date": "2026-09-05T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Willem II",
+   "away": "Excelsior",
+   "pHome": 0.2996,
+   "pDraw": 0.2822,
+   "pAway": 0.4181,
+   "xgHome": 1.26,
+   "xgAway": 1.52,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-excelsior-2026-09-05/"
+  },
+  {
+   "date": "2026-09-06T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Groningen",
+   "away": "Twente",
+   "pHome": 0.2588,
+   "pDraw": 0.2767,
+   "pAway": 0.4645,
+   "xgHome": 1.16,
+   "xgAway": 1.62,
+   "url": "https://theopenmodel.com/match/groningen-vs-twente-2026-09-06/"
+  },
+  {
+   "date": "2026-09-06T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Heerenveen",
+   "away": "AZ",
+   "pHome": 0.2598,
+   "pDraw": 0.2768,
+   "pAway": 0.4633,
+   "xgHome": 1.17,
+   "xgAway": 1.62,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-az-2026-09-06/"
+  },
+  {
+   "date": "2026-09-06T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Telstar",
+   "away": "Cambuur",
+   "pHome": 0.4615,
+   "pDraw": 0.2771,
+   "pAway": 0.2613,
+   "xgHome": 1.61,
+   "xgAway": 1.17,
+   "url": "https://theopenmodel.com/match/telstar-vs-cambuur-2026-09-06/"
   },
   {
    "date": "2026-09-06T13:00:00+00:00",
@@ -1730,6 +2250,19 @@
    "xgHome": 0.67,
    "xgAway": 2.11,
    "url": "https://theopenmodel.com/match/valencia-vs-barcelona-2026-09-06/"
+  },
+  {
+   "date": "2026-09-06T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Den Haag",
+   "away": "Sittard",
+   "pHome": 0.3538,
+   "pDraw": 0.2849,
+   "pAway": 0.3612,
+   "xgHome": 1.38,
+   "xgAway": 1.4,
+   "url": "https://theopenmodel.com/match/den-haag-vs-sittard-2026-09-06/"
   },
   {
    "date": "2026-09-06T15:15:00+00:00",
@@ -1899,6 +2432,58 @@
    "xgHome": 1.35,
    "xgAway": 1.43,
    "url": "https://theopenmodel.com/match/elche-vs-real-sociedad-2026-09-07/"
+  },
+  {
+   "date": "2026-09-08T12:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 5",
+   "home": "Utrecht",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.4412,
+   "pDraw": 0.2798,
+   "pAway": 0.2789,
+   "xgHome": 1.57,
+   "xgAway": 1.21,
+   "url": "https://theopenmodel.com/match/utrecht-vs-go-ahead-eagles-2026-09-08/"
+  },
+  {
+   "date": "2026-09-08T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "Nijmegen",
+   "away": "Excelsior",
+   "pHome": 0.5084,
+   "pDraw": 0.2689,
+   "pAway": 0.2227,
+   "xgHome": 1.71,
+   "xgAway": 1.07,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-excelsior-2026-09-08/"
+  },
+  {
+   "date": "2026-09-09T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "Twente",
+   "away": "Telstar",
+   "pHome": 0.6728,
+   "pDraw": 0.2189,
+   "pAway": 0.1083,
+   "xgHome": 2.06,
+   "xgAway": 0.72,
+   "url": "https://theopenmodel.com/match/twente-vs-telstar-2026-09-09/"
+  },
+  {
+   "date": "2026-09-11T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "AZ",
+   "away": "Willem II",
+   "pHome": 0.7474,
+   "pDraw": 0.1854,
+   "pAway": 0.0672,
+   "xgHome": 2.23,
+   "xgAway": 0.55,
+   "url": "https://theopenmodel.com/match/az-vs-willem-ii-2026-09-11/"
   },
   {
    "date": "2026-09-11T18:30:00+00:00",
@@ -2122,6 +2707,19 @@
    "url": "https://theopenmodel.com/match/osasuna-vs-espanyol-2026-09-12/"
   },
   {
+   "date": "2026-09-12T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "Twente",
+   "away": "Den Haag",
+   "pHome": 0.6864,
+   "pDraw": 0.2133,
+   "pAway": 0.1003,
+   "xgHome": 2.09,
+   "xgAway": 0.69,
+   "url": "https://theopenmodel.com/match/twente-vs-den-haag-2026-09-12/"
+  },
+  {
    "date": "2026-09-12T15:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 4",
@@ -2185,6 +2783,32 @@
    "xgHome": 1.38,
    "xgAway": 1.4,
    "url": "https://theopenmodel.com/match/koln-vs-werder-2026-09-12/"
+  },
+  {
+   "date": "2026-09-12T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "Go Ahead Eagles",
+   "away": "Groningen",
+   "pHome": 0.4436,
+   "pDraw": 0.2795,
+   "pAway": 0.2768,
+   "xgHome": 1.58,
+   "xgAway": 1.21,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-groningen-2026-09-12/"
+  },
+  {
+   "date": "2026-09-12T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "Sittard",
+   "away": "Ajax",
+   "pHome": 0.2016,
+   "pDraw": 0.2628,
+   "pAway": 0.5355,
+   "xgHome": 1.02,
+   "xgAway": 1.77,
+   "url": "https://theopenmodel.com/match/sittard-vs-ajax-2026-09-12/"
   },
   {
    "date": "2026-09-12T18:45:00+00:00",
@@ -2278,6 +2902,32 @@
    "url": "https://theopenmodel.com/match/real-madrid-vs-rayo-vallecano-2026-09-12/"
   },
   {
+   "date": "2026-09-12T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "Cambuur",
+   "away": "Nijmegen",
+   "pHome": 0.2222,
+   "pDraw": 0.2687,
+   "pAway": 0.509,
+   "xgHome": 1.07,
+   "xgAway": 1.71,
+   "url": "https://theopenmodel.com/match/cambuur-vs-nijmegen-2026-09-12/"
+  },
+  {
+   "date": "2026-09-13T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "Excelsior",
+   "away": "Utrecht",
+   "pHome": 0.3358,
+   "pDraw": 0.2846,
+   "pAway": 0.3796,
+   "xgHome": 1.34,
+   "xgAway": 1.44,
+   "url": "https://theopenmodel.com/match/excelsior-vs-utrecht-2026-09-13/"
+  },
+  {
    "date": "2026-09-13T12:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 5",
@@ -2289,6 +2939,19 @@
    "xgHome": 1.73,
    "xgAway": 1.05,
    "url": "https://theopenmodel.com/match/celta-vs-malaga-2026-09-13/"
+  },
+  {
+   "date": "2026-09-13T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "Heerenveen",
+   "away": "Telstar",
+   "pHome": 0.5385,
+   "pDraw": 0.2621,
+   "pAway": 0.1993,
+   "xgHome": 1.77,
+   "xgAway": 1.01,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-telstar-2026-09-13/"
   },
   {
    "date": "2026-09-13T13:00:00+00:00",
@@ -2356,6 +3019,19 @@
    "url": "https://theopenmodel.com/match/levante-vs-barcelona-2026-09-13/"
   },
   {
+   "date": "2026-09-13T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "Zwolle",
+   "away": "Feyenoord",
+   "pHome": 0.1549,
+   "pDraw": 0.2449,
+   "pAway": 0.6001,
+   "xgHome": 0.88,
+   "xgAway": 1.9,
+   "url": "https://theopenmodel.com/match/zwolle-vs-feyenoord-2026-09-13/"
+  },
+  {
    "date": "2026-09-13T15:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 4",
@@ -2419,6 +3095,19 @@
    "xgHome": 1.46,
    "xgAway": 1.32,
    "url": "https://theopenmodel.com/match/getafe-vs-depor-2026-09-13/"
+  },
+  {
+   "date": "2026-09-13T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 6",
+   "home": "PSV",
+   "away": "Sparta",
+   "pHome": 0.7506,
+   "pDraw": 0.1838,
+   "pAway": 0.0656,
+   "xgHome": 2.24,
+   "xgAway": 0.55,
+   "url": "https://theopenmodel.com/match/psv-vs-sparta-2026-09-13/"
   },
   {
    "date": "2026-09-13T18:45:00+00:00",
@@ -2551,6 +3240,19 @@
    "url": "https://theopenmodel.com/match/alaves-vs-valencia-2026-09-15/"
   },
   {
+   "date": "2026-09-15T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 3",
+   "home": "Ajax",
+   "away": "Willem II",
+   "pHome": 0.7432,
+   "pDraw": 0.1875,
+   "pAway": 0.0693,
+   "xgHome": 2.22,
+   "xgAway": 0.56,
+   "url": "https://theopenmodel.com/match/ajax-vs-willem-ii-2026-09-15/"
+  },
+  {
    "date": "2026-09-15T19:30:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 6",
@@ -2640,6 +3342,19 @@
    "xgHome": 1.15,
    "xgAway": 1.63,
    "url": "https://theopenmodel.com/match/malaga-vs-villarreal-2026-09-17/"
+  },
+  {
+   "date": "2026-09-18T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "Groningen",
+   "away": "Zwolle",
+   "pHome": 0.4868,
+   "pDraw": 0.273,
+   "pAway": 0.2402,
+   "xgHome": 1.67,
+   "xgAway": 1.12,
+   "url": "https://theopenmodel.com/match/groningen-vs-zwolle-2026-09-18/"
   },
   {
    "date": "2026-09-18T18:30:00+00:00",
@@ -2863,6 +3578,19 @@
    "url": "https://theopenmodel.com/match/bilbao-vs-alaves-2026-09-19/"
   },
   {
+   "date": "2026-09-19T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "Den Haag",
+   "away": "Cambuur",
+   "pHome": 0.4472,
+   "pDraw": 0.2791,
+   "pAway": 0.2737,
+   "xgHome": 1.58,
+   "xgAway": 1.2,
+   "url": "https://theopenmodel.com/match/den-haag-vs-cambuur-2026-09-19/"
+  },
+  {
    "date": "2026-09-19T15:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 5",
@@ -2926,6 +3654,32 @@
    "xgHome": 1.2,
    "xgAway": 1.59,
    "url": "https://theopenmodel.com/match/stuttgart-vs-dortmund-2026-09-19/"
+  },
+  {
+   "date": "2026-09-19T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "Sparta",
+   "away": "Heerenveen",
+   "pHome": 0.3482,
+   "pDraw": 0.2849,
+   "pAway": 0.3669,
+   "xgHome": 1.37,
+   "xgAway": 1.41,
+   "url": "https://theopenmodel.com/match/sparta-vs-heerenveen-2026-09-19/"
+  },
+  {
+   "date": "2026-09-19T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "Ajax",
+   "away": "Excelsior",
+   "pHome": 0.6301,
+   "pDraw": 0.2349,
+   "pAway": 0.1349,
+   "xgHome": 1.97,
+   "xgAway": 0.82,
+   "url": "https://theopenmodel.com/match/ajax-vs-excelsior-2026-09-19/"
   },
   {
    "date": "2026-09-19T18:45:00+00:00",
@@ -3006,6 +3760,32 @@
    "url": "https://theopenmodel.com/match/sevilla-vs-barcelona-2026-09-19/"
   },
   {
+   "date": "2026-09-19T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "Willem II",
+   "away": "Sittard",
+   "pHome": 0.3192,
+   "pDraw": 0.2838,
+   "pAway": 0.397,
+   "xgHome": 1.31,
+   "xgAway": 1.48,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-sittard-2026-09-19/"
+  },
+  {
+   "date": "2026-09-20T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "Feyenoord",
+   "away": "Utrecht",
+   "pHome": 0.5865,
+   "pDraw": 0.2491,
+   "pAway": 0.1644,
+   "xgHome": 1.87,
+   "xgAway": 0.91,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-utrecht-2026-09-20/"
+  },
+  {
    "date": "2026-09-20T10:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 5",
@@ -3030,6 +3810,32 @@
    "xgHome": 1.63,
    "xgAway": 1.15,
    "url": "https://theopenmodel.com/match/getafe-vs-malaga-2026-09-20/"
+  },
+  {
+   "date": "2026-09-20T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "Twente",
+   "away": "PSV",
+   "pHome": 0.2816,
+   "pDraw": 0.2802,
+   "pAway": 0.4383,
+   "xgHome": 1.22,
+   "xgAway": 1.56,
+   "url": "https://theopenmodel.com/match/twente-vs-psv-2026-09-20/"
+  },
+  {
+   "date": "2026-09-20T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "AZ",
+   "away": "Telstar",
+   "pHome": 0.7009,
+   "pDraw": 0.2071,
+   "pAway": 0.092,
+   "xgHome": 2.12,
+   "xgAway": 0.66,
+   "url": "https://theopenmodel.com/match/az-vs-telstar-2026-09-20/"
   },
   {
    "date": "2026-09-20T13:00:00+00:00",
@@ -3134,6 +3940,19 @@
    "xgHome": 1.33,
    "xgAway": 1.46,
    "url": "https://theopenmodel.com/match/atletico-vs-real-madrid-2026-09-20/"
+  },
+  {
+   "date": "2026-09-20T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 7",
+   "home": "Nijmegen",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.4544,
+   "pDraw": 0.2781,
+   "pAway": 0.2675,
+   "xgHome": 1.6,
+   "xgAway": 1.18,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-go-ahead-eagles-2026-09-20/"
   },
   {
    "date": "2026-09-20T15:15:00+00:00",
@@ -3264,6 +4083,19 @@
    "xgHome": 1.39,
    "xgAway": 1.39,
    "url": "https://theopenmodel.com/match/valencia-vs-real-sociedad-2026-09-20/"
+  },
+  {
+   "date": "2026-10-09T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "PSV",
+   "away": "Heerenveen",
+   "pHome": 0.6886,
+   "pDraw": 0.2124,
+   "pAway": 0.099,
+   "xgHome": 2.09,
+   "xgAway": 0.69,
+   "url": "https://theopenmodel.com/match/psv-vs-heerenveen-2026-10-09/"
   },
   {
    "date": "2026-10-09T18:30:00+00:00",
@@ -3474,6 +4306,19 @@
    "url": "https://theopenmodel.com/match/alaves-vs-atletico-2026-10-10/"
   },
   {
+   "date": "2026-10-10T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "Go Ahead Eagles",
+   "away": "Sparta",
+   "pHome": 0.4807,
+   "pDraw": 0.2741,
+   "pAway": 0.2452,
+   "xgHome": 1.65,
+   "xgAway": 1.13,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-sparta-2026-10-10/"
+  },
+  {
    "date": "2026-10-10T15:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 6",
@@ -3537,6 +4382,32 @@
    "xgHome": 1.68,
    "xgAway": 1.11,
    "url": "https://theopenmodel.com/match/rb-leipzig-vs-frankfurt-2026-10-10/"
+  },
+  {
+   "date": "2026-10-10T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "Feyenoord",
+   "away": "AZ",
+   "pHome": 0.446,
+   "pDraw": 0.2792,
+   "pAway": 0.2748,
+   "xgHome": 1.58,
+   "xgAway": 1.2,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-az-2026-10-10/"
+  },
+  {
+   "date": "2026-10-10T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "Sittard",
+   "away": "Twente",
+   "pHome": 0.2213,
+   "pDraw": 0.2685,
+   "pAway": 0.5102,
+   "xgHome": 1.07,
+   "xgAway": 1.71,
+   "url": "https://theopenmodel.com/match/sittard-vs-twente-2026-10-10/"
   },
   {
    "date": "2026-10-10T18:45:00+00:00",
@@ -3617,6 +4488,32 @@
    "url": "https://theopenmodel.com/match/real-madrid-vs-villarreal-2026-10-10/"
   },
   {
+   "date": "2026-10-10T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "Ajax",
+   "away": "Nijmegen",
+   "pHome": 0.5361,
+   "pDraw": 0.2627,
+   "pAway": 0.2012,
+   "xgHome": 1.77,
+   "xgAway": 1.01,
+   "url": "https://theopenmodel.com/match/ajax-vs-nijmegen-2026-10-10/"
+  },
+  {
+   "date": "2026-10-11T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "Utrecht",
+   "away": "Willem II",
+   "pHome": 0.6161,
+   "pDraw": 0.2398,
+   "pAway": 0.1442,
+   "xgHome": 1.94,
+   "xgAway": 0.85,
+   "url": "https://theopenmodel.com/match/utrecht-vs-willem-ii-2026-10-11/"
+  },
+  {
    "date": "2026-10-11T10:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 6",
@@ -3641,6 +4538,32 @@
    "xgHome": 1.44,
    "xgAway": 1.34,
    "url": "https://theopenmodel.com/match/elche-vs-celta-2026-10-11/"
+  },
+  {
+   "date": "2026-10-11T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "Zwolle",
+   "away": "Cambuur",
+   "pHome": 0.4819,
+   "pDraw": 0.2739,
+   "pAway": 0.2442,
+   "xgHome": 1.66,
+   "xgAway": 1.13,
+   "url": "https://theopenmodel.com/match/zwolle-vs-cambuur-2026-10-11/"
+  },
+  {
+   "date": "2026-10-11T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "Telstar",
+   "away": "Den Haag",
+   "pHome": 0.4282,
+   "pDraw": 0.2813,
+   "pAway": 0.2906,
+   "xgHome": 1.54,
+   "xgAway": 1.24,
+   "url": "https://theopenmodel.com/match/telstar-vs-den-haag-2026-10-11/"
   },
   {
    "date": "2026-10-11T13:00:00+00:00",
@@ -3732,6 +4655,19 @@
    "xgHome": 1.66,
    "xgAway": 1.12,
    "url": "https://theopenmodel.com/match/real-sociedad-vs-depor-2026-10-11/"
+  },
+  {
+   "date": "2026-10-11T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 8",
+   "home": "Excelsior",
+   "away": "Groningen",
+   "pHome": 0.3906,
+   "pDraw": 0.2841,
+   "pAway": 0.3253,
+   "xgHome": 1.46,
+   "xgAway": 1.32,
+   "url": "https://theopenmodel.com/match/excelsior-vs-groningen-2026-10-11/"
   },
   {
    "date": "2026-10-11T15:15:00+00:00",
@@ -3888,6 +4824,19 @@
    "xgHome": 1.38,
    "xgAway": 1.4,
    "url": "https://theopenmodel.com/match/levante-vs-sevilla-2026-10-12/"
+  },
+  {
+   "date": "2026-10-16T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Heerenveen",
+   "away": "Excelsior",
+   "pHome": 0.4687,
+   "pDraw": 0.276,
+   "pAway": 0.2552,
+   "xgHome": 1.63,
+   "xgAway": 1.15,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-excelsior-2026-10-16/"
   },
   {
    "date": "2026-10-16T18:30:00+00:00",
@@ -4098,6 +5047,19 @@
    "url": "https://theopenmodel.com/match/villarreal-vs-elche-2026-10-17/"
   },
   {
+   "date": "2026-10-17T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Den Haag",
+   "away": "PSV",
+   "pHome": 0.0874,
+   "pDraw": 0.2034,
+   "pAway": 0.7092,
+   "xgHome": 0.64,
+   "xgAway": 2.14,
+   "url": "https://theopenmodel.com/match/den-haag-vs-psv-2026-10-17/"
+  },
+  {
    "date": "2026-10-17T15:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 7",
@@ -4163,6 +5125,19 @@
    "url": "https://theopenmodel.com/match/bayern-munchen-vs-rb-leipzig-2026-10-17/"
   },
   {
+   "date": "2026-10-17T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Telstar",
+   "away": "Feyenoord",
+   "pHome": 0.1414,
+   "pDraw": 0.2384,
+   "pAway": 0.6202,
+   "xgHome": 0.84,
+   "xgAway": 1.94,
+   "url": "https://theopenmodel.com/match/telstar-vs-feyenoord-2026-10-17/"
+  },
+  {
    "date": "2026-10-17T18:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 7",
@@ -4215,6 +5190,32 @@
    "url": "https://theopenmodel.com/match/valencia-vs-bilbao-2026-10-17/"
   },
   {
+   "date": "2026-10-17T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Sparta",
+   "away": "Willem II",
+   "pHome": 0.5217,
+   "pDraw": 0.266,
+   "pAway": 0.2123,
+   "xgHome": 1.74,
+   "xgAway": 1.04,
+   "url": "https://theopenmodel.com/match/sparta-vs-willem-ii-2026-10-17/"
+  },
+  {
+   "date": "2026-10-18T10:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Zwolle",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.3159,
+   "pDraw": 0.2836,
+   "pAway": 0.4005,
+   "xgHome": 1.3,
+   "xgAway": 1.48,
+   "url": "https://theopenmodel.com/match/zwolle-vs-go-ahead-eagles-2026-10-18/"
+  },
+  {
    "date": "2026-10-18T10:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 7",
@@ -4239,6 +5240,19 @@
    "xgHome": 1.59,
    "xgAway": 1.2,
    "url": "https://theopenmodel.com/match/osasuna-vs-santander-2026-10-18/"
+  },
+  {
+   "date": "2026-10-18T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Cambuur",
+   "away": "AZ",
+   "pHome": 0.1315,
+   "pDraw": 0.2331,
+   "pAway": 0.6354,
+   "xgHome": 0.81,
+   "xgAway": 1.98,
+   "url": "https://theopenmodel.com/match/cambuur-vs-az-2026-10-18/"
   },
   {
    "date": "2026-10-18T13:00:00+00:00",
@@ -4332,6 +5346,19 @@
    "url": "https://theopenmodel.com/match/celta-vs-alaves-2026-10-18/"
   },
   {
+   "date": "2026-10-18T14:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Groningen",
+   "away": "Ajax",
+   "pHome": 0.2378,
+   "pDraw": 0.2725,
+   "pAway": 0.4898,
+   "xgHome": 1.11,
+   "xgAway": 1.67,
+   "url": "https://theopenmodel.com/match/groningen-vs-ajax-2026-10-18/"
+  },
+  {
    "date": "2026-10-18T15:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 7",
@@ -4423,6 +5450,32 @@
    "url": "https://theopenmodel.com/match/malaga-vs-real-sociedad-2026-10-18/"
   },
   {
+   "date": "2026-10-18T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Twente",
+   "away": "Utrecht",
+   "pHome": 0.5241,
+   "pDraw": 0.2655,
+   "pAway": 0.2104,
+   "xgHome": 1.74,
+   "xgAway": 1.04,
+   "url": "https://theopenmodel.com/match/twente-vs-utrecht-2026-10-18/"
+  },
+  {
+   "date": "2026-10-18T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 9",
+   "home": "Nijmegen",
+   "away": "Sittard",
+   "pHome": 0.5301,
+   "pDraw": 0.2641,
+   "pAway": 0.2058,
+   "xgHome": 1.76,
+   "xgAway": 1.03,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-sittard-2026-10-18/"
+  },
+  {
    "date": "2026-10-18T18:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 7",
@@ -4512,6 +5565,19 @@
    "xgHome": 1.38,
    "xgAway": 1.4,
    "url": "https://theopenmodel.com/match/getafe-vs-rayo-vallecano-2026-10-19/"
+  },
+  {
+   "date": "2026-10-23T18:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "Go Ahead Eagles",
+   "away": "Telstar",
+   "pHome": 0.5373,
+   "pDraw": 0.2624,
+   "pAway": 0.2002,
+   "xgHome": 1.77,
+   "xgAway": 1.01,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-telstar-2026-10-23/"
   },
   {
    "date": "2026-10-23T18:30:00+00:00",
@@ -4735,6 +5801,19 @@
    "url": "https://theopenmodel.com/match/santander-vs-espanyol-2026-10-24/"
   },
   {
+   "date": "2026-10-24T14:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "Utrecht",
+   "away": "Zwolle",
+   "pHome": 0.5446,
+   "pDraw": 0.2606,
+   "pAway": 0.1948,
+   "xgHome": 1.79,
+   "xgAway": 1,
+   "url": "https://theopenmodel.com/match/utrecht-vs-zwolle-2026-10-24/"
+  },
+  {
    "date": "2026-10-24T15:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 8",
@@ -4800,6 +5879,19 @@
    "url": "https://theopenmodel.com/match/dortmund-vs-frankfurt-2026-10-24/"
   },
   {
+   "date": "2026-10-24T16:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "Willem II",
+   "away": "Cambuur",
+   "pHome": 0.4105,
+   "pDraw": 0.2829,
+   "pAway": 0.3067,
+   "xgHome": 1.51,
+   "xgAway": 1.28,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-cambuur-2026-10-24/"
+  },
+  {
    "date": "2026-10-24T18:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 8",
@@ -4839,6 +5931,32 @@
    "url": "https://theopenmodel.com/match/atletico-vs-depor-2026-10-24/"
   },
   {
+   "date": "2026-10-24T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "Den Haag",
+   "away": "Heerenveen",
+   "pHome": 0.2837,
+   "pDraw": 0.2804,
+   "pAway": 0.4359,
+   "xgHome": 1.22,
+   "xgAway": 1.56,
+   "url": "https://theopenmodel.com/match/den-haag-vs-heerenveen-2026-10-24/"
+  },
+  {
+   "date": "2026-10-25T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "Sittard",
+   "away": "Excelsior",
+   "pHome": 0.3929,
+   "pDraw": 0.284,
+   "pAway": 0.3231,
+   "xgHome": 1.47,
+   "xgAway": 1.31,
+   "url": "https://theopenmodel.com/match/sittard-vs-excelsior-2026-10-25/"
+  },
+  {
    "date": "2026-10-25T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 8",
@@ -4863,6 +5981,32 @@
    "xgHome": 1.49,
    "xgAway": 1.29,
    "url": "https://theopenmodel.com/match/bilbao-vs-getafe-2026-10-25/"
+  },
+  {
+   "date": "2026-10-25T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "Nijmegen",
+   "away": "Groningen",
+   "pHome": 0.4844,
+   "pDraw": 0.2734,
+   "pAway": 0.2422,
+   "xgHome": 1.66,
+   "xgAway": 1.12,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-groningen-2026-10-25/"
+  },
+  {
+   "date": "2026-10-25T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "PSV",
+   "away": "Feyenoord",
+   "pHome": 0.4928,
+   "pDraw": 0.2719,
+   "pAway": 0.2353,
+   "xgHome": 1.68,
+   "xgAway": 1.1,
+   "url": "https://theopenmodel.com/match/psv-vs-feyenoord-2026-10-25/"
   },
   {
    "date": "2026-10-25T14:00:00+00:00",
@@ -4982,6 +6126,19 @@
    "url": "https://theopenmodel.com/match/celta-vs-betis-2026-10-25/"
   },
   {
+   "date": "2026-10-25T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "Sparta",
+   "away": "Ajax",
+   "pHome": 0.2081,
+   "pDraw": 0.2648,
+   "pAway": 0.5271,
+   "xgHome": 1.03,
+   "xgAway": 1.75,
+   "url": "https://theopenmodel.com/match/sparta-vs-ajax-2026-10-25/"
+  },
+  {
    "date": "2026-10-25T16:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 8",
@@ -5084,6 +6241,19 @@
    "xgHome": 1.68,
    "xgAway": 1.1,
    "url": "https://theopenmodel.com/match/real-sociedad-vs-levante-2026-10-25/"
+  },
+  {
+   "date": "2026-10-25T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 10",
+   "home": "AZ",
+   "away": "Twente",
+   "pHome": 0.4436,
+   "pDraw": 0.2795,
+   "pAway": 0.2768,
+   "xgHome": 1.58,
+   "xgAway": 1.21,
+   "url": "https://theopenmodel.com/match/az-vs-twente-2026-10-25/"
   },
   {
    "date": "2026-10-25T19:45:00+00:00",
@@ -5463,6 +6633,19 @@
    "url": "https://theopenmodel.com/match/coventry-vs-sunderland-2026-10-31/"
   },
   {
+   "date": "2026-10-31T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "Feyenoord",
+   "away": "Sittard",
+   "pHome": 0.6864,
+   "pDraw": 0.2133,
+   "pAway": 0.1003,
+   "xgHome": 2.09,
+   "xgAway": 0.69,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-sittard-2026-10-31/"
+  },
+  {
    "date": "2026-10-31T16:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 9",
@@ -5513,6 +6696,32 @@
    "xgHome": 1.81,
    "xgAway": 0.97,
    "url": "https://theopenmodel.com/match/bayern-munchen-vs-dortmund-2026-10-31/"
+  },
+  {
+   "date": "2026-10-31T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "Heerenveen",
+   "away": "Nijmegen",
+   "pHome": 0.3756,
+   "pDraw": 0.2847,
+   "pAway": 0.3397,
+   "xgHome": 1.43,
+   "xgAway": 1.35,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-nijmegen-2026-10-31/"
+  },
+  {
+   "date": "2026-10-31T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "PSV",
+   "away": "Willem II",
+   "pHome": 0.8385,
+   "pDraw": 0.1344,
+   "pAway": 0.0271,
+   "xgHome": 2.46,
+   "xgAway": 0.32,
+   "url": "https://theopenmodel.com/match/psv-vs-willem-ii-2026-10-31/"
   },
   {
    "date": "2026-10-31T19:45:00+00:00",
@@ -5578,6 +6787,32 @@
    "xgHome": 1.72,
    "xgAway": 1.06,
    "url": "https://theopenmodel.com/match/aston-villa-vs-fulham-2026-10-31/"
+  },
+  {
+   "date": "2026-10-31T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "Cambuur",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.2557,
+   "pDraw": 0.2761,
+   "pAway": 0.4681,
+   "xgHome": 1.16,
+   "xgAway": 1.63,
+   "url": "https://theopenmodel.com/match/cambuur-vs-go-ahead-eagles-2026-10-31/"
+  },
+  {
+   "date": "2026-10-31T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "Ajax",
+   "away": "AZ",
+   "pHome": 0.4093,
+   "pDraw": 0.2829,
+   "pAway": 0.3077,
+   "xgHome": 1.5,
+   "xgAway": 1.28,
+   "url": "https://theopenmodel.com/match/ajax-vs-az-2026-10-31/"
   },
   {
    "date": "2026-11-01T00:00:00+00:00",
@@ -5710,6 +6945,19 @@
    "url": "https://theopenmodel.com/match/santander-vs-real-madrid-2026-11-01/"
   },
   {
+   "date": "2026-11-01T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "Zwolle",
+   "away": "Den Haag",
+   "pHome": 0.4484,
+   "pDraw": 0.2789,
+   "pAway": 0.2727,
+   "xgHome": 1.58,
+   "xgAway": 1.2,
+   "url": "https://theopenmodel.com/match/zwolle-vs-den-haag-2026-11-01/"
+  },
+  {
    "date": "2026-11-01T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 10",
@@ -5721,6 +6969,32 @@
    "xgHome": 2.04,
    "xgAway": 0.74,
    "url": "https://theopenmodel.com/match/como-vs-venezia-2026-11-01/"
+  },
+  {
+   "date": "2026-11-01T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "Telstar",
+   "away": "Utrecht",
+   "pHome": 0.2732,
+   "pDraw": 0.279,
+   "pAway": 0.4478,
+   "xgHome": 1.2,
+   "xgAway": 1.58,
+   "url": "https://theopenmodel.com/match/telstar-vs-utrecht-2026-11-01/"
+  },
+  {
+   "date": "2026-11-01T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "Excelsior",
+   "away": "Twente",
+   "pHome": 0.2387,
+   "pDraw": 0.2727,
+   "pAway": 0.4886,
+   "xgHome": 1.11,
+   "xgAway": 1.67,
+   "url": "https://theopenmodel.com/match/excelsior-vs-twente-2026-11-01/"
   },
   {
    "date": "2026-11-01T14:00:00+00:00",
@@ -5773,6 +7047,19 @@
    "xgHome": 1.55,
    "xgAway": 1.23,
    "url": "https://theopenmodel.com/match/union-berlin-vs-koln-2026-11-01/"
+  },
+  {
+   "date": "2026-11-01T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 11",
+   "home": "Groningen",
+   "away": "Sparta",
+   "pHome": 0.4508,
+   "pDraw": 0.2786,
+   "pAway": 0.2706,
+   "xgHome": 1.59,
+   "xgAway": 1.19,
+   "url": "https://theopenmodel.com/match/groningen-vs-sparta-2026-11-01/"
   },
   {
    "date": "2026-11-01T16:15:00+00:00",
@@ -5890,6 +7177,19 @@
    "xgHome": 1.59,
    "xgAway": 1.19,
    "url": "https://theopenmodel.com/match/newcastle-vs-everton-2026-11-02/"
+  },
+  {
+   "date": "2026-11-06T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "Willem II",
+   "away": "Zwolle",
+   "pHome": 0.3448,
+   "pDraw": 0.2848,
+   "pAway": 0.3704,
+   "xgHome": 1.36,
+   "xgAway": 1.42,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-zwolle-2026-11-06/"
   },
   {
    "date": "2026-11-06T19:30:00+00:00",
@@ -6061,6 +7361,19 @@
    "url": "https://theopenmodel.com/match/arsenal-vs-hull-2026-11-07/"
   },
   {
+   "date": "2026-11-07T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "Sittard",
+   "away": "Telstar",
+   "pHome": 0.4615,
+   "pDraw": 0.2771,
+   "pAway": 0.2613,
+   "xgHome": 1.61,
+   "xgAway": 1.17,
+   "url": "https://theopenmodel.com/match/sittard-vs-telstar-2026-11-07/"
+  },
+  {
    "date": "2026-11-07T16:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 10",
@@ -6113,6 +7426,19 @@
    "url": "https://theopenmodel.com/match/stuttgart-vs-werder-2026-11-07/"
   },
   {
+   "date": "2026-11-07T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "Den Haag",
+   "away": "Sparta",
+   "pHome": 0.3459,
+   "pDraw": 0.2848,
+   "pAway": 0.3692,
+   "xgHome": 1.36,
+   "xgAway": 1.42,
+   "url": "https://theopenmodel.com/match/den-haag-vs-sparta-2026-11-07/"
+  },
+  {
    "date": "2026-11-07T19:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 11",
@@ -6137,6 +7463,19 @@
    "xgHome": 2.41,
    "xgAway": 0.37,
    "url": "https://theopenmodel.com/match/paris-sg-vs-troyes-2026-11-07/"
+  },
+  {
+   "date": "2026-11-07T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "Excelsior",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.3618,
+   "pDraw": 0.2849,
+   "pAway": 0.3533,
+   "xgHome": 1.4,
+   "xgAway": 1.38,
+   "url": "https://theopenmodel.com/match/excelsior-vs-go-ahead-eagles-2026-11-07/"
   },
   {
    "date": "2026-11-08T00:00:00+00:00",
@@ -6269,6 +7608,19 @@
    "url": "https://theopenmodel.com/match/elche-vs-betis-2026-11-08/"
   },
   {
+   "date": "2026-11-08T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "Heerenveen",
+   "away": "Feyenoord",
+   "pHome": 0.2329,
+   "pDraw": 0.2714,
+   "pAway": 0.4958,
+   "xgHome": 1.1,
+   "xgAway": 1.68,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-feyenoord-2026-11-08/"
+  },
+  {
    "date": "2026-11-08T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 11",
@@ -6280,6 +7632,19 @@
    "xgHome": 1.57,
    "xgAway": 1.21,
    "url": "https://theopenmodel.com/match/napoli-vs-lazio-2026-11-08/"
+  },
+  {
+   "date": "2026-11-08T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "Twente",
+   "away": "Ajax",
+   "pHome": 0.3894,
+   "pDraw": 0.2842,
+   "pAway": 0.3264,
+   "xgHome": 1.46,
+   "xgAway": 1.32,
+   "url": "https://theopenmodel.com/match/twente-vs-ajax-2026-11-08/"
   },
   {
    "date": "2026-11-08T14:00:00+00:00",
@@ -6386,6 +7751,32 @@
    "url": "https://theopenmodel.com/match/koln-vs-leverkusen-2026-11-08/"
   },
   {
+   "date": "2026-11-08T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "AZ",
+   "away": "Groningen",
+   "pHome": 0.6114,
+   "pDraw": 0.2413,
+   "pAway": 0.1473,
+   "xgHome": 1.93,
+   "xgAway": 0.86,
+   "url": "https://theopenmodel.com/match/az-vs-groningen-2026-11-08/"
+  },
+  {
+   "date": "2026-11-08T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "Cambuur",
+   "away": "PSV",
+   "pHome": 0.0712,
+   "pDraw": 0.1893,
+   "pAway": 0.7395,
+   "xgHome": 0.57,
+   "xgAway": 2.21,
+   "url": "https://theopenmodel.com/match/cambuur-vs-psv-2026-11-08/"
+  },
+  {
    "date": "2026-11-08T16:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 10",
@@ -6488,6 +7879,19 @@
    "xgHome": 1.71,
    "xgAway": 1.07,
    "url": "https://theopenmodel.com/match/hoffenheim-vs-schalke-2026-11-08/"
+  },
+  {
+   "date": "2026-11-08T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 12",
+   "home": "Utrecht",
+   "away": "Nijmegen",
+   "pHome": 0.4011,
+   "pDraw": 0.2835,
+   "pAway": 0.3154,
+   "xgHome": 1.49,
+   "xgAway": 1.3,
+   "url": "https://theopenmodel.com/match/utrecht-vs-nijmegen-2026-11-08/"
   },
   {
    "date": "2026-11-08T19:45:00+00:00",
@@ -6711,6 +8115,19 @@
    "url": "https://theopenmodel.com/match/coventry-vs-crystal-palace-2026-11-21/"
   },
   {
+   "date": "2026-11-21T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Nijmegen",
+   "away": "PSV",
+   "pHome": 0.2016,
+   "pDraw": 0.2628,
+   "pAway": 0.5355,
+   "xgHome": 1.02,
+   "xgAway": 1.77,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-psv-2026-11-21/"
+  },
+  {
    "date": "2026-11-21T16:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 11",
@@ -6761,6 +8178,32 @@
    "xgHome": 1.11,
    "xgAway": 1.67,
    "url": "https://theopenmodel.com/match/schalke-vs-stuttgart-2026-11-21/"
+  },
+  {
+   "date": "2026-11-21T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Feyenoord",
+   "away": "Excelsior",
+   "pHome": 0.666,
+   "pDraw": 0.2216,
+   "pAway": 0.1124,
+   "xgHome": 2.04,
+   "xgAway": 0.74,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-excelsior-2026-11-21/"
+  },
+  {
+   "date": "2026-11-21T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Utrecht",
+   "away": "Cambuur",
+   "pHome": 0.6125,
+   "pDraw": 0.2409,
+   "pAway": 0.1465,
+   "xgHome": 1.93,
+   "xgAway": 0.85,
+   "url": "https://theopenmodel.com/match/utrecht-vs-cambuur-2026-11-21/"
   },
   {
    "date": "2026-11-21T19:45:00+00:00",
@@ -6826,6 +8269,32 @@
    "xgHome": 1.78,
    "xgAway": 1,
    "url": "https://theopenmodel.com/match/lens-vs-toulouse-2026-11-21/"
+  },
+  {
+   "date": "2026-11-21T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Telstar",
+   "away": "Zwolle",
+   "pHome": 0.3941,
+   "pDraw": 0.2839,
+   "pAway": 0.322,
+   "xgHome": 1.47,
+   "xgAway": 1.31,
+   "url": "https://theopenmodel.com/match/telstar-vs-zwolle-2026-11-21/"
+  },
+  {
+   "date": "2026-11-21T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Groningen",
+   "away": "Heerenveen",
+   "pHome": 0.3836,
+   "pDraw": 0.2844,
+   "pAway": 0.3319,
+   "xgHome": 1.45,
+   "xgAway": 1.33,
+   "url": "https://theopenmodel.com/match/groningen-vs-heerenveen-2026-11-21/"
   },
   {
    "date": "2026-11-22T00:00:00+00:00",
@@ -6958,6 +8427,19 @@
    "url": "https://theopenmodel.com/match/santander-vs-real-sociedad-2026-11-22/"
   },
   {
+   "date": "2026-11-22T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Twente",
+   "away": "Willem II",
+   "pHome": 0.7207,
+   "pDraw": 0.1982,
+   "pAway": 0.0811,
+   "xgHome": 2.17,
+   "xgAway": 0.62,
+   "url": "https://theopenmodel.com/match/twente-vs-willem-ii-2026-11-22/"
+  },
+  {
    "date": "2026-11-22T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 12",
@@ -6969,6 +8451,32 @@
    "xgHome": 2.12,
    "xgAway": 0.66,
    "url": "https://theopenmodel.com/match/juventus-vs-venezia-2026-11-22/"
+  },
+  {
+   "date": "2026-11-22T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Sparta",
+   "away": "AZ",
+   "pHome": 0.2044,
+   "pDraw": 0.2637,
+   "pAway": 0.5319,
+   "xgHome": 1.02,
+   "xgAway": 1.76,
+   "url": "https://theopenmodel.com/match/sparta-vs-az-2026-11-22/"
+  },
+  {
+   "date": "2026-11-22T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Ajax",
+   "away": "Den Haag",
+   "pHome": 0.7097,
+   "pDraw": 0.2032,
+   "pAway": 0.0871,
+   "xgHome": 2.14,
+   "xgAway": 0.64,
+   "url": "https://theopenmodel.com/match/ajax-vs-den-haag-2026-11-22/"
   },
   {
    "date": "2026-11-22T14:00:00+00:00",
@@ -7034,6 +8542,19 @@
    "xgHome": 1.51,
    "xgAway": 1.27,
    "url": "https://theopenmodel.com/match/augsburg-vs-mainz-2026-11-22/"
+  },
+  {
+   "date": "2026-11-22T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 13",
+   "home": "Go Ahead Eagles",
+   "away": "Sittard",
+   "pHome": 0.4892,
+   "pDraw": 0.2726,
+   "pAway": 0.2383,
+   "xgHome": 1.67,
+   "xgAway": 1.11,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-sittard-2026-11-22/"
   },
   {
    "date": "2026-11-22T16:15:00+00:00",
@@ -7138,6 +8659,19 @@
    "xgHome": 1.61,
    "xgAway": 1.17,
    "url": "https://theopenmodel.com/match/brentford-vs-everton-2026-11-23/"
+  },
+  {
+   "date": "2026-11-27T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "Groningen",
+   "away": "Willem II",
+   "pHome": 0.559,
+   "pDraw": 0.2569,
+   "pAway": 0.1841,
+   "xgHome": 1.82,
+   "xgAway": 0.97,
+   "url": "https://theopenmodel.com/match/groningen-vs-willem-ii-2026-11-27/"
   },
   {
    "date": "2026-11-27T19:30:00+00:00",
@@ -7283,6 +8817,19 @@
    "url": "https://theopenmodel.com/match/leeds-vs-coventry-2026-11-28/"
   },
   {
+   "date": "2026-11-28T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "Excelsior",
+   "away": "Telstar",
+   "pHome": 0.4831,
+   "pDraw": 0.2737,
+   "pAway": 0.2432,
+   "xgHome": 1.66,
+   "xgAway": 1.12,
+   "url": "https://theopenmodel.com/match/excelsior-vs-telstar-2026-11-28/"
+  },
+  {
    "date": "2026-11-28T16:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 12",
@@ -7333,6 +8880,19 @@
    "xgHome": 1.66,
    "xgAway": 1.12,
    "url": "https://theopenmodel.com/match/stuttgart-vs-frankfurt-2026-11-28/"
+  },
+  {
+   "date": "2026-11-28T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "PSV",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.6897,
+   "pDraw": 0.2119,
+   "pAway": 0.0984,
+   "xgHome": 2.1,
+   "xgAway": 0.69,
+   "url": "https://theopenmodel.com/match/psv-vs-go-ahead-eagles-2026-11-28/"
   },
   {
    "date": "2026-11-28T19:45:00+00:00",
@@ -7398,6 +8958,19 @@
    "xgHome": 1.05,
    "xgAway": 1.73,
    "url": "https://theopenmodel.com/match/le-mans-vs-lille-2026-11-28/"
+  },
+  {
+   "date": "2026-11-28T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "Cambuur",
+   "away": "Sparta",
+   "pHome": 0.3148,
+   "pDraw": 0.2835,
+   "pAway": 0.4017,
+   "xgHome": 1.3,
+   "xgAway": 1.49,
+   "url": "https://theopenmodel.com/match/cambuur-vs-sparta-2026-11-28/"
   },
   {
    "date": "2026-11-29T00:00:00+00:00",
@@ -7530,6 +9103,19 @@
    "url": "https://theopenmodel.com/match/elche-vs-atletico-2026-11-29/"
   },
   {
+   "date": "2026-11-29T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "Den Haag",
+   "away": "Utrecht",
+   "pHome": 0.2608,
+   "pDraw": 0.277,
+   "pAway": 0.4621,
+   "xgHome": 1.17,
+   "xgAway": 1.61,
+   "url": "https://theopenmodel.com/match/den-haag-vs-utrecht-2026-11-29/"
+  },
+  {
    "date": "2026-11-29T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 13",
@@ -7554,6 +9140,32 @@
    "xgHome": 1.27,
    "xgAway": 1.52,
    "url": "https://theopenmodel.com/match/everton-vs-liverpool-2026-11-29/"
+  },
+  {
+   "date": "2026-11-29T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "Sittard",
+   "away": "Heerenveen",
+   "pHome": 0.3403,
+   "pDraw": 0.2847,
+   "pAway": 0.375,
+   "xgHome": 1.35,
+   "xgAway": 1.43,
+   "url": "https://theopenmodel.com/match/sittard-vs-heerenveen-2026-11-29/"
+  },
+  {
+   "date": "2026-11-29T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "Feyenoord",
+   "away": "Ajax",
+   "pHome": 0.4508,
+   "pDraw": 0.2786,
+   "pAway": 0.2706,
+   "xgHome": 1.59,
+   "xgAway": 1.19,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-ajax-2026-11-29/"
   },
   {
    "date": "2026-11-29T14:00:00+00:00",
@@ -7647,6 +9259,19 @@
    "url": "https://theopenmodel.com/match/freiburg-vs-rb-leipzig-2026-11-29/"
   },
   {
+   "date": "2026-11-29T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "Zwolle",
+   "away": "AZ",
+   "pHome": 0.1776,
+   "pDraw": 0.2545,
+   "pAway": 0.568,
+   "xgHome": 0.95,
+   "xgAway": 1.83,
+   "url": "https://theopenmodel.com/match/zwolle-vs-az-2026-11-29/"
+  },
+  {
    "date": "2026-11-29T16:15:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 12",
@@ -7710,6 +9335,19 @@
    "xgHome": 1.64,
    "xgAway": 1.14,
    "url": "https://theopenmodel.com/match/dortmund-vs-leverkusen-2026-11-29/"
+  },
+  {
+   "date": "2026-11-29T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 14",
+   "home": "Nijmegen",
+   "away": "Twente",
+   "pHome": 0.3214,
+   "pDraw": 0.2839,
+   "pAway": 0.3947,
+   "xgHome": 1.31,
+   "xgAway": 1.47,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-twente-2026-11-29/"
   },
   {
    "date": "2026-11-29T19:45:00+00:00",
@@ -7892,6 +9530,19 @@
    "xgHome": 1.46,
    "xgAway": 1.32,
    "url": "https://theopenmodel.com/match/coventry-vs-ipswich-2026-12-02/"
+  },
+  {
+   "date": "2026-12-04T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "Telstar",
+   "away": "Groningen",
+   "pHome": 0.3247,
+   "pDraw": 0.2841,
+   "pAway": 0.3912,
+   "xgHome": 1.32,
+   "xgAway": 1.46,
+   "url": "https://theopenmodel.com/match/telstar-vs-groningen-2026-12-04/"
   },
   {
    "date": "2026-12-04T19:45:00+00:00",
@@ -8284,6 +9935,19 @@
    "url": "https://theopenmodel.com/match/aston-villa-vs-crystal-palace-2026-12-05/"
   },
   {
+   "date": "2026-12-05T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "Willem II",
+   "away": "Feyenoord",
+   "pHome": 0.11,
+   "pDraw": 0.22,
+   "pAway": 0.67,
+   "xgHome": 0.73,
+   "xgAway": 2.05,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-feyenoord-2026-12-05/"
+  },
+  {
    "date": "2026-12-05T17:00:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 14",
@@ -8297,6 +9961,32 @@
    "url": "https://theopenmodel.com/match/frosinone-vs-internazionale-2026-12-05/"
   },
   {
+   "date": "2026-12-05T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "Sparta",
+   "away": "Nijmegen",
+   "pHome": 0.3116,
+   "pDraw": 0.2832,
+   "pAway": 0.4052,
+   "xgHome": 1.29,
+   "xgAway": 1.49,
+   "url": "https://theopenmodel.com/match/sparta-vs-nijmegen-2026-12-05/"
+  },
+  {
+   "date": "2026-12-05T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "AZ",
+   "away": "PSV",
+   "pHome": 0.3083,
+   "pDraw": 0.283,
+   "pAway": 0.4087,
+   "xgHome": 1.28,
+   "xgAway": 1.5,
+   "url": "https://theopenmodel.com/match/az-vs-psv-2026-12-05/"
+  },
+  {
    "date": "2026-12-05T19:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 14",
@@ -8308,6 +9998,19 @@
    "xgHome": 2.05,
    "xgAway": 0.73,
    "url": "https://theopenmodel.com/match/napoli-vs-lecce-2026-12-05/"
+  },
+  {
+   "date": "2026-12-05T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "Sittard",
+   "away": "Zwolle",
+   "pHome": 0.4412,
+   "pDraw": 0.2798,
+   "pAway": 0.2789,
+   "xgHome": 1.57,
+   "xgAway": 1.21,
+   "url": "https://theopenmodel.com/match/sittard-vs-zwolle-2026-12-05/"
   },
   {
    "date": "2026-12-06T00:00:00+00:00",
@@ -8440,6 +10143,19 @@
    "url": "https://theopenmodel.com/match/santander-vs-depor-2026-12-06/"
   },
   {
+   "date": "2026-12-06T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "Heerenveen",
+   "away": "Cambuur",
+   "pHome": 0.5865,
+   "pDraw": 0.2491,
+   "pAway": 0.1644,
+   "xgHome": 1.87,
+   "xgAway": 0.91,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-cambuur-2026-12-06/"
+  },
+  {
    "date": "2026-12-06T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 14",
@@ -8453,6 +10169,32 @@
    "url": "https://theopenmodel.com/match/genoa-vs-torino-2026-12-06/"
   },
   {
+   "date": "2026-12-06T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "Ajax",
+   "away": "Utrecht",
+   "pHome": 0.5494,
+   "pDraw": 0.2594,
+   "pAway": 0.1912,
+   "xgHome": 1.8,
+   "xgAway": 0.99,
+   "url": "https://theopenmodel.com/match/ajax-vs-utrecht-2026-12-06/"
+  },
+  {
+   "date": "2026-12-06T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "Go Ahead Eagles",
+   "away": "Twente",
+   "pHome": 0.2847,
+   "pDraw": 0.2806,
+   "pAway": 0.4347,
+   "xgHome": 1.23,
+   "xgAway": 1.56,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-twente-2026-12-06/"
+  },
+  {
    "date": "2026-12-06T14:00:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 14",
@@ -8464,6 +10206,19 @@
    "xgHome": 1.58,
    "xgAway": 1.2,
    "url": "https://theopenmodel.com/match/lazio-vs-atalanta-2026-12-06/"
+  },
+  {
+   "date": "2026-12-06T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 15",
+   "home": "Den Haag",
+   "away": "Excelsior",
+   "pHome": 0.3336,
+   "pDraw": 0.2845,
+   "pAway": 0.3819,
+   "xgHome": 1.34,
+   "xgAway": 1.44,
+   "url": "https://theopenmodel.com/match/den-haag-vs-excelsior-2026-12-06/"
   },
   {
    "date": "2026-12-06T17:00:00+00:00",
@@ -8895,6 +10650,19 @@
    "url": "https://theopenmodel.com/match/coventry-vs-aston-villa-2026-12-12/"
   },
   {
+   "date": "2026-12-12T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "Utrecht",
+   "away": "Sittard",
+   "pHome": 0.5169,
+   "pDraw": 0.2671,
+   "pAway": 0.2161,
+   "xgHome": 1.73,
+   "xgAway": 1.05,
+   "url": "https://theopenmodel.com/match/utrecht-vs-sittard-2026-12-12/"
+  },
+  {
    "date": "2026-12-12T17:00:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 15",
@@ -8908,6 +10676,19 @@
    "url": "https://theopenmodel.com/match/lecce-vs-sassuolo-2026-12-12/"
   },
   {
+   "date": "2026-12-12T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "Heerenveen",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.4152,
+   "pDraw": 0.2825,
+   "pAway": 0.3023,
+   "xgHome": 1.52,
+   "xgAway": 1.27,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-go-ahead-eagles-2026-12-12/"
+  },
+  {
    "date": "2026-12-12T19:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 15",
@@ -8919,6 +10700,19 @@
    "xgHome": 1.74,
    "xgAway": 1.04,
    "url": "https://theopenmodel.com/match/como-vs-bologna-2026-12-12/"
+  },
+  {
+   "date": "2026-12-12T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "Zwolle",
+   "away": "Excelsior",
+   "pHome": 0.3664,
+   "pDraw": 0.2849,
+   "pAway": 0.3487,
+   "xgHome": 1.41,
+   "xgAway": 1.37,
+   "url": "https://theopenmodel.com/match/zwolle-vs-excelsior-2026-12-12/"
   },
   {
    "date": "2026-12-13T00:00:00+00:00",
@@ -9051,6 +10845,19 @@
    "url": "https://theopenmodel.com/match/elche-vs-sevilla-2026-12-13/"
   },
   {
+   "date": "2026-12-13T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "PSV",
+   "away": "Telstar",
+   "pHome": 0.7982,
+   "pDraw": 0.1585,
+   "pAway": 0.0433,
+   "xgHome": 2.35,
+   "xgAway": 0.43,
+   "url": "https://theopenmodel.com/match/psv-vs-telstar-2026-12-13/"
+  },
+  {
    "date": "2026-12-13T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 15",
@@ -9062,6 +10869,32 @@
    "xgHome": 1.31,
    "xgAway": 1.47,
    "url": "https://theopenmodel.com/match/lazio-vs-roma-2026-12-13/"
+  },
+  {
+   "date": "2026-12-13T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "Groningen",
+   "away": "Feyenoord",
+   "pHome": 0.2081,
+   "pDraw": 0.2648,
+   "pAway": 0.5271,
+   "xgHome": 1.03,
+   "xgAway": 1.75,
+   "url": "https://theopenmodel.com/match/groningen-vs-feyenoord-2026-12-13/"
+  },
+  {
+   "date": "2026-12-13T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "Willem II",
+   "away": "Den Haag",
+   "pHome": 0.3779,
+   "pDraw": 0.2846,
+   "pAway": 0.3375,
+   "xgHome": 1.44,
+   "xgAway": 1.35,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-den-haag-2026-12-13/"
   },
   {
    "date": "2026-12-13T14:00:00+00:00",
@@ -9077,6 +10910,19 @@
    "url": "https://theopenmodel.com/match/internazionale-vs-torino-2026-12-13/"
   },
   {
+   "date": "2026-12-13T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "AZ",
+   "away": "Nijmegen",
+   "pHome": 0.5409,
+   "pDraw": 0.2615,
+   "pAway": 0.1975,
+   "xgHome": 1.78,
+   "xgAway": 1,
+   "url": "https://theopenmodel.com/match/az-vs-nijmegen-2026-12-13/"
+  },
+  {
    "date": "2026-12-13T17:00:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 15",
@@ -9088,6 +10934,19 @@
    "xgHome": 1.4,
    "xgAway": 1.38,
    "url": "https://theopenmodel.com/match/parma-vs-fiorentina-2026-12-13/"
+  },
+  {
+   "date": "2026-12-13T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "Ajax",
+   "away": "Cambuur",
+   "pHome": 0.74,
+   "pDraw": 0.1891,
+   "pAway": 0.0709,
+   "xgHome": 2.21,
+   "xgAway": 0.57,
+   "url": "https://theopenmodel.com/match/ajax-vs-cambuur-2026-12-13/"
   },
   {
    "date": "2026-12-13T19:45:00+00:00",
@@ -9153,6 +11012,19 @@
    "xgHome": 1.3,
    "xgAway": 1.48,
    "url": "https://theopenmodel.com/match/frosinone-vs-lazio-2026-12-18/"
+  },
+  {
+   "date": "2026-12-18T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "Telstar",
+   "away": "Willem II",
+   "pHome": 0.4651,
+   "pDraw": 0.2766,
+   "pAway": 0.2583,
+   "xgHome": 1.62,
+   "xgAway": 1.16,
+   "url": "https://theopenmodel.com/match/telstar-vs-willem-ii-2026-12-18/"
   },
   {
    "date": "2026-12-18T19:45:00+00:00",
@@ -9428,6 +11300,19 @@
    "url": "https://theopenmodel.com/match/sunderland-vs-crystal-palace-2026-12-19/"
   },
   {
+   "date": "2026-12-19T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "Excelsior",
+   "away": "AZ",
+   "pHome": 0.2146,
+   "pDraw": 0.2667,
+   "pAway": 0.5187,
+   "xgHome": 1.05,
+   "xgAway": 1.73,
+   "url": "https://theopenmodel.com/match/excelsior-vs-az-2026-12-19/"
+  },
+  {
    "date": "2026-12-19T17:00:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 16",
@@ -9441,6 +11326,19 @@
    "url": "https://theopenmodel.com/match/milan-vs-como-2026-12-19/"
   },
   {
+   "date": "2026-12-19T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "Sittard",
+   "away": "Sparta",
+   "pHome": 0.4058,
+   "pDraw": 0.2832,
+   "pAway": 0.311,
+   "xgHome": 1.5,
+   "xgAway": 1.29,
+   "url": "https://theopenmodel.com/match/sittard-vs-sparta-2026-12-19/"
+  },
+  {
    "date": "2026-12-19T19:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 16",
@@ -9452,6 +11350,19 @@
    "xgHome": 1.62,
    "xgAway": 1.16,
    "url": "https://theopenmodel.com/match/roma-vs-juventus-2026-12-19/"
+  },
+  {
+   "date": "2026-12-19T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "Utrecht",
+   "away": "Heerenveen",
+   "pHome": 0.4401,
+   "pDraw": 0.28,
+   "pAway": 0.28,
+   "xgHome": 1.57,
+   "xgAway": 1.21,
+   "url": "https://theopenmodel.com/match/utrecht-vs-heerenveen-2026-12-19/"
   },
   {
    "date": "2026-12-20T00:00:00+00:00",
@@ -9584,6 +11495,19 @@
    "url": "https://theopenmodel.com/match/rayo-vallecano-vs-malaga-2026-12-20/"
   },
   {
+   "date": "2026-12-20T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "Nijmegen",
+   "away": "Den Haag",
+   "pHome": 0.5924,
+   "pDraw": 0.2473,
+   "pAway": 0.1602,
+   "xgHome": 1.89,
+   "xgAway": 0.9,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-den-haag-2026-12-20/"
+  },
+  {
    "date": "2026-12-20T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 16",
@@ -9595,6 +11519,32 @@
    "xgHome": 1.4,
    "xgAway": 1.38,
    "url": "https://theopenmodel.com/match/fiorentina-vs-bologna-2026-12-20/"
+  },
+  {
+   "date": "2026-12-20T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "Cambuur",
+   "away": "Groningen",
+   "pHome": 0.2816,
+   "pDraw": 0.2802,
+   "pAway": 0.4383,
+   "xgHome": 1.22,
+   "xgAway": 1.56,
+   "url": "https://theopenmodel.com/match/cambuur-vs-groningen-2026-12-20/"
+  },
+  {
+   "date": "2026-12-20T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "Feyenoord",
+   "away": "Twente",
+   "pHome": 0.4759,
+   "pDraw": 0.2749,
+   "pAway": 0.2492,
+   "xgHome": 1.64,
+   "xgAway": 1.14,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-twente-2026-12-20/"
   },
   {
    "date": "2026-12-20T14:00:00+00:00",
@@ -9623,6 +11573,19 @@
    "url": "https://theopenmodel.com/match/venezia-vs-monza-2026-12-20/"
   },
   {
+   "date": "2026-12-20T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "Go Ahead Eagles",
+   "away": "Ajax",
+   "pHome": 0.2629,
+   "pDraw": 0.2774,
+   "pAway": 0.4598,
+   "xgHome": 1.17,
+   "xgAway": 1.61,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-ajax-2026-12-20/"
+  },
+  {
    "date": "2026-12-20T17:00:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 16",
@@ -9634,6 +11597,19 @@
    "xgHome": 1.36,
    "xgAway": 1.42,
    "url": "https://theopenmodel.com/match/genoa-vs-udinese-2026-12-20/"
+  },
+  {
+   "date": "2026-12-20T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 17",
+   "home": "PSV",
+   "away": "Zwolle",
+   "pHome": 0.7814,
+   "pDraw": 0.1678,
+   "pAway": 0.0508,
+   "xgHome": 2.31,
+   "xgAway": 0.47,
+   "url": "https://theopenmodel.com/match/psv-vs-zwolle-2026-12-20/"
   },
   {
    "date": "2026-12-20T19:45:00+00:00",
@@ -10676,6 +12652,19 @@
    "url": "https://theopenmodel.com/match/man-united-vs-newcastle-2027-01-07/"
   },
   {
+   "date": "2027-01-08T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "Twente",
+   "away": "Sittard",
+   "pHome": 0.6266,
+   "pDraw": 0.2362,
+   "pAway": 0.1372,
+   "xgHome": 1.96,
+   "xgAway": 0.82,
+   "url": "https://theopenmodel.com/match/twente-vs-sittard-2027-01-08/"
+  },
+  {
    "date": "2027-01-09T00:00:00+00:00",
    "league": "bundesliga",
    "round": "Regular Season - 15",
@@ -10806,6 +12795,19 @@
    "url": "https://theopenmodel.com/match/monza-vs-frosinone-2027-01-09/"
   },
   {
+   "date": "2027-01-09T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "Sparta",
+   "away": "Excelsior",
+   "pHome": 0.4011,
+   "pDraw": 0.2835,
+   "pAway": 0.3154,
+   "xgHome": 1.49,
+   "xgAway": 1.3,
+   "url": "https://theopenmodel.com/match/sparta-vs-excelsior-2027-01-09/"
+  },
+  {
    "date": "2027-01-09T17:00:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 19",
@@ -10819,6 +12821,32 @@
    "url": "https://theopenmodel.com/match/roma-vs-milan-2027-01-09/"
   },
   {
+   "date": "2027-01-09T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "Zwolle",
+   "away": "Utrecht",
+   "pHome": 0.2911,
+   "pDraw": 0.2813,
+   "pAway": 0.4276,
+   "xgHome": 1.24,
+   "xgAway": 1.54,
+   "url": "https://theopenmodel.com/match/zwolle-vs-utrecht-2027-01-09/"
+  },
+  {
+   "date": "2027-01-09T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "Willem II",
+   "away": "Ajax",
+   "pHome": 0.1323,
+   "pDraw": 0.2335,
+   "pAway": 0.6342,
+   "xgHome": 0.81,
+   "xgAway": 1.97,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-ajax-2027-01-09/"
+  },
+  {
    "date": "2027-01-09T19:45:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 19",
@@ -10830,6 +12858,19 @@
    "xgHome": 1.76,
    "xgAway": 1.02,
    "url": "https://theopenmodel.com/match/bologna-vs-genoa-2027-01-09/"
+  },
+  {
+   "date": "2027-01-09T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "AZ",
+   "away": "Heerenveen",
+   "pHome": 0.5805,
+   "pDraw": 0.2509,
+   "pAway": 0.1686,
+   "xgHome": 1.86,
+   "xgAway": 0.92,
+   "url": "https://theopenmodel.com/match/az-vs-heerenveen-2027-01-09/"
   },
   {
    "date": "2027-01-10T00:00:00+00:00",
@@ -10962,6 +13003,19 @@
    "url": "https://theopenmodel.com/match/elche-vs-getafe-2027-01-10/"
   },
   {
+   "date": "2027-01-10T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "Nijmegen",
+   "away": "Cambuur",
+   "pHome": 0.6255,
+   "pDraw": 0.2366,
+   "pAway": 0.138,
+   "xgHome": 1.96,
+   "xgAway": 0.83,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-cambuur-2027-01-10/"
+  },
+  {
    "date": "2027-01-10T11:30:00+00:00",
    "league": "serie-a",
    "round": "Regular Season - 19",
@@ -10973,6 +13027,32 @@
    "xgHome": 1.52,
    "xgAway": 1.26,
    "url": "https://theopenmodel.com/match/como-vs-lazio-2027-01-10/"
+  },
+  {
+   "date": "2027-01-10T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "Feyenoord",
+   "away": "PSV",
+   "pHome": 0.3381,
+   "pDraw": 0.2847,
+   "pAway": 0.3773,
+   "xgHome": 1.35,
+   "xgAway": 1.43,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-psv-2027-01-10/"
+  },
+  {
+   "date": "2027-01-10T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "Den Haag",
+   "away": "Telstar",
+   "pHome": 0.3999,
+   "pDraw": 0.2836,
+   "pAway": 0.3165,
+   "xgHome": 1.48,
+   "xgAway": 1.3,
+   "url": "https://theopenmodel.com/match/den-haag-vs-telstar-2027-01-10/"
   },
   {
    "date": "2027-01-10T14:00:00+00:00",
@@ -10999,6 +13079,19 @@
    "xgHome": 1.59,
    "xgAway": 1.19,
    "url": "https://theopenmodel.com/match/parma-vs-venezia-2027-01-10/"
+  },
+  {
+   "date": "2027-01-10T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 18",
+   "home": "Groningen",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.3848,
+   "pDraw": 0.2844,
+   "pAway": 0.3308,
+   "xgHome": 1.45,
+   "xgAway": 1.33,
+   "url": "https://theopenmodel.com/match/groningen-vs-go-ahead-eagles-2027-01-10/"
   },
   {
    "date": "2027-01-10T17:00:00+00:00",
@@ -11168,6 +13261,19 @@
    "xgHome": 1.42,
    "xgAway": 1.37,
    "url": "https://theopenmodel.com/match/elversberg-vs-frankfurt-2027-01-13/"
+  },
+  {
+   "date": "2027-01-15T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Heerenveen",
+   "away": "Sparta",
+   "pHome": 0.4819,
+   "pDraw": 0.2739,
+   "pAway": 0.2442,
+   "xgHome": 1.66,
+   "xgAway": 1.13,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-sparta-2027-01-15/"
   },
   {
    "date": "2027-01-16T00:00:00+00:00",
@@ -11534,6 +13640,58 @@
    "url": "https://theopenmodel.com/match/coventry-vs-everton-2027-01-16/"
   },
   {
+   "date": "2027-01-16T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Telstar",
+   "away": "Nijmegen",
+   "pHome": 0.2619,
+   "pDraw": 0.2772,
+   "pAway": 0.4609,
+   "xgHome": 1.17,
+   "xgAway": 1.61,
+   "url": "https://theopenmodel.com/match/telstar-vs-nijmegen-2027-01-16/"
+  },
+  {
+   "date": "2027-01-16T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Excelsior",
+   "away": "Feyenoord",
+   "pHome": 0.1899,
+   "pDraw": 0.259,
+   "pAway": 0.5512,
+   "xgHome": 0.98,
+   "xgAway": 1.8,
+   "url": "https://theopenmodel.com/match/excelsior-vs-feyenoord-2027-01-16/"
+  },
+  {
+   "date": "2027-01-16T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Den Haag",
+   "away": "Zwolle",
+   "pHome": 0.3802,
+   "pDraw": 0.2846,
+   "pAway": 0.3353,
+   "xgHome": 1.44,
+   "xgAway": 1.34,
+   "url": "https://theopenmodel.com/match/den-haag-vs-zwolle-2027-01-16/"
+  },
+  {
+   "date": "2027-01-16T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Sittard",
+   "away": "PSV",
+   "pHome": 0.122,
+   "pDraw": 0.2276,
+   "pAway": 0.6505,
+   "xgHome": 0.77,
+   "xgAway": 2.01,
+   "url": "https://theopenmodel.com/match/sittard-vs-psv-2027-01-16/"
+  },
+  {
    "date": "2027-01-17T00:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 20",
@@ -11792,6 +13950,71 @@
    "xgHome": 1.35,
    "xgAway": 1.44,
    "url": "https://theopenmodel.com/match/lecce-vs-udinese-2027-01-17/"
+  },
+  {
+   "date": "2027-01-17T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Utrecht",
+   "away": "Twente",
+   "pHome": 0.3094,
+   "pDraw": 0.2831,
+   "pAway": 0.4075,
+   "xgHome": 1.28,
+   "xgAway": 1.5,
+   "url": "https://theopenmodel.com/match/utrecht-vs-twente-2027-01-17/"
+  },
+  {
+   "date": "2027-01-17T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Go Ahead Eagles",
+   "away": "AZ",
+   "pHome": 0.2588,
+   "pDraw": 0.2767,
+   "pAway": 0.4645,
+   "xgHome": 1.16,
+   "xgAway": 1.62,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-az-2027-01-17/"
+  },
+  {
+   "date": "2027-01-17T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Ajax",
+   "away": "Groningen",
+   "pHome": 0.6066,
+   "pDraw": 0.2429,
+   "pAway": 0.1505,
+   "xgHome": 1.92,
+   "xgAway": 0.87,
+   "url": "https://theopenmodel.com/match/ajax-vs-groningen-2027-01-17/"
+  },
+  {
+   "date": "2027-01-17T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 19",
+   "home": "Cambuur",
+   "away": "Willem II",
+   "pHome": 0.4175,
+   "pDraw": 0.2823,
+   "pAway": 0.3002,
+   "xgHome": 1.52,
+   "xgAway": 1.26,
+   "url": "https://theopenmodel.com/match/cambuur-vs-willem-ii-2027-01-17/"
+  },
+  {
+   "date": "2027-01-22T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "Excelsior",
+   "away": "Sittard",
+   "pHome": 0.4353,
+   "pDraw": 0.2805,
+   "pAway": 0.2842,
+   "xgHome": 1.56,
+   "xgAway": 1.22,
+   "url": "https://theopenmodel.com/match/excelsior-vs-sittard-2027-01-22/"
   },
   {
    "date": "2027-01-23T00:00:00+00:00",
@@ -12158,6 +14381,58 @@
    "url": "https://theopenmodel.com/match/sunderland-vs-coventry-2027-01-23/"
   },
   {
+   "date": "2027-01-23T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "Ajax",
+   "away": "Telstar",
+   "pHome": 0.6964,
+   "pDraw": 0.209,
+   "pAway": 0.0945,
+   "xgHome": 2.11,
+   "xgAway": 0.67,
+   "url": "https://theopenmodel.com/match/ajax-vs-telstar-2027-01-23/"
+  },
+  {
+   "date": "2027-01-23T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "Feyenoord",
+   "away": "Zwolle",
+   "pHome": 0.7119,
+   "pDraw": 0.2022,
+   "pAway": 0.0859,
+   "xgHome": 2.15,
+   "xgAway": 0.64,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-zwolle-2027-01-23/"
+  },
+  {
+   "date": "2027-01-23T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "Twente",
+   "away": "Heerenveen",
+   "pHome": 0.5506,
+   "pDraw": 0.2591,
+   "pAway": 0.1903,
+   "xgHome": 1.8,
+   "xgAway": 0.98,
+   "url": "https://theopenmodel.com/match/twente-vs-heerenveen-2027-01-23/"
+  },
+  {
+   "date": "2027-01-23T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "PSV",
+   "away": "Den Haag",
+   "pHome": 0.8098,
+   "pDraw": 0.1518,
+   "pAway": 0.0384,
+   "xgHome": 2.38,
+   "xgAway": 0.4,
+   "url": "https://theopenmodel.com/match/psv-vs-den-haag-2027-01-23/"
+  },
+  {
    "date": "2027-01-24T00:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 21",
@@ -12416,6 +14691,71 @@
    "xgHome": 1.07,
    "xgAway": 1.71,
    "url": "https://theopenmodel.com/match/monza-vs-lazio-2027-01-24/"
+  },
+  {
+   "date": "2027-01-24T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "Go Ahead Eagles",
+   "away": "Cambuur",
+   "pHome": 0.5853,
+   "pDraw": 0.2495,
+   "pAway": 0.1652,
+   "xgHome": 1.87,
+   "xgAway": 0.91,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-cambuur-2027-01-24/"
+  },
+  {
+   "date": "2027-01-24T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "Nijmegen",
+   "away": "Willem II",
+   "pHome": 0.629,
+   "pDraw": 0.2354,
+   "pAway": 0.1357,
+   "xgHome": 1.96,
+   "xgAway": 0.82,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-willem-ii-2027-01-24/"
+  },
+  {
+   "date": "2027-01-24T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "Sparta",
+   "away": "Groningen",
+   "pHome": 0.3779,
+   "pDraw": 0.2846,
+   "pAway": 0.3375,
+   "xgHome": 1.44,
+   "xgAway": 1.35,
+   "url": "https://theopenmodel.com/match/sparta-vs-groningen-2027-01-24/"
+  },
+  {
+   "date": "2027-01-24T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 20",
+   "home": "AZ",
+   "away": "Utrecht",
+   "pHome": 0.5542,
+   "pDraw": 0.2582,
+   "pAway": 0.1876,
+   "xgHome": 1.81,
+   "xgAway": 0.98,
+   "url": "https://theopenmodel.com/match/az-vs-utrecht-2027-01-24/"
+  },
+  {
+   "date": "2027-01-29T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "Utrecht",
+   "away": "Excelsior",
+   "pHome": 0.4952,
+   "pDraw": 0.2715,
+   "pAway": 0.2333,
+   "xgHome": 1.68,
+   "xgAway": 1.1,
+   "url": "https://theopenmodel.com/match/utrecht-vs-excelsior-2027-01-29/"
   },
   {
    "date": "2027-01-30T00:00:00+00:00",
@@ -12782,6 +15122,58 @@
    "url": "https://theopenmodel.com/match/coventry-vs-leeds-2027-01-30/"
   },
   {
+   "date": "2027-01-30T15:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "Sparta",
+   "away": "Telstar",
+   "pHome": 0.4699,
+   "pDraw": 0.2758,
+   "pAway": 0.2542,
+   "xgHome": 1.63,
+   "xgAway": 1.15,
+   "url": "https://theopenmodel.com/match/sparta-vs-telstar-2027-01-30/"
+  },
+  {
+   "date": "2027-01-30T17:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "Den Haag",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.2847,
+   "pDraw": 0.2806,
+   "pAway": 0.4347,
+   "xgHome": 1.23,
+   "xgAway": 1.56,
+   "url": "https://theopenmodel.com/match/den-haag-vs-go-ahead-eagles-2027-01-30/"
+  },
+  {
+   "date": "2027-01-30T19:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "Willem II",
+   "away": "PSV",
+   "pHome": 0.0696,
+   "pDraw": 0.1878,
+   "pAway": 0.7427,
+   "xgHome": 0.57,
+   "xgAway": 2.22,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-psv-2027-01-30/"
+  },
+  {
+   "date": "2027-01-30T20:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "Zwolle",
+   "away": "Sittard",
+   "pHome": 0.3871,
+   "pDraw": 0.2843,
+   "pAway": 0.3286,
+   "xgHome": 1.46,
+   "xgAway": 1.33,
+   "url": "https://theopenmodel.com/match/zwolle-vs-sittard-2027-01-30/"
+  },
+  {
    "date": "2027-01-31T00:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 22",
@@ -13042,6 +15434,58 @@
    "url": "https://theopenmodel.com/match/monza-vs-roma-2027-01-31/"
   },
   {
+   "date": "2027-01-31T11:15:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "Heerenveen",
+   "away": "Ajax",
+   "pHome": 0.2639,
+   "pDraw": 0.2775,
+   "pAway": 0.4586,
+   "xgHome": 1.18,
+   "xgAway": 1.61,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-ajax-2027-01-31/"
+  },
+  {
+   "date": "2027-01-31T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "Twente",
+   "away": "Cambuur",
+   "pHome": 0.7174,
+   "pDraw": 0.1997,
+   "pAway": 0.0829,
+   "xgHome": 2.16,
+   "xgAway": 0.62,
+   "url": "https://theopenmodel.com/match/twente-vs-cambuur-2027-01-31/"
+  },
+  {
+   "date": "2027-01-31T13:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "AZ",
+   "away": "Feyenoord",
+   "pHome": 0.3825,
+   "pDraw": 0.2845,
+   "pAway": 0.333,
+   "xgHome": 1.45,
+   "xgAway": 1.34,
+   "url": "https://theopenmodel.com/match/az-vs-feyenoord-2027-01-31/"
+  },
+  {
+   "date": "2027-01-31T15:45:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 21",
+   "home": "Groningen",
+   "away": "Nijmegen",
+   "pHome": 0.3459,
+   "pDraw": 0.2848,
+   "pAway": 0.3692,
+   "xgHome": 1.36,
+   "xgAway": 1.42,
+   "url": "https://theopenmodel.com/match/groningen-vs-nijmegen-2027-01-31/"
+  },
+  {
    "date": "2027-02-06T00:00:00+00:00",
    "league": "bundesliga",
    "round": "Regular Season - 20",
@@ -13261,6 +15705,19 @@
    "xgHome": 1.34,
    "xgAway": 1.44,
    "url": "https://theopenmodel.com/match/rennes-vs-lyon-2027-02-06/"
+  },
+  {
+   "date": "2027-02-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 16",
+   "home": "Twente",
+   "away": "Sparta",
+   "pHome": 0.6184,
+   "pDraw": 0.239,
+   "pAway": 0.1426,
+   "xgHome": 1.94,
+   "xgAway": 0.84,
+   "url": "https://theopenmodel.com/match/twente-vs-sparta-2027-02-06/"
   },
   {
    "date": "2027-02-06T15:00:00+00:00",
@@ -14030,6 +16487,123 @@
    "url": "https://theopenmodel.com/match/brest-vs-rennes-2027-02-13/"
   },
   {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "Telstar",
+   "away": "Heerenveen",
+   "pHome": 0.2964,
+   "pDraw": 0.2819,
+   "pAway": 0.4217,
+   "xgHome": 1.25,
+   "xgAway": 1.53,
+   "url": "https://theopenmodel.com/match/telstar-vs-heerenveen-2027-02-13/"
+  },
+  {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "Sittard",
+   "away": "Den Haag",
+   "pHome": 0.4759,
+   "pDraw": 0.2749,
+   "pAway": 0.2492,
+   "xgHome": 1.64,
+   "xgAway": 1.14,
+   "url": "https://theopenmodel.com/match/sittard-vs-den-haag-2027-02-13/"
+  },
+  {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "Feyenoord",
+   "away": "Nijmegen",
+   "pHome": 0.5733,
+   "pDraw": 0.253,
+   "pAway": 0.1737,
+   "xgHome": 1.85,
+   "xgAway": 0.94,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-nijmegen-2027-02-13/"
+  },
+  {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "Cambuur",
+   "away": "Utrecht",
+   "pHome": 0.2329,
+   "pDraw": 0.2714,
+   "pAway": 0.4958,
+   "xgHome": 1.1,
+   "xgAway": 1.68,
+   "url": "https://theopenmodel.com/match/cambuur-vs-utrecht-2027-02-13/"
+  },
+  {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "PSV",
+   "away": "Twente",
+   "pHome": 0.5554,
+   "pDraw": 0.2579,
+   "pAway": 0.1868,
+   "xgHome": 1.81,
+   "xgAway": 0.97,
+   "url": "https://theopenmodel.com/match/psv-vs-twente-2027-02-13/"
+  },
+  {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "Groningen",
+   "away": "AZ",
+   "pHome": 0.2338,
+   "pDraw": 0.2716,
+   "pAway": 0.4946,
+   "xgHome": 1.1,
+   "xgAway": 1.68,
+   "url": "https://theopenmodel.com/match/groningen-vs-az-2027-02-13/"
+  },
+  {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "Go Ahead Eagles",
+   "away": "Zwolle",
+   "pHome": 0.5169,
+   "pDraw": 0.2671,
+   "pAway": 0.2161,
+   "xgHome": 1.73,
+   "xgAway": 1.05,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-zwolle-2027-02-13/"
+  },
+  {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "Excelsior",
+   "away": "Ajax",
+   "pHome": 0.2184,
+   "pDraw": 0.2677,
+   "pAway": 0.5139,
+   "xgHome": 1.06,
+   "xgAway": 1.72,
+   "url": "https://theopenmodel.com/match/excelsior-vs-ajax-2027-02-13/"
+  },
+  {
+   "date": "2027-02-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 22",
+   "home": "Willem II",
+   "away": "Sparta",
+   "pHome": 0.3116,
+   "pDraw": 0.2832,
+   "pAway": 0.4052,
+   "xgHome": 1.29,
+   "xgAway": 1.49,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-sparta-2027-02-13/"
+  },
+  {
    "date": "2027-02-14T00:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 24",
@@ -14522,6 +17096,123 @@
    "xgHome": 1.71,
    "xgAway": 1.07,
    "url": "https://theopenmodel.com/match/rennes-vs-toulouse-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "Nijmegen",
+   "away": "Sparta",
+   "pHome": 0.5217,
+   "pDraw": 0.266,
+   "pAway": 0.2123,
+   "xgHome": 1.74,
+   "xgAway": 1.04,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-sparta-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "Feyenoord",
+   "away": "Telstar",
+   "pHome": 0.7304,
+   "pDraw": 0.1937,
+   "pAway": 0.0759,
+   "xgHome": 2.19,
+   "xgAway": 0.59,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-telstar-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "Utrecht",
+   "away": "Den Haag",
+   "pHome": 0.5793,
+   "pDraw": 0.2513,
+   "pAway": 0.1694,
+   "xgHome": 1.86,
+   "xgAway": 0.92,
+   "url": "https://theopenmodel.com/match/utrecht-vs-den-haag-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "AZ",
+   "away": "Sittard",
+   "pHome": 0.6557,
+   "pDraw": 0.2256,
+   "pAway": 0.1187,
+   "xgHome": 2.02,
+   "xgAway": 0.76,
+   "url": "https://theopenmodel.com/match/az-vs-sittard-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "Heerenveen",
+   "away": "Willem II",
+   "pHome": 0.59,
+   "pDraw": 0.2481,
+   "pAway": 0.1619,
+   "xgHome": 1.88,
+   "xgAway": 0.9,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-willem-ii-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "Zwolle",
+   "away": "Groningen",
+   "pHome": 0.3437,
+   "pDraw": 0.2848,
+   "pAway": 0.3715,
+   "xgHome": 1.36,
+   "xgAway": 1.42,
+   "url": "https://theopenmodel.com/match/zwolle-vs-groningen-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "Ajax",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.5769,
+   "pDraw": 0.2519,
+   "pAway": 0.1711,
+   "xgHome": 1.85,
+   "xgAway": 0.93,
+   "url": "https://theopenmodel.com/match/ajax-vs-go-ahead-eagles-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "PSV",
+   "away": "Cambuur",
+   "pHome": 0.8358,
+   "pDraw": 0.1361,
+   "pAway": 0.0281,
+   "xgHome": 2.45,
+   "xgAway": 0.33,
+   "url": "https://theopenmodel.com/match/psv-vs-cambuur-2027-02-20/"
+  },
+  {
+   "date": "2027-02-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 23",
+   "home": "Twente",
+   "away": "Excelsior",
+   "pHome": 0.6055,
+   "pDraw": 0.2432,
+   "pAway": 0.1513,
+   "xgHome": 1.91,
+   "xgAway": 0.87,
+   "url": "https://theopenmodel.com/match/twente-vs-excelsior-2027-02-20/"
   },
   {
    "date": "2027-02-20T15:00:00+00:00",
@@ -15133,6 +17824,123 @@
    "xgHome": 1.48,
    "xgAway": 1.3,
    "url": "https://theopenmodel.com/match/marseille-vs-rennes-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Sparta",
+   "away": "PSV",
+   "pHome": 0.1271,
+   "pDraw": 0.2306,
+   "pAway": 0.6424,
+   "xgHome": 0.79,
+   "xgAway": 1.99,
+   "url": "https://theopenmodel.com/match/sparta-vs-psv-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Nijmegen",
+   "away": "AZ",
+   "pHome": 0.2943,
+   "pDraw": 0.2817,
+   "pAway": 0.424,
+   "xgHome": 1.25,
+   "xgAway": 1.53,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-az-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Cambuur",
+   "away": "Zwolle",
+   "pHome": 0.3482,
+   "pDraw": 0.2849,
+   "pAway": 0.3669,
+   "xgHome": 1.37,
+   "xgAway": 1.41,
+   "url": "https://theopenmodel.com/match/cambuur-vs-zwolle-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Excelsior",
+   "away": "Heerenveen",
+   "pHome": 0.3607,
+   "pDraw": 0.2849,
+   "pAway": 0.3544,
+   "xgHome": 1.4,
+   "xgAway": 1.38,
+   "url": "https://theopenmodel.com/match/excelsior-vs-heerenveen-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Den Haag",
+   "away": "Twente",
+   "pHome": 0.1741,
+   "pDraw": 0.2531,
+   "pAway": 0.5727,
+   "xgHome": 0.94,
+   "xgAway": 1.84,
+   "url": "https://theopenmodel.com/match/den-haag-vs-twente-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Ajax",
+   "away": "Feyenoord",
+   "pHome": 0.3779,
+   "pDraw": 0.2846,
+   "pAway": 0.3375,
+   "xgHome": 1.44,
+   "xgAway": 1.35,
+   "url": "https://theopenmodel.com/match/ajax-vs-feyenoord-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Willem II",
+   "away": "Groningen",
+   "pHome": 0.2784,
+   "pDraw": 0.2797,
+   "pAway": 0.4418,
+   "xgHome": 1.21,
+   "xgAway": 1.57,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-groningen-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Sittard",
+   "away": "Utrecht",
+   "pHome": 0.3159,
+   "pDraw": 0.2836,
+   "pAway": 0.4005,
+   "xgHome": 1.3,
+   "xgAway": 1.48,
+   "url": "https://theopenmodel.com/match/sittard-vs-utrecht-2027-02-27/"
+  },
+  {
+   "date": "2027-02-27T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 24",
+   "home": "Telstar",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.2975,
+   "pDraw": 0.282,
+   "pAway": 0.4205,
+   "xgHome": 1.26,
+   "xgAway": 1.53,
+   "url": "https://theopenmodel.com/match/telstar-vs-go-ahead-eagles-2027-02-27/"
   },
   {
    "date": "2027-02-27T15:00:00+00:00",
@@ -16006,6 +18814,123 @@
    "url": "https://theopenmodel.com/match/lens-vs-strasbourg-2027-03-06/"
   },
   {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "Twente",
+   "away": "AZ",
+   "pHome": 0.3848,
+   "pDraw": 0.2844,
+   "pAway": 0.3308,
+   "xgHome": 1.45,
+   "xgAway": 1.33,
+   "url": "https://theopenmodel.com/match/twente-vs-az-2027-03-06/"
+  },
+  {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "Feyenoord",
+   "away": "Heerenveen",
+   "pHome": 0.6125,
+   "pDraw": 0.2409,
+   "pAway": 0.1465,
+   "xgHome": 1.93,
+   "xgAway": 0.85,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-heerenveen-2027-03-06/"
+  },
+  {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "Go Ahead Eagles",
+   "away": "Excelsior",
+   "pHome": 0.4675,
+   "pDraw": 0.2762,
+   "pAway": 0.2562,
+   "xgHome": 1.63,
+   "xgAway": 1.16,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-excelsior-2027-03-06/"
+  },
+  {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "PSV",
+   "away": "Utrecht",
+   "pHome": 0.6637,
+   "pDraw": 0.2225,
+   "pAway": 0.1138,
+   "xgHome": 2.04,
+   "xgAway": 0.74,
+   "url": "https://theopenmodel.com/match/psv-vs-utrecht-2027-03-06/"
+  },
+  {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "Den Haag",
+   "away": "Ajax",
+   "pHome": 0.1566,
+   "pDraw": 0.2457,
+   "pAway": 0.5978,
+   "xgHome": 0.89,
+   "xgAway": 1.9,
+   "url": "https://theopenmodel.com/match/den-haag-vs-ajax-2027-03-06/"
+  },
+  {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "Groningen",
+   "away": "Telstar",
+   "pHome": 0.5072,
+   "pDraw": 0.2691,
+   "pAway": 0.2237,
+   "xgHome": 1.71,
+   "xgAway": 1.07,
+   "url": "https://theopenmodel.com/match/groningen-vs-telstar-2027-03-06/"
+  },
+  {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "Zwolle",
+   "away": "Willem II",
+   "pHome": 0.4856,
+   "pDraw": 0.2732,
+   "pAway": 0.2412,
+   "xgHome": 1.66,
+   "xgAway": 1.12,
+   "url": "https://theopenmodel.com/match/zwolle-vs-willem-ii-2027-03-06/"
+  },
+  {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "Sittard",
+   "away": "Nijmegen",
+   "pHome": 0.304,
+   "pDraw": 0.2826,
+   "pAway": 0.4134,
+   "xgHome": 1.27,
+   "xgAway": 1.51,
+   "url": "https://theopenmodel.com/match/sittard-vs-nijmegen-2027-03-06/"
+  },
+  {
+   "date": "2027-03-06T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 25",
+   "home": "Sparta",
+   "away": "Cambuur",
+   "pHome": 0.5181,
+   "pDraw": 0.2668,
+   "pAway": 0.2151,
+   "xgHome": 1.73,
+   "xgAway": 1.05,
+   "url": "https://theopenmodel.com/match/sparta-vs-cambuur-2027-03-06/"
+  },
+  {
    "date": "2027-03-06T16:00:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 23",
@@ -16511,6 +19436,123 @@
    "xgHome": 1.15,
    "xgAway": 1.64,
    "url": "https://theopenmodel.com/match/le-mans-vs-rennes-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "Ajax",
+   "away": "Zwolle",
+   "pHome": 0.6774,
+   "pDraw": 0.217,
+   "pAway": 0.1056,
+   "xgHome": 2.07,
+   "xgAway": 0.71,
+   "url": "https://theopenmodel.com/match/ajax-vs-zwolle-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "Cambuur",
+   "away": "Den Haag",
+   "pHome": 0.3813,
+   "pDraw": 0.2845,
+   "pAway": 0.3342,
+   "xgHome": 1.44,
+   "xgAway": 1.34,
+   "url": "https://theopenmodel.com/match/cambuur-vs-den-haag-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "Excelsior",
+   "away": "Nijmegen",
+   "pHome": 0.3236,
+   "pDraw": 0.284,
+   "pAway": 0.3923,
+   "xgHome": 1.32,
+   "xgAway": 1.47,
+   "url": "https://theopenmodel.com/match/excelsior-vs-nijmegen-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "Go Ahead Eagles",
+   "away": "Feyenoord",
+   "pHome": 0.2319,
+   "pDraw": 0.2711,
+   "pAway": 0.497,
+   "xgHome": 1.1,
+   "xgAway": 1.69,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-feyenoord-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "Telstar",
+   "away": "PSV",
+   "pHome": 0.0948,
+   "pDraw": 0.2093,
+   "pAway": 0.6959,
+   "xgHome": 0.67,
+   "xgAway": 2.11,
+   "url": "https://theopenmodel.com/match/telstar-vs-psv-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "AZ",
+   "away": "Sparta",
+   "pHome": 0.6476,
+   "pDraw": 0.2286,
+   "pAway": 0.1238,
+   "xgHome": 2,
+   "xgAway": 0.78,
+   "url": "https://theopenmodel.com/match/az-vs-sparta-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "Willem II",
+   "away": "Twente",
+   "pHome": 0.1485,
+   "pDraw": 0.2419,
+   "pAway": 0.6096,
+   "xgHome": 0.86,
+   "xgAway": 1.92,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-twente-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "Utrecht",
+   "away": "Groningen",
+   "pHome": 0.4711,
+   "pDraw": 0.2757,
+   "pAway": 0.2532,
+   "xgHome": 1.63,
+   "xgAway": 1.15,
+   "url": "https://theopenmodel.com/match/utrecht-vs-groningen-2027-03-13/"
+  },
+  {
+   "date": "2027-03-13T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 26",
+   "home": "Heerenveen",
+   "away": "Sittard",
+   "pHome": 0.4904,
+   "pDraw": 0.2724,
+   "pAway": 0.2373,
+   "xgHome": 1.67,
+   "xgAway": 1.11,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-sittard-2027-03-13/"
   },
   {
    "date": "2027-03-13T15:00:00+00:00",
@@ -17122,6 +20164,123 @@
    "xgHome": 1.56,
    "xgAway": 1.22,
    "url": "https://theopenmodel.com/match/rennes-vs-paris-fc-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "Utrecht",
+   "away": "Sparta",
+   "pHome": 0.5084,
+   "pDraw": 0.2689,
+   "pAway": 0.2227,
+   "xgHome": 1.71,
+   "xgAway": 1.07,
+   "url": "https://theopenmodel.com/match/utrecht-vs-sparta-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "Feyenoord",
+   "away": "Cambuur",
+   "pHome": 0.7723,
+   "pDraw": 0.1727,
+   "pAway": 0.0551,
+   "xgHome": 2.29,
+   "xgAway": 0.49,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-cambuur-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "AZ",
+   "away": "Excelsior",
+   "pHome": 0.6348,
+   "pDraw": 0.2333,
+   "pAway": 0.1319,
+   "xgHome": 1.98,
+   "xgAway": 0.81,
+   "url": "https://theopenmodel.com/match/az-vs-excelsior-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "Zwolle",
+   "away": "Heerenveen",
+   "pHome": 0.3148,
+   "pDraw": 0.2835,
+   "pAway": 0.4017,
+   "xgHome": 1.3,
+   "xgAway": 1.49,
+   "url": "https://theopenmodel.com/match/zwolle-vs-heerenveen-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "Telstar",
+   "away": "Sittard",
+   "pHome": 0.3675,
+   "pDraw": 0.2849,
+   "pAway": 0.3476,
+   "xgHome": 1.41,
+   "xgAway": 1.37,
+   "url": "https://theopenmodel.com/match/telstar-vs-sittard-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "Nijmegen",
+   "away": "Ajax",
+   "pHome": 0.2986,
+   "pDraw": 0.2821,
+   "pAway": 0.4193,
+   "xgHome": 1.26,
+   "xgAway": 1.52,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-ajax-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "Groningen",
+   "away": "PSV",
+   "pHome": 0.1509,
+   "pDraw": 0.2431,
+   "pAway": 0.606,
+   "xgHome": 0.87,
+   "xgAway": 1.91,
+   "url": "https://theopenmodel.com/match/groningen-vs-psv-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "Den Haag",
+   "away": "Willem II",
+   "pHome": 0.4508,
+   "pDraw": 0.2786,
+   "pAway": 0.2706,
+   "xgHome": 1.59,
+   "xgAway": 1.19,
+   "url": "https://theopenmodel.com/match/den-haag-vs-willem-ii-2027-03-20/"
+  },
+  {
+   "date": "2027-03-20T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 27",
+   "home": "Twente",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.5518,
+   "pDraw": 0.2588,
+   "pAway": 0.1894,
+   "xgHome": 1.8,
+   "xgAway": 0.98,
+   "url": "https://theopenmodel.com/match/twente-vs-go-ahead-eagles-2027-03-20/"
   },
   {
    "date": "2027-03-20T15:00:00+00:00",
@@ -17761,6 +20920,123 @@
    "url": "https://theopenmodel.com/match/lille-vs-rennes-2027-04-03/"
   },
   {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "PSV",
+   "away": "AZ",
+   "pHome": 0.5253,
+   "pDraw": 0.2652,
+   "pAway": 0.2095,
+   "xgHome": 1.75,
+   "xgAway": 1.04,
+   "url": "https://theopenmodel.com/match/psv-vs-az-2027-04-03/"
+  },
+  {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "Sittard",
+   "away": "Feyenoord",
+   "pHome": 0.1741,
+   "pDraw": 0.2531,
+   "pAway": 0.5727,
+   "xgHome": 0.94,
+   "xgAway": 1.84,
+   "url": "https://theopenmodel.com/match/sittard-vs-feyenoord-2027-04-03/"
+  },
+  {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "Heerenveen",
+   "away": "Groningen",
+   "pHome": 0.4448,
+   "pDraw": 0.2794,
+   "pAway": 0.2758,
+   "xgHome": 1.58,
+   "xgAway": 1.2,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-groningen-2027-04-03/"
+  },
+  {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "Ajax",
+   "away": "Twente",
+   "pHome": 0.4389,
+   "pDraw": 0.2801,
+   "pAway": 0.281,
+   "xgHome": 1.57,
+   "xgAway": 1.22,
+   "url": "https://theopenmodel.com/match/ajax-vs-twente-2027-04-03/"
+  },
+  {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "Cambuur",
+   "away": "Telstar",
+   "pHome": 0.3675,
+   "pDraw": 0.2849,
+   "pAway": 0.3476,
+   "xgHome": 1.41,
+   "xgAway": 1.37,
+   "url": "https://theopenmodel.com/match/cambuur-vs-telstar-2027-04-03/"
+  },
+  {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "Excelsior",
+   "away": "Zwolle",
+   "pHome": 0.4627,
+   "pDraw": 0.2769,
+   "pAway": 0.2603,
+   "xgHome": 1.62,
+   "xgAway": 1.17,
+   "url": "https://theopenmodel.com/match/excelsior-vs-zwolle-2027-04-03/"
+  },
+  {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "Sparta",
+   "away": "Den Haag",
+   "pHome": 0.4844,
+   "pDraw": 0.2734,
+   "pAway": 0.2422,
+   "xgHome": 1.66,
+   "xgAway": 1.12,
+   "url": "https://theopenmodel.com/match/sparta-vs-den-haag-2027-04-03/"
+  },
+  {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "Go Ahead Eagles",
+   "away": "Nijmegen",
+   "pHome": 0.3744,
+   "pDraw": 0.2847,
+   "pAway": 0.3409,
+   "xgHome": 1.43,
+   "xgAway": 1.35,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-nijmegen-2027-04-03/"
+  },
+  {
+   "date": "2027-04-03T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 28",
+   "home": "Willem II",
+   "away": "Utrecht",
+   "pHome": 0.2299,
+   "pDraw": 0.2707,
+   "pAway": 0.4994,
+   "xgHome": 1.09,
+   "xgAway": 1.69,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-utrecht-2027-04-03/"
+  },
+  {
    "date": "2027-04-04T00:00:00+00:00",
    "league": "la-liga",
    "round": "Regular Season - 30",
@@ -18253,6 +21529,123 @@
    "xgHome": 1.72,
    "xgAway": 1.06,
    "url": "https://theopenmodel.com/match/monaco-vs-rennes-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Den Haag",
+   "away": "Feyenoord",
+   "pHome": 0.1323,
+   "pDraw": 0.2335,
+   "pAway": 0.6342,
+   "xgHome": 0.81,
+   "xgAway": 1.97,
+   "url": "https://theopenmodel.com/match/den-haag-vs-feyenoord-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Cambuur",
+   "away": "Sittard",
+   "pHome": 0.3225,
+   "pDraw": 0.284,
+   "pAway": 0.3935,
+   "xgHome": 1.31,
+   "xgAway": 1.47,
+   "url": "https://theopenmodel.com/match/cambuur-vs-sittard-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Nijmegen",
+   "away": "Heerenveen",
+   "pHome": 0.4532,
+   "pDraw": 0.2783,
+   "pAway": 0.2685,
+   "xgHome": 1.6,
+   "xgAway": 1.19,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-heerenveen-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Groningen",
+   "away": "Excelsior",
+   "pHome": 0.4377,
+   "pDraw": 0.2802,
+   "pAway": 0.2821,
+   "xgHome": 1.56,
+   "xgAway": 1.22,
+   "url": "https://theopenmodel.com/match/groningen-vs-excelsior-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Willem II",
+   "away": "AZ",
+   "pHome": 0.1293,
+   "pDraw": 0.2318,
+   "pAway": 0.6389,
+   "xgHome": 0.8,
+   "xgAway": 1.98,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-az-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Utrecht",
+   "away": "Ajax",
+   "pHome": 0.2868,
+   "pDraw": 0.2808,
+   "pAway": 0.4323,
+   "xgHome": 1.23,
+   "xgAway": 1.55,
+   "url": "https://theopenmodel.com/match/utrecht-vs-ajax-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Telstar",
+   "away": "Twente",
+   "pHome": 0.1845,
+   "pDraw": 0.2571,
+   "pAway": 0.5584,
+   "xgHome": 0.97,
+   "xgAway": 1.81,
+   "url": "https://theopenmodel.com/match/telstar-vs-twente-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Zwolle",
+   "away": "PSV",
+   "pHome": 0.1059,
+   "pDraw": 0.2173,
+   "pAway": 0.6768,
+   "xgHome": 0.72,
+   "xgAway": 2.07,
+   "url": "https://theopenmodel.com/match/zwolle-vs-psv-2027-04-10/"
+  },
+  {
+   "date": "2027-04-10T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 29",
+   "home": "Sparta",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.3493,
+   "pDraw": 0.2849,
+   "pAway": 0.3658,
+   "xgHome": 1.37,
+   "xgAway": 1.41,
+   "url": "https://theopenmodel.com/match/sparta-vs-go-ahead-eagles-2027-04-10/"
   },
   {
    "date": "2027-04-10T14:00:00+00:00",
@@ -19633,6 +23026,123 @@
    "url": "https://theopenmodel.com/match/strasbourg-vs-rennes-2027-04-24/"
   },
   {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "Twente",
+   "away": "Nijmegen",
+   "pHome": 0.5108,
+   "pDraw": 0.2684,
+   "pAway": 0.2208,
+   "xgHome": 1.72,
+   "xgAway": 1.07,
+   "url": "https://theopenmodel.com/match/twente-vs-nijmegen-2027-04-24/"
+  },
+  {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "Heerenveen",
+   "away": "Den Haag",
+   "pHome": 0.553,
+   "pDraw": 0.2585,
+   "pAway": 0.1885,
+   "xgHome": 1.8,
+   "xgAway": 0.98,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-den-haag-2027-04-24/"
+  },
+  {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "Excelsior",
+   "away": "Willem II",
+   "pHome": 0.5349,
+   "pDraw": 0.263,
+   "pAway": 0.2021,
+   "xgHome": 1.77,
+   "xgAway": 1.02,
+   "url": "https://theopenmodel.com/match/excelsior-vs-willem-ii-2027-04-24/"
+  },
+  {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "Go Ahead Eagles",
+   "away": "Utrecht",
+   "pHome": 0.3871,
+   "pDraw": 0.2843,
+   "pAway": 0.3286,
+   "xgHome": 1.46,
+   "xgAway": 1.33,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-utrecht-2027-04-24/"
+  },
+  {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "AZ",
+   "away": "Cambuur",
+   "pHome": 0.7443,
+   "pDraw": 0.187,
+   "pAway": 0.0688,
+   "xgHome": 2.22,
+   "xgAway": 0.56,
+   "url": "https://theopenmodel.com/match/az-vs-cambuur-2027-04-24/"
+  },
+  {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "Zwolle",
+   "away": "Telstar",
+   "pHome": 0.4341,
+   "pDraw": 0.2806,
+   "pAway": 0.2853,
+   "xgHome": 1.56,
+   "xgAway": 1.23,
+   "url": "https://theopenmodel.com/match/zwolle-vs-telstar-2027-04-24/"
+  },
+  {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "Sittard",
+   "away": "Groningen",
+   "pHome": 0.3698,
+   "pDraw": 0.2848,
+   "pAway": 0.3454,
+   "xgHome": 1.42,
+   "xgAway": 1.36,
+   "url": "https://theopenmodel.com/match/sittard-vs-groningen-2027-04-24/"
+  },
+  {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "Feyenoord",
+   "away": "Sparta",
+   "pHome": 0.6785,
+   "pDraw": 0.2166,
+   "pAway": 0.1049,
+   "xgHome": 2.07,
+   "xgAway": 0.71,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-sparta-2027-04-24/"
+  },
+  {
+   "date": "2027-04-24T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 30",
+   "home": "PSV",
+   "away": "Ajax",
+   "pHome": 0.5301,
+   "pDraw": 0.2641,
+   "pAway": 0.2058,
+   "xgHome": 1.76,
+   "xgAway": 1.03,
+   "url": "https://theopenmodel.com/match/psv-vs-ajax-2027-04-24/"
+  },
+  {
    "date": "2027-04-24T14:00:00+00:00",
    "league": "premier-league",
    "round": "Regular Season - 33",
@@ -20008,6 +23518,123 @@
    "xgHome": 1.77,
    "xgAway": 1.01,
    "url": "https://theopenmodel.com/match/rennes-vs-nice-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Go Ahead Eagles",
+   "away": "PSV",
+   "pHome": 0.1716,
+   "pDraw": 0.2521,
+   "pAway": 0.5763,
+   "xgHome": 0.93,
+   "xgAway": 1.85,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-psv-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Heerenveen",
+   "away": "Utrecht",
+   "pHome": 0.3883,
+   "pDraw": 0.2842,
+   "pAway": 0.3275,
+   "xgHome": 1.46,
+   "xgAway": 1.32,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-utrecht-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Sparta",
+   "away": "Twente",
+   "pHome": 0.228,
+   "pDraw": 0.2702,
+   "pAway": 0.5018,
+   "xgHome": 1.08,
+   "xgAway": 1.7,
+   "url": "https://theopenmodel.com/match/sparta-vs-twente-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Groningen",
+   "away": "Den Haag",
+   "pHome": 0.5217,
+   "pDraw": 0.266,
+   "pAway": 0.2123,
+   "xgHome": 1.74,
+   "xgAway": 1.04,
+   "url": "https://theopenmodel.com/match/groningen-vs-den-haag-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Nijmegen",
+   "away": "Zwolle",
+   "pHome": 0.5578,
+   "pDraw": 0.2572,
+   "pAway": 0.185,
+   "xgHome": 1.81,
+   "xgAway": 0.97,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-zwolle-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Ajax",
+   "away": "Sittard",
+   "pHome": 0.6511,
+   "pDraw": 0.2273,
+   "pAway": 0.1216,
+   "xgHome": 2.01,
+   "xgAway": 0.77,
+   "url": "https://theopenmodel.com/match/ajax-vs-sittard-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Excelsior",
+   "away": "Cambuur",
+   "pHome": 0.5313,
+   "pDraw": 0.2638,
+   "pAway": 0.2048,
+   "xgHome": 1.76,
+   "xgAway": 1.02,
+   "url": "https://theopenmodel.com/match/excelsior-vs-cambuur-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Telstar",
+   "away": "AZ",
+   "pHome": 0.1631,
+   "pDraw": 0.2486,
+   "pAway": 0.5883,
+   "xgHome": 0.91,
+   "xgAway": 1.88,
+   "url": "https://theopenmodel.com/match/telstar-vs-az-2027-05-01/"
+  },
+  {
+   "date": "2027-05-01T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 31",
+   "home": "Feyenoord",
+   "away": "Willem II",
+   "pHome": 0.7753,
+   "pDraw": 0.171,
+   "pAway": 0.0536,
+   "xgHome": 2.29,
+   "xgAway": 0.49,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-willem-ii-2027-05-01/"
   },
   {
    "date": "2027-05-01T14:00:00+00:00",
@@ -20619,6 +24246,123 @@
    "xgHome": 1.93,
    "xgAway": 0.85,
    "url": "https://theopenmodel.com/match/rennes-vs-le-havre-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "PSV",
+   "away": "Excelsior",
+   "pHome": 0.7389,
+   "pDraw": 0.1896,
+   "pAway": 0.0715,
+   "xgHome": 2.21,
+   "xgAway": 0.57,
+   "url": "https://theopenmodel.com/match/psv-vs-excelsior-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "Utrecht",
+   "away": "Feyenoord",
+   "pHome": 0.2547,
+   "pDraw": 0.2759,
+   "pAway": 0.4693,
+   "xgHome": 1.15,
+   "xgAway": 1.63,
+   "url": "https://theopenmodel.com/match/utrecht-vs-feyenoord-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "Twente",
+   "away": "Groningen",
+   "pHome": 0.5817,
+   "pDraw": 0.2506,
+   "pAway": 0.1677,
+   "xgHome": 1.86,
+   "xgAway": 0.92,
+   "url": "https://theopenmodel.com/match/twente-vs-groningen-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "Zwolle",
+   "away": "Sparta",
+   "pHome": 0.379,
+   "pDraw": 0.2846,
+   "pAway": 0.3364,
+   "xgHome": 1.44,
+   "xgAway": 1.34,
+   "url": "https://theopenmodel.com/match/zwolle-vs-sparta-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "Sittard",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.3414,
+   "pDraw": 0.2847,
+   "pAway": 0.3738,
+   "xgHome": 1.35,
+   "xgAway": 1.43,
+   "url": "https://theopenmodel.com/match/sittard-vs-go-ahead-eagles-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "Cambuur",
+   "away": "Heerenveen",
+   "pHome": 0.2547,
+   "pDraw": 0.2759,
+   "pAway": 0.4693,
+   "xgHome": 1.15,
+   "xgAway": 1.63,
+   "url": "https://theopenmodel.com/match/cambuur-vs-heerenveen-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "AZ",
+   "away": "Ajax",
+   "pHome": 0.4187,
+   "pDraw": 0.2822,
+   "pAway": 0.2991,
+   "xgHome": 1.52,
+   "xgAway": 1.26,
+   "url": "https://theopenmodel.com/match/az-vs-ajax-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "Den Haag",
+   "away": "Nijmegen",
+   "pHome": 0.2497,
+   "pDraw": 0.275,
+   "pAway": 0.4753,
+   "xgHome": 1.14,
+   "xgAway": 1.64,
+   "url": "https://theopenmodel.com/match/den-haag-vs-nijmegen-2027-05-08/"
+  },
+  {
+   "date": "2027-05-08T00:00:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 32",
+   "home": "Willem II",
+   "away": "Telstar",
+   "pHome": 0.3641,
+   "pDraw": 0.2849,
+   "pAway": 0.351,
+   "xgHome": 1.41,
+   "xgAway": 1.38,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-telstar-2027-05-08/"
   },
   {
    "date": "2027-05-08T14:00:00+00:00",
@@ -21648,6 +25392,123 @@
    "url": "https://theopenmodel.com/match/auxerre-vs-rennes-2027-05-16/"
   },
   {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "AZ",
+   "away": "Zwolle",
+   "pHome": 0.6819,
+   "pDraw": 0.2152,
+   "pAway": 0.1029,
+   "xgHome": 2.08,
+   "xgAway": 0.7,
+   "url": "https://theopenmodel.com/match/az-vs-zwolle-2027-05-16/"
+  },
+  {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "Go Ahead Eagles",
+   "away": "Heerenveen",
+   "pHome": 0.4128,
+   "pDraw": 0.2827,
+   "pAway": 0.3045,
+   "xgHome": 1.51,
+   "xgAway": 1.27,
+   "url": "https://theopenmodel.com/match/go-ahead-eagles-vs-heerenveen-2027-05-16/"
+  },
+  {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "Twente",
+   "away": "Feyenoord",
+   "pHome": 0.3538,
+   "pDraw": 0.2849,
+   "pAway": 0.3612,
+   "xgHome": 1.38,
+   "xgAway": 1.4,
+   "url": "https://theopenmodel.com/match/twente-vs-feyenoord-2027-05-16/"
+  },
+  {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "Ajax",
+   "away": "Sparta",
+   "pHome": 0.643,
+   "pDraw": 0.2303,
+   "pAway": 0.1267,
+   "xgHome": 1.99,
+   "xgAway": 0.79,
+   "url": "https://theopenmodel.com/match/ajax-vs-sparta-2027-05-16/"
+  },
+  {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "Excelsior",
+   "away": "Den Haag",
+   "pHome": 0.4976,
+   "pDraw": 0.271,
+   "pAway": 0.2314,
+   "xgHome": 1.69,
+   "xgAway": 1.09,
+   "url": "https://theopenmodel.com/match/excelsior-vs-den-haag-2027-05-16/"
+  },
+  {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "PSV",
+   "away": "Nijmegen",
+   "pHome": 0.6511,
+   "pDraw": 0.2273,
+   "pAway": 0.1216,
+   "xgHome": 2.01,
+   "xgAway": 0.77,
+   "url": "https://theopenmodel.com/match/psv-vs-nijmegen-2027-05-16/"
+  },
+  {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "Sittard",
+   "away": "Willem II",
+   "pHome": 0.5132,
+   "pDraw": 0.2679,
+   "pAway": 0.2189,
+   "xgHome": 1.72,
+   "xgAway": 1.06,
+   "url": "https://theopenmodel.com/match/sittard-vs-willem-ii-2027-05-16/"
+  },
+  {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "Utrecht",
+   "away": "Telstar",
+   "pHome": 0.565,
+   "pDraw": 0.2553,
+   "pAway": 0.1797,
+   "xgHome": 1.83,
+   "xgAway": 0.95,
+   "url": "https://theopenmodel.com/match/utrecht-vs-telstar-2027-05-16/"
+  },
+  {
+   "date": "2027-05-16T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 33",
+   "home": "Groningen",
+   "away": "Cambuur",
+   "pHome": 0.5554,
+   "pDraw": 0.2579,
+   "pAway": 0.1868,
+   "xgHome": 1.81,
+   "xgAway": 0.97,
+   "url": "https://theopenmodel.com/match/groningen-vs-cambuur-2027-05-16/"
+  },
+  {
    "date": "2027-05-22T00:00:00+00:00",
    "league": "ligue-1",
    "round": "Regular Season - 33",
@@ -22140,6 +26001,123 @@
    "xgHome": 0.98,
    "xgAway": 1.81,
    "url": "https://theopenmodel.com/match/parma-vs-juventus-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Nijmegen",
+   "away": "Utrecht",
+   "pHome": 0.427,
+   "pDraw": 0.2814,
+   "pAway": 0.2916,
+   "xgHome": 1.54,
+   "xgAway": 1.24,
+   "url": "https://theopenmodel.com/match/nijmegen-vs-utrecht-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Heerenveen",
+   "away": "PSV",
+   "pHome": 0.1724,
+   "pDraw": 0.2525,
+   "pAway": 0.5751,
+   "xgHome": 0.93,
+   "xgAway": 1.85,
+   "url": "https://theopenmodel.com/match/heerenveen-vs-psv-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Sparta",
+   "away": "Sittard",
+   "pHome": 0.4223,
+   "pDraw": 0.2818,
+   "pAway": 0.2959,
+   "xgHome": 1.53,
+   "xgAway": 1.25,
+   "url": "https://theopenmodel.com/match/sparta-vs-sittard-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Cambuur",
+   "away": "Ajax",
+   "pHome": 0.1345,
+   "pDraw": 0.2347,
+   "pAway": 0.6307,
+   "xgHome": 0.82,
+   "xgAway": 1.97,
+   "url": "https://theopenmodel.com/match/cambuur-vs-ajax-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Zwolle",
+   "away": "Twente",
+   "pHome": 0.1998,
+   "pDraw": 0.2623,
+   "pAway": 0.5379,
+   "xgHome": 1.01,
+   "xgAway": 1.77,
+   "url": "https://theopenmodel.com/match/zwolle-vs-twente-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Feyenoord",
+   "away": "Groningen",
+   "pHome": 0.643,
+   "pDraw": 0.2303,
+   "pAway": 0.1267,
+   "xgHome": 1.99,
+   "xgAway": 0.79,
+   "url": "https://theopenmodel.com/match/feyenoord-vs-groningen-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Den Haag",
+   "away": "AZ",
+   "pHome": 0.1533,
+   "pDraw": 0.2442,
+   "pAway": 0.6025,
+   "xgHome": 0.88,
+   "xgAway": 1.91,
+   "url": "https://theopenmodel.com/match/den-haag-vs-az-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Telstar",
+   "away": "Excelsior",
+   "pHome": 0.3471,
+   "pDraw": 0.2849,
+   "pAway": 0.3681,
+   "xgHome": 1.37,
+   "xgAway": 1.41,
+   "url": "https://theopenmodel.com/match/telstar-vs-excelsior-2027-05-23/"
+  },
+  {
+   "date": "2027-05-23T12:30:00+00:00",
+   "league": "eredivisie",
+   "round": "Regular Season - 34",
+   "home": "Willem II",
+   "away": "Go Ahead Eagles",
+   "pHome": 0.2527,
+   "pDraw": 0.2756,
+   "pAway": 0.4717,
+   "xgHome": 1.15,
+   "xgAway": 1.63,
+   "url": "https://theopenmodel.com/match/willem-ii-vs-go-ahead-eagles-2027-05-23/"
   },
   {
    "date": "2027-05-23T14:00:00+00:00",

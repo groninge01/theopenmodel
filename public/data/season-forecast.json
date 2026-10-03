@@ -961,6 +961,186 @@
    "top4": 0.0002,
    "releg": 0.607,
    "xPts": 31.9
+  },
+  {
+   "league": "eredivisie",
+   "slug": "psv",
+   "club": "PSV",
+   "elo": 1784,
+   "title": 0.6046,
+   "top4": 0.8166,
+   "releg": 0,
+   "xPts": 73.1
+  },
+  {
+   "league": "eredivisie",
+   "slug": "feyenoord",
+   "club": "Feyenoord",
+   "elo": 1718,
+   "title": 0.166,
+   "top4": 0.4458,
+   "releg": 0,
+   "xPts": 65.9
+  },
+  {
+   "league": "eredivisie",
+   "slug": "az",
+   "club": "AZ",
+   "elo": 1691,
+   "title": 0.0908,
+   "top4": 0.2772,
+   "releg": 0,
+   "xPts": 63
+  },
+  {
+   "league": "eredivisie",
+   "slug": "ajax",
+   "club": "Ajax",
+   "elo": 1687,
+   "title": 0.0852,
+   "top4": 0.2616,
+   "releg": 0,
+   "xPts": 62.8
+  },
+  {
+   "league": "eredivisie",
+   "slug": "twente",
+   "club": "Twente",
+   "elo": 1666,
+   "title": 0.0478,
+   "top4": 0.1602,
+   "releg": 0,
+   "xPts": 60.1
+  },
+  {
+   "league": "eredivisie",
+   "slug": "nijmegen",
+   "club": "Nijmegen",
+   "elo": 1585,
+   "title": 0.0018,
+   "top4": 0.0164,
+   "releg": 0.0046,
+   "xPts": 50.5
+  },
+  {
+   "league": "eredivisie",
+   "slug": "utrecht",
+   "club": "Utrecht",
+   "elo": 1574,
+   "title": 0.002,
+   "top4": 0.0108,
+   "releg": 0.0066,
+   "xPts": 49.2
+  },
+  {
+   "league": "eredivisie",
+   "slug": "heerenveen",
+   "club": "Heerenveen",
+   "elo": 1552,
+   "title": 0.0008,
+   "top4": 0.0056,
+   "releg": 0.0134,
+   "xPts": 46.7
+  },
+  {
+   "league": "eredivisie",
+   "slug": "go-ahead-eagles",
+   "club": "Go Ahead Eagles",
+   "elo": 1551,
+   "title": 0.0008,
+   "top4": 0.004,
+   "releg": 0.0152,
+   "xPts": 46.5
+  },
+  {
+   "league": "eredivisie",
+   "slug": "groningen",
+   "club": "Groningen",
+   "elo": 1526,
+   "title": 0,
+   "top4": 0.0004,
+   "releg": 0.0294,
+   "xPts": 43.5
+  },
+  {
+   "league": "eredivisie",
+   "slug": "excelsior",
+   "club": "Excelsior",
+   "elo": 1506,
+   "title": 0.0002,
+   "top4": 0.0004,
+   "releg": 0.0572,
+   "xPts": 41.4
+  },
+  {
+   "league": "eredivisie",
+   "slug": "sparta",
+   "club": "Sparta",
+   "elo": 1495,
+   "title": 0,
+   "top4": 0.0008,
+   "releg": 0.078,
+   "xPts": 40.1
+  },
+  {
+   "league": "eredivisie",
+   "slug": "sittard",
+   "club": "Sittard",
+   "elo": 1488,
+   "title": 0,
+   "top4": 0.0002,
+   "releg": 0.0998,
+   "xPts": 39.2
+  },
+  {
+   "league": "eredivisie",
+   "slug": "zwolle",
+   "club": "Zwolle",
+   "elo": 1465,
+   "title": 0,
+   "top4": 0,
+   "releg": 0.167,
+   "xPts": 36.7
+  },
+  {
+   "league": "eredivisie",
+   "slug": "telstar",
+   "club": "Telstar",
+   "elo": 1448,
+   "title": 0,
+   "top4": 0,
+   "releg": 0.2528,
+   "xPts": 34.6
+  },
+  {
+   "league": "eredivisie",
+   "slug": "den-haag",
+   "club": "Den Haag",
+   "elo": 1436,
+   "title": 0,
+   "top4": 0,
+   "releg": 0.313,
+   "xPts": 33.3
+  },
+  {
+   "league": "eredivisie",
+   "slug": "cambuur",
+   "club": "Cambuur",
+   "elo": 1408,
+   "title": 0,
+   "top4": 0,
+   "releg": 0.4704,
+   "xPts": 30.5
+  },
+  {
+   "league": "eredivisie",
+   "slug": "willem-ii",
+   "club": "Willem II",
+   "elo": 1405,
+   "title": 0,
+   "top4": 0,
+   "releg": 0.4926,
+   "xPts": 30.2
   }
  ]
 }
