@@ -100,7 +100,7 @@ check("rosters", () => {
   if (!existsSync(p)) throw new Error("data/leagues-2026.json is missing");
   const rosters = JSON.parse(readFileSync(p, "utf8"));
   const clubs = Object.values(rosters).flat();
-  if (clubs.length < 90) throw new Error(`only ${clubs.length} clubs (expected ~96)`);
+  if (clubs.length < 108) throw new Error(`only ${clubs.length} clubs (expected ~114)`);
 
   const csv = join(ROOT, "data", "clubelo-latest.csv");
   if (!existsSync(csv)) return;
@@ -127,7 +127,7 @@ check("fixtures", () => {
   if (!existsSync(p)) throw new Error("data/fixtures-2026.json is missing");
   const fx = JSON.parse(readFileSync(p, "utf8"));
   const all = Object.values(fx).flat();
-  if (all.length < 1500) throw new Error(`only ${all.length} fixtures (expected ~1750)`);
+  if (all.length < 1950) throw new Error(`only ${all.length} fixtures (expected ~2058)`);
   const upcoming = all.filter((f) => new Date(f.date).getTime() > now);
   if (!upcoming.length) throw new Error("no upcoming fixtures — the season list has run out");
   // The placeholder-schedule signature that shipped wrong dates: a whole round sharing one
