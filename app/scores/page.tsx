@@ -13,8 +13,9 @@ export const metadata = {
 
 export default function ScoresPage() {
   const snap = portalSnapshot();
-  const initial = snap.provider === "api-football" ? portalFixtures() : [];
-  const initialAsOf = snap.provider === "api-football" ? snap.asOf : null;
+  const live = snap.provider === "api-football" || snap.provider === "football-data";
+  const initial = live ? portalFixtures() : [];
+  const initialAsOf = live ? snap.asOf : null;
 
   return (
     <main className="wrap">

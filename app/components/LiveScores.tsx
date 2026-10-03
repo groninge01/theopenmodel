@@ -77,7 +77,7 @@ export function LiveScores({ initial, initialAsOf }: { initial: PortalFixture[];
         const r = await fetch(`/data/portal-live.json?t=${Date.now()}`, { cache: "no-store" });
         if (!r.ok) return;
         const s = await r.json() as Snap;
-        if (!cancelled && s.provider === "api-football" && typeof s.asOf === "string" && Array.isArray(s.fixtures)) {
+        if (!cancelled && (s.provider === "api-football" || s.provider === "football-data") && typeof s.asOf === "string" && Array.isArray(s.fixtures)) {
           setFeed({ fixtures: s.fixtures, asOf: s.asOf });
         }
       } catch { /* keep last snapshot */ }
