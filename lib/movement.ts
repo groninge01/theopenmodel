@@ -27,7 +27,7 @@ export interface SeasonMovement {
   headline: { key: "title" | "top4" | "releg"; label: string; move: OddsMove } | null;
 }
 
-const LABEL = { title: "title chance", top4: "top-four chance", releg: "relegation risk" } as const;
+const LABEL = { title: "title chance", top4: "Champions League chance", releg: "relegation risk" } as const;
 
 function findRow(date: string, leagueSlug: string, clubSlug: string): SnapshotRow | null {
   const snap = loadSnapshot(date);
@@ -102,7 +102,7 @@ export interface Mover {
 }
 
 /**
- * The week's biggest shifts in season outlook, across all five leagues. This is the
+ * The week's biggest shifts in season outlook, across every covered league. This is the
  * closest thing a forecast has to news: a probability that moved is something that
  * happened, and it is the reason to look again next week rather than once.
  */
@@ -122,7 +122,7 @@ export function topMovers(n = 6, days = 7): Mover[] {
       if (!was) continue;
       const metrics = [
         { metric: "title" as const, label: "title chance", now: o.title, then: was.title, good: true },
-        { metric: "top4" as const, label: "top-four chance", now: o.top4, then: was.top4, good: true },
+        { metric: "top4" as const, label: "Champions League chance", now: o.top4, then: was.top4, good: true },
         { metric: "releg" as const, label: "relegation risk", now: o.releg, then: was.releg, good: false },
       ];
       for (const m of metrics) {

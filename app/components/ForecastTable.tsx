@@ -1,11 +1,15 @@
 import Link from "next/link";
 import type { SeasonOdds } from "@/lib/season";
+import { raceLabels } from "@/lib/season";
 import { eloHistory, tinySpark } from "@/lib/history";
 import { pct, shade } from "@/lib/ui";
 import { Crest } from "./Crest";
 
 // 538-style forecast table: shaded probability cells, inline Elo sparklines.
-export function ForecastTable({ odds, limit, compact }: { odds: SeasonOdds[]; limit?: number; compact?: boolean }) {
+export function ForecastTable({ odds, limit, compact, leagueSlug }: {
+  odds: SeasonOdds[]; limit?: number; compact?: boolean; leagueSlug?: string;
+}) {
+  const race = leagueSlug ? raceLabels(leagueSlug) : null;
   const rows = limit ? odds.slice(0, limit) : odds;
   const xMax = Math.max(...odds.map((o) => o.avgPts));
   const xMin = Math.min(...odds.map((o) => o.avgPts));
@@ -19,8 +23,8 @@ export function ForecastTable({ odds, limit, compact }: { odds: SeasonOdds[]; li
           {!compact && <th title="Rating trend since 2020">Trend</th>}
           <th className="r hide-m" title="Projected season points — average of 5,000 simulated seasons">Proj. pts</th>
           <th className="c" style={{ width: compact ? 62 : 82 }} title="Chance of winning the league">Wins league</th>
-          <th className="c" style={{ width: compact ? 62 : 76 }} title="Chance of finishing in the top 4 (Champions League)">Top 4</th>
-          <th className="c" style={{ width: compact ? 62 : 82 }} title="Chance of finishing in the bottom 3 and going down">Relegated</th>
+          <th className="c" style={{ width: compact ? 62 : 76 }} title={race?.clChance ?? "Chance of finishing in the top 4 (Champions League)"}>{race ? `Top ${race.cl}` : "Top 4"}</th>
+          <th className="c" style={{ width: compact ? 62 : 82 }} title={race?.relChance ?? "Chance of finishing in the bottom 3 and going down"}>Relegated</th>
         </tr>
       </thead>
       <tbody>

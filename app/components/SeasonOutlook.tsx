@@ -69,7 +69,7 @@ export function SeasonOutlook({
         {showTitle && (
           <Cell label="Win the league" value={odds.title} move={mv?.title} goodWhenUp emphasis={odds.title >= 0.15} />
         )}
-        <Cell label="Finish top four" value={odds.top4} move={mv?.top4} goodWhenUp />
+        <Cell label="Champions League" value={odds.top4} move={mv?.top4} goodWhenUp />
         {showReleg && (
           <Cell label="Get relegated" value={odds.releg} move={mv?.releg} goodWhenUp={false} emphasis={odds.releg >= 0.25} />
         )}

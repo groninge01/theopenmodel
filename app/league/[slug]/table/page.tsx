@@ -52,9 +52,9 @@ export default async function LeagueTablePage({ params }: { params: Promise<{ sl
 
   // Zones: top club(s) = title race, top 4 = Champions League, 5-6 = Europe, bottom 3 = relegation.
   const zone = (i: number): { cls: string; label: string } | null => {
-    if (i < 4) return { cls: "cl", label: "Champions League places" };
-    if (i < 6) return { cls: "el", label: "European places" };
-    if (i >= n - 3) return { cls: "rel", label: "Relegation zone" };
+    if (i < league.cl) return { cls: "cl", label: "Champions League places" };
+    if (i < league.eu) return { cls: "el", label: "European places" };
+    if (i >= n - league.rel) return { cls: "rel", label: "Relegation zone" };
     return null;
   };
 
@@ -93,7 +93,7 @@ export default async function LeagueTablePage({ params }: { params: Promise<{ sl
               <th className="c" title="Projected final points (average across 5,000 simulations)">Proj. Pts</th>
               <th className="c hide-m" title="10th–90th percentile points range">Range</th>
               <th className="c" title="Probability of winning the league">Title</th>
-              <th className="c hide-m" title="Probability of a top-4 finish">Top 4</th>
+              <th className="c hide-m" title="Probability of a Champions League place">Top {league.cl}</th>
               <th className="c" title="Probability of relegation">Rel.</th>
             </tr>
           </thead>
@@ -124,9 +124,9 @@ export default async function LeagueTablePage({ params }: { params: Promise<{ sl
       </div>
 
       <div className="tablekey" style={{ marginTop: 14 }}>
-        <span className="k"><span className="sw cl" /> Champions League (top 4)</span>
-        <span className="k"><span className="sw el" /> European places (5–6)</span>
-        <span className="k"><span className="sw rel" /> Relegation (bottom 3)</span>
+        <span className="k"><span className="sw cl" /> Champions League (top {league.cl})</span>
+        <span className="k"><span className="sw el" /> European places ({league.cl + 1}–{league.eu})</span>
+        <span className="k"><span className="sw rel" /> Relegation (bottom {league.rel})</span>
       </div>
       <p className="foot-src" style={{ marginTop: 10 }}>
         Projected points are means over 5,000 Monte Carlo seasons from current ClubElo ratings; a club

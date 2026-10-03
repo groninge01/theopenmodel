@@ -17,8 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const league = leagueBySlug(slug);
   if (!league) return {};
   return {
-    title: `${league.name} 2026-27 forecast — title odds, top-4 & relegation probabilities`,
-    description: `${league.name} 2026-27 simulated 5,000 times from current Elo: title odds, top-4 and relegation probability for every club. Open methodology, public track record.`,
+    title: `${league.name} 2026-27 forecast — title, Champions League & relegation probabilities`,
+    description: `${league.name} 2026-27 simulated 5,000 times from current Elo: the chance of winning the league, qualifying for Europe and dropping out of it, for every club. Open methodology, public track record.`,
   };
 }
 
@@ -57,7 +57,7 @@ export default async function LeaguePage({ params }: { params: Promise<{ slug: s
       </section>
 
       <div style={{ marginTop: 18, overflowX: "auto" }}>
-        <ForecastTable odds={odds} />
+        <ForecastTable odds={odds} leagueSlug={league.slug} />
         <p className="foot-src">
           Cell shading ∝ probability. Trend = Elo since 2020. xPts = mean points across simulations.
           Sources: ClubElo (ratings) · The Open Model (simulation). <Link href="/methodology/">Method →</Link>
@@ -97,7 +97,7 @@ export default async function LeaguePage({ params }: { params: Promise<{ slug: s
           can move quickly once the season starts.
         </p>
         <p style={{ fontSize: 14, color: "var(--ink-soft)", margin: "10px 0" }}>
-          <b>Other important places.</b> The closest races to finish in the top four:{" "}
+          <b>Other important places.</b> The closest races for a Champions League place:{" "}
           {odds.filter((o) => o.top4 > 0.15 && o.top4 < 0.6).map((o) => o.club).slice(0, 3).join(", ")}.
           Clubs with an uncertain chance of dropping to a lower division:{" "}
           {odds.filter((o) => o.releg > 0.2 && o.releg < 0.6).map((o) => o.club).slice(0, 3).join(", ")}.
