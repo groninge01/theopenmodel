@@ -98,7 +98,7 @@ export default function WorldCup2026() {
       <h2>Where the model runs now</h2>
       <p>
         The tournament is over, but the model isn&apos;t. It now forecasts the{" "}
-        <Link href="/leagues/">Premier League, La Liga, Serie A, Bundesliga and Ligue 1</Link>{" "}
+        <Link href="/leagues/">Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and Eredivisie</Link>{" "}
         season, updated daily, under the same policy: <Link href="/matches/">every match</Link>{" "}
         predicted before kickoff and <Link href="/record/">checked afterwards</Link>. The forecast
         data is free to reuse under <Link href="/data/">CC BY 4.0</Link>.

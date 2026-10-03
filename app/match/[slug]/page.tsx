@@ -13,7 +13,7 @@ export function generateStaticParams() {
   return allFixtures().map((f) => ({ slug: f.slug }));
 }
 
-// Indexation policy: a fresh domain must not present Google with 1,752 templated pages on
+// Indexation policy: a fresh domain must not present Google with 2,058 templated pages on
 // day one (that's what buried cup26matches). Matches become indexable only within 30 days
 // of kickoff — content is freshest then and the index grows at a natural pace. Rebuilt daily.
 const INDEX_WINDOW_DAYS = 30;

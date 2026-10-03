@@ -8,7 +8,7 @@ import { LiveScores } from "../components/LiveScores";
 // overstates its own freshness. It now says what it actually is.
 export const metadata = {
   title: "Football results & the model's pre-match call",
-  description: "Recent results across the top five leagues, each shown next to the probability the model published before kickoff. Refreshed once a day — for minute-by-minute scores, use a dedicated live-score app.",
+  description: "Recent results across the leagues we cover, each shown next to the probability the model published before kickoff. Refreshed once a day — for minute-by-minute scores, use a dedicated live-score app.",
 };
 
 export default function ScoresPage() {
@@ -22,7 +22,7 @@ export default function ScoresPage() {
       <p className="crumbs"><Link href="/">Home</Link> › Results</p>
       <h1 className="pagetitle" style={{ marginTop: 6 }}>Results, next to what we predicted</h1>
       <p className="pagedesc">
-        Recent scores across the top five leagues, each one beside the probability the model
+        Recent scores across the leagues we cover, each one beside the probability the model
         published before kickoff. <b>This page refreshes once a day, not minute by minute</b> — if
         you want live scores, a dedicated app will serve you better. What you get here instead is
         every result marked against a call that was already on the record: the{" "}

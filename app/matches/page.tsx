@@ -4,7 +4,7 @@ import { MatchCard } from "../components/MatchCard";
 
 export const metadata = {
   title: "Upcoming matches and easy-to-read predictions",
-  description: "The estimated chance of a home win, draw or away win for upcoming matches in Europe's top five leagues.",
+  description: "The estimated chance of a home win, draw or away win for upcoming matches in Europe's top six leagues.",
 };
 
 export default function Matches() {

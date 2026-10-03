@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LEAGUES, leagueClubs } from "@/lib/data";
+import { LEAGUES, allClubs, leagueClubs } from "@/lib/data";
 import { MatchPicker } from "../components/MatchPicker";
 
 export const metadata = {
@@ -30,7 +30,7 @@ const utilityLinks = [
     label: "Team form tracker",
     title: "See which teams are getting stronger.",
     detail: "Compare how club-strength ratings changed over six and twelve months.",
-    status: "96 clubs",
+    status: `${allClubs().length} clubs`,
   },
   {
     index: "04",

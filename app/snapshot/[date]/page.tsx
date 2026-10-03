@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ date: str
   const { date } = await params;
   return {
     title: `Saved forecast — ${date}`,
-    description: `A saved season forecast from ${date}: title, top-four and relegation chances for all five leagues.`,
+    description: `A saved season forecast from ${date}: title, Champions League and relegation chances for every league we cover.`
   };
 }
 

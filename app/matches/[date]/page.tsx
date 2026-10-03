@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ date: str
   const n = fixturesOn(date).length;
   return {
     title: `Football matches ${date} — fixtures & predictions`,
-    description: `All ${n} top-five-league fixtures on ${longDate(date)} with the model's home-win, draw and away-win probability. Kick-off times and result forecasts.`,
+    description: `All ${n} fixtures on ${longDate(date)} across the six leagues we cover, with the model's home-win, draw and away-win probability. Kick-off times and result forecasts.`,
   };
 }
 

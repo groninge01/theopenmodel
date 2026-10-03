@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: "%s | The Open Model",
   },
   description:
-    "Title, top-four and relegation chances for every club in Europe's top five leagues, resimulated every day. Free, open-source, and every forecast we have ever published is scored in public — including the wrong ones.",
+    "Title, Champions League and relegation chances for every club in Europe's top six leagues, resimulated every day. Free, open-source, and every forecast we have ever published is scored in public — including the wrong ones.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

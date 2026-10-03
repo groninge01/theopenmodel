@@ -41,7 +41,7 @@ export default function About() {
       </p>
       <p>
         We then adapted the same type of score-probability framework for club football, using European
-        club-strength ratings. This site covers Europe&apos;s top five leagues. The club model starts
+        club-strength ratings. This site covers Europe&apos;s top six leagues. The club model starts
         its own results history when the 2026–27 league season begins in August.
       </p>
 

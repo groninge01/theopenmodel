@@ -25,7 +25,7 @@ export function SeasonRaces() {
       <div className="races-head">
         <h2 id="races-h">Where the season is heading</h2>
         <p>
-          Every club in the top five leagues, simulated 5,000 times a day. Pick a league to see
+          Every club in the leagues we cover, simulated 5,000 times a day. Pick a league to see
           the full projected table, or a club to see its own season.
         </p>
       </div>

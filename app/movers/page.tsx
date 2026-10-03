@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LEAGUES, leagueClubs, flagUrl } from "@/lib/data";
+import { LEAGUES, allClubs, leagueClubs, flagUrl } from "@/lib/data";
 import { eloDelta, eloHistory, tinySpark } from "@/lib/history";
 import { Crest } from "../components/Crest";
 
@@ -70,7 +70,7 @@ export default function Movers() {
       <h1 className="pagetitle">Which teams are getting stronger?</h1>
       <p className="pagedesc">
         This score rises when a club produces stronger results and falls when results worsen. Here
-        are the biggest changes among the 96 clubs we cover.
+        are the biggest changes among the {allClubs().length} clubs we cover.
       </p>
       <p className="updated" style={{ margin: "6px 0 24px" }}>Updated {BUILT} · source: ClubElo rating periods since 2020</p>
 

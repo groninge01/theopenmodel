@@ -11,9 +11,9 @@ const SITE = "https://theopenmodel.com";
 const FILES = [
   { path: "/data/predictions.csv", desc: "The ledger: every prediction published before kickoff, with the result once played", fmt: "CSV" },
   { path: "/data/predictions.json", desc: "Same as above, JSON with metadata", fmt: "JSON" },
-  { path: "/data/season-forecast.csv", desc: "All 96 clubs: team strength, expected points and season chances", fmt: "CSV" },
+  { path: "/data/season-forecast.csv", desc: "All 114 clubs: team strength, expected points and season chances", fmt: "CSV" },
   { path: "/data/season-forecast.json", desc: "Same as above, JSON with metadata", fmt: "JSON" },
-  { path: "/data/fixtures-2026-27.csv", desc: "All 1,752 matches: home win, draw, away win and average simulated goals", fmt: "CSV" },
+  { path: "/data/fixtures-2026-27.csv", desc: "All 2,058 matches: home win, draw, away win and average simulated goals", fmt: "CSV" },
   { path: "/data/fixtures-2026-27.json", desc: "Same as above, JSON with metadata", fmt: "JSON" },
   { path: "/data/elo-ratings.csv", desc: "Current team-strength score (Elo) for every covered club", fmt: "CSV" },
   { path: "/data/wc-backtest.json", desc: "World Cup model backtest: 913 internationals, walk-forward, with calibration bins", fmt: "JSON" },
@@ -26,7 +26,7 @@ const DATASETS_JSONLD = {
       "@type": "Dataset",
       name: "The Open Model — 2026-27 season forecast",
       description:
-        "Title, top-4 and relegation probabilities plus expected points for all 96 clubs in the Premier League, La Liga, Serie A, Bundesliga and Ligue 1, from 5,000 Monte Carlo season simulations. Updated with each site build.",
+        "Title, Champions League and relegation probabilities plus expected points for all 114 clubs in the Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and Eredivisie, from 5,000 Monte Carlo season simulations. Updated with each site build.",
       url: `${SITE}/data/`,
       license: "https://creativecommons.org/licenses/by/4.0/",
       isAccessibleForFree: true,
@@ -40,7 +40,7 @@ const DATASETS_JSONLD = {
       "@type": "Dataset",
       name: "The Open Model — 2026-27 match probabilities",
       description:
-        "Pre-match home/draw/away probabilities and simulated goal averages for all 1,752 fixtures of the 2026-27 top-five-league season, from Elo ratings and a Dixon-Coles bivariate Poisson model.",
+        "Pre-match home/draw/away probabilities and simulated goal averages for all 2,058 fixtures of the 2026-27 season across six leagues, from Elo ratings and a Dixon-Coles bivariate Poisson model.",
       url: `${SITE}/data/`,
       license: "https://creativecommons.org/licenses/by/4.0/",
       isAccessibleForFree: true,
@@ -54,7 +54,7 @@ const DATASETS_JSONLD = {
       "@type": "Dataset",
       name: "The Open Model — pre-kickoff prediction ledger",
       description:
-        "Every match prediction published before kickoff across the Premier League, La Liga, Serie A, Bundesliga and Ligue 1, with the probabilities, the date the prediction was committed to a public git repository, and the result once the match was played. Misses are retained.",
+        "Every match prediction published before kickoff across the Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and Eredivisie, with the probabilities, the date the prediction was committed to a public git repository, and the result once the match was played. Misses are retained.",
       url: `${SITE}/record/`,
       license: "https://creativecommons.org/licenses/by/4.0/",
       isAccessibleForFree: true,

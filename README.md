@@ -5,7 +5,7 @@
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-blue)](https://theopenmodel.com/data/)
 
 An open-source statistical model — and the full website around it — forecasting the
-**2026-27 season** of the Premier League, La Liga, Serie A, Bundesliga and Ligue 1:
+**2026-27 season** of the Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and Eredivisie:
 **Elo ratings (ClubElo) → Dixon-Coles bivariate Poisson → Monte Carlo season simulation**.
 No machine-learning black box, no scraped bookmaker odds: transparent, reproducible football maths.
 

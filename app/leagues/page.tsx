@@ -8,7 +8,7 @@ export default function Leagues() {
   return (
     <main className="wrap">
       <section className="hero">
-        <span className="eyebrow">Europe&apos;s five biggest domestic leagues</span>
+        <span className="eyebrow">Europe&apos;s biggest domestic leagues</span>
         <h1>Leagues</h1>
         <p className="dek">
           We replay each season thousands of times to estimate every club&apos;s chance of finishing
