@@ -129,25 +129,6 @@ export default async function LeagueScorersPage({
                           gap: 10,
                         }}
                       >
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        {s.teamLogo && (
-                          <img
-                            src={s.teamLogo}
-                            alt=""
-                            width={30}
-                            height={30}
-                            loading="lazy"
-                            style={{
-                              width: 30,
-                              height: 30,
-                              borderRadius: '50%',
-                              objectFit: 'contain',
-                              background: 'var(--panel-2)',
-                              border: '1px solid var(--rule)',
-                              padding: 3,
-                            }}
-                          />
-                        )}
                         <b>{s.name}</b>
                         {s.age ? (
                           <span
