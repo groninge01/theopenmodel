@@ -6691,10 +6691,9 @@ footer.site a {
 }
 .portal-match-row article {
   display: grid;
-  grid-template-columns: minmax(145px, 0.46fr) minmax(310px, 1.2fr) minmax(
-      260px,
-      0.78fr
-    ) auto;
+  grid-template-columns:
+    minmax(145px, 0.46fr) minmax(310px, 1.2fr) minmax(260px, 0.78fr)
+    auto;
   align-items: center;
   gap: clamp(20px, 3vw, 46px);
   min-height: 112px;
@@ -9003,6 +9002,27 @@ a.portal-live-row:hover {
   color: var(--button-ink);
   background: var(--accent);
   border-color: var(--accent);
+}
+
+.to-top {
+  position: fixed;
+  right: max(16px, calc(50% - 688px));
+  bottom: 18px;
+  z-index: 45;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--button-ink);
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+.to-top:hover {
+  filter: brightness(1.12);
 }
 
 .fixture-rows {
