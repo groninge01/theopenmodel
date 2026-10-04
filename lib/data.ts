@@ -95,9 +95,9 @@ function loadRosters(): Record<string, ClubRow[]> {
       league,
       clubs.map((c) => {
         const a = adjusted.get(c.club);
-        return a && a.applied > 0
-          ? { ...c, elo: Math.round(a.elo * 10) / 10 }
-          : c;
+        // Whole numbers everywhere — the site displays these, and a half-point
+        // of Elo is far below the model's noise floor anyway.
+        return { ...c, elo: Math.round(a && a.applied > 0 ? a.elo : c.elo) };
       }),
     ]),
   );
