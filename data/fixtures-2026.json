@@ -5283,30 +5283,8 @@
       "away": "Osasuna"
     },
     {
-      "id": 1570434,
-      "date": "2026-11-01T00:00:00+00:00",
-      "round": "Regular Season - 11",
-      "venue": "Camp Nou",
-      "city": "Barcelona",
-      "homeId": 529,
-      "awayId": 542,
-      "home": "Barcelona",
-      "away": "Alaves"
-    },
-    {
-      "id": 1570433,
-      "date": "2026-11-01T00:00:00+00:00",
-      "round": "Regular Season - 11",
-      "venue": null,
-      "city": "Bilbao",
-      "homeId": 531,
-      "awayId": 548,
-      "home": "Athletic Club",
-      "away": "Real Sociedad"
-    },
-    {
       "id": 1570442,
-      "date": "2026-11-01T00:00:00+00:00",
+      "date": "2026-10-30T20:00:00+00:00",
       "round": "Regular Season - 11",
       "venue": "Estadio de la Ceramica",
       "city": "Villarreal",
@@ -5317,7 +5295,7 @@
     },
     {
       "id": 1570439,
-      "date": "2026-11-01T00:00:00+00:00",
+      "date": "2026-10-31T13:00:00+00:00",
       "round": "Regular Season - 11",
       "venue": null,
       "city": "Valencia",
@@ -5327,41 +5305,8 @@
       "away": "Atletico Madrid"
     },
     {
-      "id": 1570435,
-      "date": "2026-11-01T00:00:00+00:00",
-      "round": "Regular Season - 11",
-      "venue": "Estadio de La Cartuja",
-      "city": "Sevilla",
-      "homeId": 543,
-      "awayId": 535,
-      "home": "Real Betis",
-      "away": "Malaga"
-    },
-    {
-      "id": 1570436,
-      "date": "2026-11-01T00:00:00+00:00",
-      "round": "Regular Season - 11",
-      "venue": "Estadio Municipal de Riazor",
-      "city": null,
-      "homeId": 544,
-      "awayId": 727,
-      "home": "Deportivo La Coruna",
-      "away": "Osasuna"
-    },
-    {
-      "id": 1570438,
-      "date": "2026-11-01T00:00:00+00:00",
-      "round": "Regular Season - 11",
-      "venue": "Coliseum",
-      "city": "Getafe",
-      "homeId": 546,
-      "awayId": 536,
-      "home": "Getafe",
-      "away": "Sevilla"
-    },
-    {
       "id": 1570441,
-      "date": "2026-11-01T00:00:00+00:00",
+      "date": "2026-10-31T15:15:00+00:00",
       "round": "Regular Season - 11",
       "venue": "Campo de Futbol de Vallecas",
       "city": "Madrid",
@@ -5371,8 +5316,52 @@
       "away": "Celta Vigo"
     },
     {
+      "id": 1570435,
+      "date": "2026-10-31T17:30:00+00:00",
+      "round": "Regular Season - 11",
+      "venue": "Estadio de La Cartuja",
+      "city": "Sevilla",
+      "homeId": 543,
+      "awayId": 535,
+      "home": "Real Betis",
+      "away": "Malaga"
+    },
+    {
+      "id": 1570434,
+      "date": "2026-10-31T20:00:00+00:00",
+      "round": "Regular Season - 11",
+      "venue": "Camp Nou",
+      "city": "Barcelona",
+      "homeId": 529,
+      "awayId": 542,
+      "home": "Barcelona",
+      "away": "Alaves"
+    },
+    {
+      "id": 1570438,
+      "date": "2026-11-01T13:00:00+00:00",
+      "round": "Regular Season - 11",
+      "venue": "Coliseum",
+      "city": "Getafe",
+      "homeId": 546,
+      "awayId": 536,
+      "home": "Getafe",
+      "away": "Sevilla"
+    },
+    {
+      "id": 1570440,
+      "date": "2026-11-01T15:15:00+00:00",
+      "round": "Regular Season - 11",
+      "venue": "Estadio El Sardinero",
+      "city": "Santander",
+      "homeId": 4665,
+      "awayId": 541,
+      "home": "Racing Santander",
+      "away": "Real Madrid"
+    },
+    {
       "id": 1570437,
-      "date": "2026-11-01T00:00:00+00:00",
+      "date": "2026-11-01T17:30:00+00:00",
       "round": "Regular Season - 11",
       "venue": null,
       "city": "Elche",
@@ -5382,15 +5371,26 @@
       "away": "Valencia"
     },
     {
-      "id": 1570440,
-      "date": "2026-11-01T00:00:00+00:00",
+      "id": 1570433,
+      "date": "2026-11-01T20:00:00+00:00",
       "round": "Regular Season - 11",
-      "venue": "Estadio El Sardinero",
-      "city": "Santander",
-      "homeId": 4665,
-      "awayId": 541,
-      "home": "Racing Santander",
-      "away": "Real Madrid"
+      "venue": null,
+      "city": "Bilbao",
+      "homeId": 531,
+      "awayId": 548,
+      "home": "Athletic Club",
+      "away": "Real Sociedad"
+    },
+    {
+      "id": 1570436,
+      "date": "2026-11-02T20:00:00+00:00",
+      "round": "Regular Season - 11",
+      "venue": "Estadio Municipal de Riazor",
+      "city": null,
+      "homeId": 544,
+      "awayId": 727,
+      "home": "Deportivo La Coruna",
+      "away": "Osasuna"
     },
     {
       "id": 1570443,

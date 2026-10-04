@@ -318,7 +318,7 @@
    "slug": "malaga",
    "club": "Malaga",
    "country": "ESP",
-   "elo": 1665,
+   "elo": 1666,
    "apiId": 535,
    "logo": "https://media.api-sports.io/football/teams/535.png"
   }
@@ -368,7 +368,7 @@
    "slug": "atalanta",
    "club": "Atalanta",
    "country": "ITA",
-   "elo": 1806,
+   "elo": 1807,
    "apiId": 499,
    "logo": "https://media.api-sports.io/football/teams/499.png"
   },
@@ -464,7 +464,7 @@
    "slug": "venezia",
    "club": "Venezia",
    "country": "ITA",
-   "elo": 1645,
+   "elo": 1646,
    "apiId": 517,
    "logo": "https://media.api-sports.io/football/teams/517.png"
   },
@@ -668,7 +668,7 @@
    "slug": "lille",
    "club": "Lille",
    "country": "FRA",
-   "elo": 1779,
+   "elo": 1780,
    "apiId": 79,
    "logo": "https://media.api-sports.io/football/teams/79.png"
   },
