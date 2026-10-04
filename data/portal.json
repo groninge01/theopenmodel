@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "provider": "football-data",
-  "asOf": "2026-10-04T13:27:34.142Z",
-  "updatedAt": "2026-10-04T13:27:34.142Z",
+  "asOf": "2026-10-04T13:40:00.740Z",
+  "updatedAt": "2026-10-04T13:40:00.740Z",
   "coverage": {
     "dateFrom": "2026-09-24",
     "dateTo": "2026-10-18",
@@ -968,7 +968,7 @@
     {
       "id": "api-football:1575176",
       "providerId": 1575176,
-      "name": "Borussia Dortmund vs Werder Bremen",
+      "name": "Dortmund vs Werder",
       "startTime": "2026-10-09T18:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -1006,7 +1006,7 @@
       "participants": [
         {
           "id": 4,
-          "name": "Borussia Dortmund",
+          "name": "Dortmund",
           "shortCode": "BVB",
           "imageUrl": "https://crests.football-data.org/4.png",
           "role": "home",
@@ -1015,7 +1015,7 @@
         },
         {
           "id": 12,
-          "name": "Werder Bremen",
+          "name": "Werder",
           "shortCode": "SVW",
           "imageUrl": "https://crests.football-data.org/12.png",
           "role": "away",
@@ -1380,6 +1380,75 @@
       "injuries": []
     },
     {
+      "id": "api-football:1557417",
+      "providerId": 1557417,
+      "name": "Arsenal vs Leeds",
+      "startTime": "2026-10-10T11:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/PL.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 6",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Emirates Stadium",
+        "city": "London",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 57,
+          "name": "Arsenal",
+          "shortCode": "ARS",
+          "imageUrl": "https://crests.football-data.org/57.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 341,
+          "name": "Leeds",
+          "shortCode": "LEE",
+          "imageUrl": "https://crests.football-data.org/341.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "football-data:561863",
       "providerId": null,
       "name": "Charlton vs Bristol City",
@@ -1518,78 +1587,9 @@
       "injuries": []
     },
     {
-      "id": "api-football:1557417",
-      "providerId": 1557417,
-      "name": "Arsenal vs Leeds",
-      "startTime": "2026-10-10T11:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 39,
-        "name": "Premier League",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/PL.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 6",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Emirates Stadium",
-        "city": "London",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 57,
-          "name": "Arsenal",
-          "shortCode": "ARS",
-          "imageUrl": "https://crests.football-data.org/57.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 341,
-          "name": "Leeds",
-          "shortCode": "LEE",
-          "imageUrl": "https://crests.football-data.org/341.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
       "id": "api-football:1570410",
       "providerId": 1570410,
-      "name": "Rayo Vallecano vs Athletic Club",
+      "name": "Rayo Vallecano vs Bilbao",
       "startTime": "2026-10-10T12:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -1636,7 +1636,7 @@
         },
         {
           "id": 77,
-          "name": "Athletic Club",
+          "name": "Bilbao",
           "shortCode": "ATH",
           "imageUrl": "https://crests.football-data.org/77.png",
           "role": "away",
@@ -1725,147 +1725,9 @@
       "injuries": []
     },
     {
-      "id": "api-football:1575184",
-      "providerId": 1575184,
-      "name": "SC Paderborn 07 vs VfB Stuttgart",
-      "startTime": "2026-10-10T13:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 78,
-        "name": "Bundesliga",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/BL1.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 5",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Home Deluxe Arena",
-        "city": "Paderborn",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 29,
-          "name": "SC Paderborn 07",
-          "shortCode": "SCP",
-          "imageUrl": "https://crests.football-data.org/29.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 10,
-          "name": "VfB Stuttgart",
-          "shortCode": "VFB",
-          "imageUrl": "https://crests.football-data.org/10.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1575180",
-      "providerId": 1575180,
-      "name": "FC Augsburg vs Bayern München",
-      "startTime": "2026-10-10T13:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 78,
-        "name": "Bundesliga",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/BL1.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 5",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "WWK Arena",
-        "city": "Augsburg",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 16,
-          "name": "FC Augsburg",
-          "shortCode": "FCA",
-          "imageUrl": "https://crests.football-data.org/16.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 5,
-          "name": "Bayern München",
-          "shortCode": "FCB",
-          "imageUrl": "https://crests.football-data.org/5.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
       "id": "api-football:1575182",
       "providerId": 1575182,
-      "name": "Union Berlin vs SV Elversberg",
+      "name": "Union Berlin vs Elversberg",
       "startTime": "2026-10-10T13:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -1912,7 +1774,7 @@
         },
         {
           "id": 719,
-          "name": "SV Elversberg",
+          "name": "Elversberg",
           "shortCode": "ELV",
           "imageUrl": "https://crests.football-data.org/719.png",
           "role": "away",
@@ -1932,9 +1794,9 @@
       "injuries": []
     },
     {
-      "id": "api-football:1575178",
-      "providerId": 1575178,
-      "name": "1899 Hoffenheim vs Hamburger SV",
+      "id": "api-football:1575184",
+      "providerId": 1575184,
+      "name": "Paderborn vs Stuttgart",
       "startTime": "2026-10-10T13:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -1964,26 +1826,95 @@
       },
       "venue": {
         "id": null,
-        "name": "PreZero Arena",
-        "city": "Sinsheim",
+        "name": "Home Deluxe Arena",
+        "city": "Paderborn",
         "capacity": null,
         "imageUrl": null
       },
       "participants": [
         {
-          "id": 2,
-          "name": "1899 Hoffenheim",
-          "shortCode": "TSG",
-          "imageUrl": "https://crests.football-data.org/2.png",
+          "id": 29,
+          "name": "Paderborn",
+          "shortCode": "SCP",
+          "imageUrl": "https://crests.football-data.org/29.png",
           "role": "home",
           "position": null,
           "winner": null
         },
         {
-          "id": 7,
-          "name": "Hamburger SV",
-          "shortCode": "HSV",
-          "imageUrl": "https://crests.football-data.org/7.png",
+          "id": 10,
+          "name": "Stuttgart",
+          "shortCode": "VFB",
+          "imageUrl": "https://crests.football-data.org/10.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "api-football:1575180",
+      "providerId": 1575180,
+      "name": "Augsburg vs Bayern München",
+      "startTime": "2026-10-10T13:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/BL1.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 5",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "WWK Arena",
+        "city": "Augsburg",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 16,
+          "name": "Augsburg",
+          "shortCode": "FCA",
+          "imageUrl": "https://crests.football-data.org/16.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 5,
+          "name": "Bayern München",
+          "shortCode": "FCB",
+          "imageUrl": "https://crests.football-data.org/5.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -2003,7 +1934,7 @@
     {
       "id": "api-football:1575181",
       "providerId": 1575181,
-      "name": "FSV Mainz 05 vs Bayer Leverkusen",
+      "name": "Mainz vs Leverkusen",
       "startTime": "2026-10-10T13:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -2041,7 +1972,7 @@
       "participants": [
         {
           "id": 15,
-          "name": "FSV Mainz 05",
+          "name": "Mainz",
           "shortCode": "M05",
           "imageUrl": "https://crests.football-data.org/15.png",
           "role": "home",
@@ -2050,9 +1981,147 @@
         },
         {
           "id": 3,
-          "name": "Bayer Leverkusen",
+          "name": "Leverkusen",
           "shortCode": "B04",
           "imageUrl": "https://crests.football-data.org/3.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "api-football:1575178",
+      "providerId": 1575178,
+      "name": "Hoffenheim vs Hamburg",
+      "startTime": "2026-10-10T13:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/BL1.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 5",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "PreZero Arena",
+        "city": "Sinsheim",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 2,
+          "name": "Hoffenheim",
+          "shortCode": "TSG",
+          "imageUrl": "https://crests.football-data.org/2.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 7,
+          "name": "Hamburg",
+          "shortCode": "HSV",
+          "imageUrl": "https://crests.football-data.org/7.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:561858",
+      "providerId": null,
+      "name": "Sheffield Utd vs Lincoln City",
+      "startTime": "2026-10-10T14:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/ELC.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 9",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 356,
+          "name": "Sheffield Utd",
+          "shortCode": "SHE",
+          "imageUrl": "https://crests.football-data.org/356.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 1126,
+          "name": "Lincoln City",
+          "shortCode": "LIN",
+          "imageUrl": "https://crests.football-data.org/1126.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -2329,75 +2398,6 @@
           "name": "Brighton",
           "shortCode": "BHA",
           "imageUrl": "https://crests.football-data.org/397.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:561858",
-      "providerId": null,
-      "name": "Sheffield Utd vs Lincoln City",
-      "startTime": "2026-10-10T14:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/ELC.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 9",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 356,
-          "name": "Sheffield Utd",
-          "shortCode": "SHE",
-          "imageUrl": "https://crests.football-data.org/356.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 1126,
-          "name": "Lincoln City",
-          "shortCode": "LIN",
-          "imageUrl": "https://crests.football-data.org/1126.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -2831,7 +2831,7 @@
     {
       "id": "api-football:1570403",
       "providerId": 1570403,
-      "name": "Alaves vs Atletico Madrid",
+      "name": "Alaves vs Atlético",
       "startTime": "2026-10-10T14:15:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -2878,7 +2878,7 @@
         },
         {
           "id": 78,
-          "name": "Atletico Madrid",
+          "name": "Atlético",
           "shortCode": "ATL",
           "imageUrl": "https://crests.football-data.org/78.png",
           "role": "away",
@@ -3107,7 +3107,7 @@
     {
       "id": "api-football:1550141",
       "providerId": 1550141,
-      "name": "Inter vs Parma",
+      "name": "Internazionale vs Parma",
       "startTime": "2026-10-10T16:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -3145,7 +3145,7 @@
       "participants": [
         {
           "id": 108,
-          "name": "Inter",
+          "name": "Internazionale",
           "shortCode": "INT",
           "imageUrl": "https://crests.football-data.org/108.png",
           "role": "home",
@@ -3245,7 +3245,7 @@
     {
       "id": "api-football:1557425",
       "providerId": 1557425,
-      "name": "Manchester United vs Tottenham",
+      "name": "Man United vs Tottenham",
       "startTime": "2026-10-10T16:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -3283,7 +3283,7 @@
       "participants": [
         {
           "id": 66,
-          "name": "Manchester United",
+          "name": "Man United",
           "shortCode": "MUN",
           "imageUrl": "https://crests.football-data.org/66.png",
           "role": "home",
@@ -3314,7 +3314,7 @@
     {
       "id": "api-football:1575177",
       "providerId": 1575177,
-      "name": "RB Leipzig vs Eintracht Frankfurt",
+      "name": "RB Leipzig vs Frankfurt",
       "startTime": "2026-10-10T16:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -3361,7 +3361,7 @@
         },
         {
           "id": 19,
-          "name": "Eintracht Frankfurt",
+          "name": "Frankfurt",
           "shortCode": "SGE",
           "imageUrl": "https://crests.football-data.org/19.png",
           "role": "away",
@@ -3588,9 +3588,78 @@
       "injuries": []
     },
     {
+      "id": "api-football:1552774",
+      "providerId": 1552774,
+      "name": "Brest vs Angers",
+      "startTime": "2026-10-10T18:45:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/FL1.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 6",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Brest",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 512,
+          "name": "Brest",
+          "shortCode": "BRE",
+          "imageUrl": "https://crests.football-data.org/512.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 532,
+          "name": "Angers",
+          "shortCode": "ANG",
+          "imageUrl": "https://crests.football-data.org/532.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "api-football:1552780",
       "providerId": 1552780,
-      "name": "Paris Saint Germain vs Le Mans",
+      "name": "Paris SG vs Le Mans",
       "startTime": "2026-10-10T18:45:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -3628,7 +3697,7 @@
       "participants": [
         {
           "id": 524,
-          "name": "Paris Saint Germain",
+          "name": "Paris SG",
           "shortCode": "PSG",
           "imageUrl": "https://crests.football-data.org/524.png",
           "role": "home",
@@ -3709,75 +3778,6 @@
           "name": "Paris FC",
           "shortCode": "PFC",
           "imageUrl": "https://crests.football-data.org/1045.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1552774",
-      "providerId": 1552774,
-      "name": "Stade Brestois 29 vs Angers",
-      "startTime": "2026-10-10T18:45:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 61,
-        "name": "Ligue 1",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/FL1.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 6",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Brest",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 512,
-          "name": "Stade Brestois 29",
-          "shortCode": "BRE",
-          "imageUrl": "https://crests.football-data.org/512.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 532,
-          "name": "Angers",
-          "shortCode": "ANG",
-          "imageUrl": "https://crests.football-data.org/532.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -4349,7 +4349,7 @@
     {
       "id": "api-football:1550139",
       "providerId": 1550139,
-      "name": "Como vs AS Roma",
+      "name": "Como vs Roma",
       "startTime": "2026-10-11T10:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -4396,7 +4396,7 @@
         },
         {
           "id": 100,
-          "name": "AS Roma",
+          "name": "Roma",
           "shortCode": "ROM",
           "imageUrl": "https://crests.football-data.org/100.png",
           "role": "away",
@@ -4487,7 +4487,7 @@
     {
       "id": "api-football:1570406",
       "providerId": 1570406,
-      "name": "Elche vs Celta Vigo",
+      "name": "Elche vs Celta",
       "startTime": "2026-10-11T12:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -4534,7 +4534,7 @@
         },
         {
           "id": 558,
-          "name": "Celta Vigo",
+          "name": "Celta",
           "shortCode": "CEL",
           "imageUrl": "https://crests.football-data.org/558.png",
           "role": "away",
@@ -4692,9 +4692,78 @@
       "injuries": []
     },
     {
+      "id": "api-football:1550142",
+      "providerId": 1550142,
+      "name": "Lazio vs Monza",
+      "startTime": "2026-10-11T13:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/c111.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 6",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Olimpico",
+        "city": "Rome",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 110,
+          "name": "Lazio",
+          "shortCode": "LAZ",
+          "imageUrl": "https://crests.football-data.org/110.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 5911,
+          "name": "Monza",
+          "shortCode": "MON",
+          "imageUrl": "https://crests.football-data.org/5911.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "api-football:1557422",
       "providerId": 1557422,
-      "name": "Hull City vs Everton",
+      "name": "Hull vs Everton",
       "startTime": "2026-10-11T13:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -4732,7 +4801,7 @@
       "participants": [
         {
           "id": 322,
-          "name": "Hull City",
+          "name": "Hull",
           "shortCode": "HUL",
           "imageUrl": "https://crests.football-data.org/322.png",
           "role": "home",
@@ -4832,7 +4901,7 @@
     {
       "id": "api-football:1557421",
       "providerId": 1557421,
-      "name": "Crystal Palace vs Nottingham Forest",
+      "name": "Crystal Palace vs Forest",
       "startTime": "2026-10-11T13:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -4879,7 +4948,7 @@
         },
         {
           "id": 351,
-          "name": "Nottingham Forest",
+          "name": "Forest",
           "shortCode": "NOT",
           "imageUrl": "https://crests.football-data.org/351.png",
           "role": "away",
@@ -4968,78 +5037,9 @@
       "injuries": []
     },
     {
-      "id": "api-football:1550142",
-      "providerId": 1550142,
-      "name": "Lazio vs Monza",
-      "startTime": "2026-10-11T13:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 135,
-        "name": "Serie A",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/c111.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 6",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Olimpico",
-        "city": "Rome",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 110,
-          "name": "Lazio",
-          "shortCode": "LAZ",
-          "imageUrl": "https://crests.football-data.org/110.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 5911,
-          "name": "Monza",
-          "shortCode": "MON",
-          "imageUrl": "https://crests.football-data.org/5911.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
       "id": "api-football:1575183",
       "providerId": 1575183,
-      "name": "1. FC Köln vs Borussia Mönchengladbach",
+      "name": "Köln vs Gladbach",
       "startTime": "2026-10-11T13:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -5077,7 +5077,7 @@
       "participants": [
         {
           "id": 1,
-          "name": "1. FC Köln",
+          "name": "Köln",
           "shortCode": "KOE",
           "imageUrl": "https://crests.football-data.org/1.png",
           "role": "home",
@@ -5086,7 +5086,7 @@
         },
         {
           "id": 18,
-          "name": "Borussia Mönchengladbach",
+          "name": "Gladbach",
           "shortCode": "BMG",
           "imageUrl": "https://crests.football-data.org/18.png",
           "role": "away",
@@ -5108,7 +5108,7 @@
     {
       "id": "api-football:1570412",
       "providerId": 1570412,
-      "name": "Real Sociedad vs Deportivo La Coruna",
+      "name": "Real Sociedad vs Depor",
       "startTime": "2026-10-11T14:15:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -5155,7 +5155,7 @@
         },
         {
           "id": 560,
-          "name": "Deportivo La Coruna",
+          "name": "Depor",
           "shortCode": "DEP",
           "imageUrl": "https://crests.football-data.org/560.png",
           "role": "away",
@@ -5384,7 +5384,7 @@
     {
       "id": "api-football:1557424",
       "providerId": 1557424,
-      "name": "Liverpool vs Manchester City",
+      "name": "Liverpool vs Man City",
       "startTime": "2026-10-11T15:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -5431,7 +5431,7 @@
         },
         {
           "id": 65,
-          "name": "Manchester City",
+          "name": "Man City",
           "shortCode": "MCI",
           "imageUrl": "https://crests.football-data.org/65.png",
           "role": "away",
@@ -5453,7 +5453,7 @@
     {
       "id": "api-football:1575179",
       "providerId": 1575179,
-      "name": "SC Freiburg vs FC Schalke 04",
+      "name": "Freiburg vs Schalke",
       "startTime": "2026-10-11T15:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -5491,7 +5491,7 @@
       "participants": [
         {
           "id": 17,
-          "name": "SC Freiburg",
+          "name": "Freiburg",
           "shortCode": "SCF",
           "imageUrl": "https://crests.football-data.org/17.png",
           "role": "home",
@@ -5500,7 +5500,7 @@
         },
         {
           "id": 6,
-          "name": "FC Schalke 04",
+          "name": "Schalke",
           "shortCode": "S04",
           "imageUrl": "https://crests.football-data.org/6.png",
           "role": "away",
@@ -5522,7 +5522,7 @@
     {
       "id": "api-football:1550145",
       "providerId": 1550145,
-      "name": "Sassuolo vs AC Milan",
+      "name": "Sassuolo vs Milan",
       "startTime": "2026-10-11T16:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -5569,7 +5569,7 @@
         },
         {
           "id": 98,
-          "name": "AC Milan",
+          "name": "Milan",
           "shortCode": "MIL",
           "imageUrl": "https://crests.football-data.org/98.png",
           "role": "away",
@@ -5591,7 +5591,7 @@
     {
       "id": "api-football:1570405",
       "providerId": 1570405,
-      "name": "Real Betis vs Osasuna",
+      "name": "Betis vs Osasuna",
       "startTime": "2026-10-11T16:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -5629,7 +5629,7 @@
       "participants": [
         {
           "id": 90,
-          "name": "Real Betis",
+          "name": "Betis",
           "shortCode": "BET",
           "imageUrl": "https://crests.football-data.org/90.png",
           "role": "home",
@@ -5727,6 +5727,75 @@
       "injuries": []
     },
     {
+      "id": "api-football:1552782",
+      "providerId": 1552782,
+      "name": "Troyes vs Marseille",
+      "startTime": "2026-10-11T18:45:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/FL1.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 6",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": "Troyes",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 531,
+          "name": "Troyes",
+          "shortCode": "ETR",
+          "imageUrl": "https://crests.football-data.org/531.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 516,
+          "name": "Marseille",
+          "shortCode": "MAR",
+          "imageUrl": "https://crests.football-data.org/516.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "api-football:1550138",
       "providerId": 1550138,
       "name": "Cagliari vs Juventus",
@@ -5779,75 +5848,6 @@
           "name": "Juventus",
           "shortCode": "JUV",
           "imageUrl": "https://crests.football-data.org/109.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1552782",
-      "providerId": 1552782,
-      "name": "Estac Troyes vs Marseille",
-      "startTime": "2026-10-11T18:45:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 61,
-        "name": "Ligue 1",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/FL1.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 6",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": "Troyes",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 531,
-          "name": "Estac Troyes",
-          "shortCode": "ETR",
-          "imageUrl": "https://crests.football-data.org/531.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 516,
-          "name": "Marseille",
-          "shortCode": "MAR",
-          "imageUrl": "https://crests.football-data.org/516.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -5936,7 +5936,7 @@
     {
       "id": "api-football:1570409",
       "providerId": 1570409,
-      "name": "Racing Santander vs Valencia",
+      "name": "Santander vs Valencia",
       "startTime": "2026-10-11T19:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -5974,7 +5974,7 @@
       "participants": [
         {
           "id": 5335,
-          "name": "Racing Santander",
+          "name": "Santander",
           "shortCode": "SAN",
           "imageUrl": "https://crests.football-data.org/5335.png",
           "role": "home",
@@ -6900,6 +6900,75 @@
       "injuries": []
     },
     {
+      "id": "football-data:575351",
+      "providerId": null,
+      "name": "Feyenoord vs Como",
+      "startTime": "2026-10-14T16:45:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/CL.png"
+      },
+      "round": {
+        "id": null,
+        "name": "League Stage - 2",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 675,
+          "name": "Feyenoord",
+          "shortCode": "FEY",
+          "imageUrl": "https://crests.football-data.org/675.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 7397,
+          "name": "Como",
+          "shortCode": "COM",
+          "imageUrl": "https://crests.football-data.org/7397.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "football-data:575350",
       "providerId": null,
       "name": "LASK vs Liverpool",
@@ -6952,144 +7021,6 @@
           "name": "Liverpool",
           "shortCode": "LIV",
           "imageUrl": "https://crests.football-data.org/64.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:575351",
-      "providerId": null,
-      "name": "Feyenoord vs Como 1907",
-      "startTime": "2026-10-14T16:45:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2001,
-        "name": "UEFA Champions League",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/CL.png"
-      },
-      "round": {
-        "id": null,
-        "name": "League Stage - 2",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 675,
-          "name": "Feyenoord",
-          "shortCode": "FEY",
-          "imageUrl": "https://crests.football-data.org/675.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 7397,
-          "name": "Como 1907",
-          "shortCode": "COM",
-          "imageUrl": "https://crests.football-data.org/7397.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:561879",
-      "providerId": null,
-      "name": "Norwich vs Southampton",
-      "startTime": "2026-10-14T18:45:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/ELC.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 10",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 68,
-          "name": "Norwich",
-          "shortCode": "NOR",
-          "imageUrl": "https://crests.football-data.org/68.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 340,
-          "name": "Southampton",
-          "shortCode": "SOU",
-          "imageUrl": "https://crests.football-data.org/340.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -7176,6 +7107,75 @@
       "injuries": []
     },
     {
+      "id": "football-data:561879",
+      "providerId": null,
+      "name": "Norwich vs Southampton",
+      "startTime": "2026-10-14T18:45:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/ELC.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 10",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 68,
+          "name": "Norwich",
+          "shortCode": "NOR",
+          "imageUrl": "https://crests.football-data.org/68.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 340,
+          "name": "Southampton",
+          "shortCode": "SOU",
+          "imageUrl": "https://crests.football-data.org/340.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "football-data:561880",
       "providerId": null,
       "name": "QPR vs Derby County",
@@ -7245,9 +7245,9 @@
       "injuries": []
     },
     {
-      "id": "football-data:575356",
+      "id": "football-data:575353",
       "providerId": null,
-      "name": "Real Betis vs Porto",
+      "name": "Man City vs Paris SG",
       "startTime": "2026-10-14T19:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -7284,226 +7284,19 @@
       },
       "participants": [
         {
-          "id": 90,
-          "name": "Real Betis",
-          "shortCode": "BET",
-          "imageUrl": "https://crests.football-data.org/90.png",
+          "id": 65,
+          "name": "Man City",
+          "shortCode": "MCI",
+          "imageUrl": "https://crests.football-data.org/65.png",
           "role": "home",
           "position": null,
           "winner": null
         },
         {
-          "id": 503,
-          "name": "Porto",
-          "shortCode": "FCP",
-          "imageUrl": "https://crests.football-data.org/503.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:575352",
-      "providerId": null,
-      "name": "Roma vs Real Madrid",
-      "startTime": "2026-10-14T19:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2001,
-        "name": "UEFA Champions League",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/CL.png"
-      },
-      "round": {
-        "id": null,
-        "name": "League Stage - 2",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 100,
-          "name": "Roma",
-          "shortCode": "ROM",
-          "imageUrl": "https://crests.football-data.org/100.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 86,
-          "name": "Real Madrid",
-          "shortCode": "RMA",
-          "imageUrl": "https://crests.football-data.org/86.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:575358",
-      "providerId": null,
-      "name": "Sl. Bratislava vs Stuttgart",
-      "startTime": "2026-10-14T19:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2001,
-        "name": "UEFA Champions League",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/CL.png"
-      },
-      "round": {
-        "id": null,
-        "name": "League Stage - 2",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 7509,
-          "name": "Sl. Bratislava",
-          "shortCode": "SBA",
-          "imageUrl": "https://crests.football-data.org/7509.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 10,
-          "name": "Stuttgart",
-          "shortCode": "VFB",
-          "imageUrl": "https://crests.football-data.org/10.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:575354",
-      "providerId": null,
-      "name": "Bodø/Glimt vs Dortmund",
-      "startTime": "2026-10-14T19:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2001,
-        "name": "UEFA Champions League",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/CL.png"
-      },
-      "round": {
-        "id": null,
-        "name": "League Stage - 2",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 5721,
-          "name": "Bodø/Glimt",
-          "shortCode": "FK",
-          "imageUrl": "https://crests.football-data.org/5721.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 4,
-          "name": "Dortmund",
-          "shortCode": "BVB",
-          "imageUrl": "https://crests.football-data.org/4.png",
+          "id": 524,
+          "name": "Paris SG",
+          "shortCode": "PSG",
+          "imageUrl": "https://crests.football-data.org/524.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -7659,9 +7452,9 @@
       "injuries": []
     },
     {
-      "id": "football-data:575353",
+      "id": "football-data:575358",
       "providerId": null,
-      "name": "Man City vs PSG",
+      "name": "Sl. Bratislava vs Stuttgart",
       "startTime": "2026-10-14T19:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -7698,19 +7491,226 @@
       },
       "participants": [
         {
-          "id": 65,
-          "name": "Man City",
-          "shortCode": "MCI",
-          "imageUrl": "https://crests.football-data.org/65.png",
+          "id": 7509,
+          "name": "Sl. Bratislava",
+          "shortCode": "SBA",
+          "imageUrl": "https://crests.football-data.org/7509.png",
           "role": "home",
           "position": null,
           "winner": null
         },
         {
-          "id": 524,
-          "name": "PSG",
-          "shortCode": "PSG",
-          "imageUrl": "https://crests.football-data.org/524.png",
+          "id": 10,
+          "name": "Stuttgart",
+          "shortCode": "VFB",
+          "imageUrl": "https://crests.football-data.org/10.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:575354",
+      "providerId": null,
+      "name": "Bodø/Glimt vs Dortmund",
+      "startTime": "2026-10-14T19:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/CL.png"
+      },
+      "round": {
+        "id": null,
+        "name": "League Stage - 2",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 5721,
+          "name": "Bodø/Glimt",
+          "shortCode": "FK",
+          "imageUrl": "https://crests.football-data.org/5721.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 4,
+          "name": "Dortmund",
+          "shortCode": "BVB",
+          "imageUrl": "https://crests.football-data.org/4.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:575356",
+      "providerId": null,
+      "name": "Betis vs Porto",
+      "startTime": "2026-10-14T19:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/CL.png"
+      },
+      "round": {
+        "id": null,
+        "name": "League Stage - 2",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 90,
+          "name": "Betis",
+          "shortCode": "BET",
+          "imageUrl": "https://crests.football-data.org/90.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 503,
+          "name": "Porto",
+          "shortCode": "FCP",
+          "imageUrl": "https://crests.football-data.org/503.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:575352",
+      "providerId": null,
+      "name": "Roma vs Real Madrid",
+      "startTime": "2026-10-14T19:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2001,
+        "name": "UEFA Champions League",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/CL.png"
+      },
+      "round": {
+        "id": null,
+        "name": "League Stage - 2",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 100,
+          "name": "Roma",
+          "shortCode": "ROM",
+          "imageUrl": "https://crests.football-data.org/100.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 86,
+          "name": "Real Madrid",
+          "shortCode": "RMA",
+          "imageUrl": "https://crests.football-data.org/86.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -8006,7 +8006,7 @@
     {
       "id": "api-football:1575187",
       "providerId": 1575187,
-      "name": "Eintracht Frankfurt vs 1. FC Köln",
+      "name": "Frankfurt vs Köln",
       "startTime": "2026-10-16T18:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -8044,7 +8044,7 @@
       "participants": [
         {
           "id": 19,
-          "name": "Eintracht Frankfurt",
+          "name": "Frankfurt",
           "shortCode": "SGE",
           "imageUrl": "https://crests.football-data.org/19.png",
           "role": "home",
@@ -8053,7 +8053,7 @@
         },
         {
           "id": 1,
-          "name": "1. FC Köln",
+          "name": "Köln",
           "shortCode": "KOE",
           "imageUrl": "https://crests.football-data.org/1.png",
           "role": "away",
@@ -8282,7 +8282,7 @@
     {
       "id": "api-football:1570415",
       "providerId": 1570415,
-      "name": "Deportivo La Coruna vs Levante",
+      "name": "Depor vs Levante",
       "startTime": "2026-10-16T19:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -8320,7 +8320,7 @@
       "participants": [
         {
           "id": 560,
-          "name": "Deportivo La Coruna",
+          "name": "Depor",
           "shortCode": "DEP",
           "imageUrl": "https://crests.football-data.org/560.png",
           "role": "home",
@@ -8401,6 +8401,75 @@
           "name": "Internacional",
           "shortCode": "SCI",
           "imageUrl": "https://crests.football-data.org/6684.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:561887",
+      "providerId": null,
+      "name": "Middlesbrough vs Cardiff",
+      "startTime": "2026-10-17T11:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/ELC.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 11",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 343,
+          "name": "Middlesbrough",
+          "shortCode": "MID",
+          "imageUrl": "https://crests.football-data.org/343.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 715,
+          "name": "Cardiff",
+          "shortCode": "CAR",
+          "imageUrl": "https://crests.football-data.org/715.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -8556,75 +8625,6 @@
       "injuries": []
     },
     {
-      "id": "football-data:561887",
-      "providerId": null,
-      "name": "Middlesbrough vs Cardiff",
-      "startTime": "2026-10-17T11:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/ELC.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 11",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 343,
-          "name": "Middlesbrough",
-          "shortCode": "MID",
-          "imageUrl": "https://crests.football-data.org/343.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 715,
-          "name": "Cardiff",
-          "shortCode": "CAR",
-          "imageUrl": "https://crests.football-data.org/715.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
       "id": "football-data:561884",
       "providerId": null,
       "name": "Millwall vs Lincoln City",
@@ -8696,7 +8696,7 @@
     {
       "id": "api-football:1570416",
       "providerId": 1570416,
-      "name": "Espanyol vs Atletico Madrid",
+      "name": "Espanyol vs Atlético",
       "startTime": "2026-10-17T12:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -8743,7 +8743,7 @@
         },
         {
           "id": 78,
-          "name": "Atletico Madrid",
+          "name": "Atlético",
           "shortCode": "ATL",
           "imageUrl": "https://crests.football-data.org/78.png",
           "role": "away",
@@ -8832,285 +8832,9 @@
       "injuries": []
     },
     {
-      "id": "api-football:1575190",
-      "providerId": 1575190,
-      "name": "Hamburger SV vs VfB Stuttgart",
-      "startTime": "2026-10-17T13:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 78,
-        "name": "Bundesliga",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/BL1.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 6",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Volksparkstadion",
-        "city": "Hamburg",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 7,
-          "name": "Hamburger SV",
-          "shortCode": "HSV",
-          "imageUrl": "https://crests.football-data.org/7.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 10,
-          "name": "VfB Stuttgart",
-          "shortCode": "VFB",
-          "imageUrl": "https://crests.football-data.org/10.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1575193",
-      "providerId": 1575193,
-      "name": "SV Elversberg vs FC Augsburg",
-      "startTime": "2026-10-17T13:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 78,
-        "name": "Bundesliga",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/BL1.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 6",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Waldstadion Kaiserlinde",
-        "city": "Spiesen-Elversberg",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 719,
-          "name": "SV Elversberg",
-          "shortCode": "ELV",
-          "imageUrl": "https://crests.football-data.org/719.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 16,
-          "name": "FC Augsburg",
-          "shortCode": "FCA",
-          "imageUrl": "https://crests.football-data.org/16.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1575192",
-      "providerId": 1575192,
-      "name": "FC Schalke 04 vs FSV Mainz 05",
-      "startTime": "2026-10-17T13:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 78,
-        "name": "Bundesliga",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/BL1.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 6",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Veltins Arena",
-        "city": "Gelsenkirchen",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 6,
-          "name": "FC Schalke 04",
-          "shortCode": "S04",
-          "imageUrl": "https://crests.football-data.org/6.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 15,
-          "name": "FSV Mainz 05",
-          "shortCode": "M05",
-          "imageUrl": "https://crests.football-data.org/15.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1575191",
-      "providerId": 1575191,
-      "name": "Werder Bremen vs SC Paderborn 07",
-      "startTime": "2026-10-17T13:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 78,
-        "name": "Bundesliga",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/BL1.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 6",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Weserstadion",
-        "city": "Bremen",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 12,
-          "name": "Werder Bremen",
-          "shortCode": "SVW",
-          "imageUrl": "https://crests.football-data.org/12.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 29,
-          "name": "SC Paderborn 07",
-          "shortCode": "SCP",
-          "imageUrl": "https://crests.football-data.org/29.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
       "id": "api-football:1575188",
       "providerId": 1575188,
-      "name": "Union Berlin vs Borussia Dortmund",
+      "name": "Union Berlin vs Dortmund",
       "startTime": "2026-10-17T13:30:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -9157,7 +8881,7 @@
         },
         {
           "id": 4,
-          "name": "Borussia Dortmund",
+          "name": "Dortmund",
           "shortCode": "BVB",
           "imageUrl": "https://crests.football-data.org/4.png",
           "role": "away",
@@ -9177,9 +8901,285 @@
       "injuries": []
     },
     {
-      "id": "football-data:561885",
+      "id": "api-football:1575192",
+      "providerId": 1575192,
+      "name": "Schalke vs Mainz",
+      "startTime": "2026-10-17T13:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/BL1.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 6",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Veltins Arena",
+        "city": "Gelsenkirchen",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 6,
+          "name": "Schalke",
+          "shortCode": "S04",
+          "imageUrl": "https://crests.football-data.org/6.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 15,
+          "name": "Mainz",
+          "shortCode": "M05",
+          "imageUrl": "https://crests.football-data.org/15.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "api-football:1575191",
+      "providerId": 1575191,
+      "name": "Werder vs Paderborn",
+      "startTime": "2026-10-17T13:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/BL1.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 6",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Weserstadion",
+        "city": "Bremen",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 12,
+          "name": "Werder",
+          "shortCode": "SVW",
+          "imageUrl": "https://crests.football-data.org/12.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 29,
+          "name": "Paderborn",
+          "shortCode": "SCP",
+          "imageUrl": "https://crests.football-data.org/29.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "api-football:1575193",
+      "providerId": 1575193,
+      "name": "Elversberg vs Augsburg",
+      "startTime": "2026-10-17T13:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/BL1.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 6",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Waldstadion Kaiserlinde",
+        "city": "Spiesen-Elversberg",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 719,
+          "name": "Elversberg",
+          "shortCode": "ELV",
+          "imageUrl": "https://crests.football-data.org/719.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 16,
+          "name": "Augsburg",
+          "shortCode": "FCA",
+          "imageUrl": "https://crests.football-data.org/16.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "api-football:1575190",
+      "providerId": 1575190,
+      "name": "Hamburg vs Stuttgart",
+      "startTime": "2026-10-17T13:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/BL1.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 6",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Volksparkstadion",
+        "city": "Hamburg",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 7,
+          "name": "Hamburg",
+          "shortCode": "HSV",
+          "imageUrl": "https://crests.football-data.org/7.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 10,
+          "name": "Stuttgart",
+          "shortCode": "VFB",
+          "imageUrl": "https://crests.football-data.org/10.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:561892",
       "providerId": null,
-      "name": "Bristol City vs Sheffield Utd",
+      "name": "Wrexham vs Preston NE",
       "startTime": "2026-10-17T14:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -9216,19 +9216,19 @@
       },
       "participants": [
         {
-          "id": 387,
-          "name": "Bristol City",
-          "shortCode": "BRI",
-          "imageUrl": "https://crests.football-data.org/387.png",
+          "id": 404,
+          "name": "Wrexham",
+          "shortCode": "WRE",
+          "imageUrl": "https://crests.football-data.org/404.png",
           "role": "home",
           "position": null,
           "winner": null
         },
         {
-          "id": 356,
-          "name": "Sheffield Utd",
-          "shortCode": "SHE",
-          "imageUrl": "https://crests.football-data.org/356.png",
+          "id": 1081,
+          "name": "Preston NE",
+          "shortCode": "PNE",
+          "imageUrl": "https://crests.football-data.org/1081.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -9246,9 +9246,9 @@
       "injuries": []
     },
     {
-      "id": "football-data:561881",
+      "id": "football-data:561888",
       "providerId": null,
-      "name": "Norwich vs Portsmouth",
+      "name": "Derby County vs Stoke",
       "startTime": "2026-10-17T14:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -9285,295 +9285,19 @@
       },
       "participants": [
         {
-          "id": 68,
-          "name": "Norwich",
-          "shortCode": "NOR",
-          "imageUrl": "https://crests.football-data.org/68.png",
+          "id": 342,
+          "name": "Derby County",
+          "shortCode": "DER",
+          "imageUrl": "https://crests.football-data.org/342.png",
           "role": "home",
           "position": null,
           "winner": null
         },
         {
-          "id": 325,
-          "name": "Portsmouth",
-          "shortCode": "POR",
-          "imageUrl": "https://crests.football-data.org/325.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:561891",
-      "providerId": null,
-      "name": "West Brom vs Blackburn",
-      "startTime": "2026-10-17T14:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/ELC.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 11",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 74,
-          "name": "West Brom",
-          "shortCode": "WBA",
-          "imageUrl": "https://crests.football-data.org/74.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 59,
-          "name": "Blackburn",
-          "shortCode": "BLA",
-          "imageUrl": "https://crests.football-data.org/59.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1557433",
-      "providerId": 1557433,
-      "name": "Manchester City vs Ipswich",
-      "startTime": "2026-10-17T14:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 39,
-        "name": "Premier League",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/PL.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 7",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Etihad Stadium",
-        "city": "Manchester",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 65,
-          "name": "Manchester City",
-          "shortCode": "MCI",
-          "imageUrl": "https://crests.football-data.org/65.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 349,
-          "name": "Ipswich",
-          "shortCode": "IPS",
-          "imageUrl": "https://crests.football-data.org/349.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1557428",
-      "providerId": 1557428,
-      "name": "Brentford vs Liverpool",
-      "startTime": "2026-10-17T14:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 39,
-        "name": "Premier League",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/PL.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 7",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Brentford Community Stadium",
-        "city": "London",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 402,
-          "name": "Brentford",
-          "shortCode": "BRE",
-          "imageUrl": "https://crests.football-data.org/402.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 64,
-          "name": "Liverpool",
-          "shortCode": "LIV",
-          "imageUrl": "https://crests.football-data.org/64.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1557431",
-      "providerId": 1557431,
-      "name": "Fulham vs Hull City",
-      "startTime": "2026-10-17T14:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 39,
-        "name": "Premier League",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/PL.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 7",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Craven Cottage",
-        "city": "London",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 63,
-          "name": "Fulham",
-          "shortCode": "FUL",
-          "imageUrl": "https://crests.football-data.org/63.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 322,
-          "name": "Hull City",
-          "shortCode": "HUL",
-          "imageUrl": "https://crests.football-data.org/322.png",
+          "id": 70,
+          "name": "Stoke",
+          "shortCode": "STK",
+          "imageUrl": "https://crests.football-data.org/70.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -9729,6 +9453,420 @@
       "injuries": []
     },
     {
+      "id": "api-football:1557431",
+      "providerId": 1557431,
+      "name": "Fulham vs Hull",
+      "startTime": "2026-10-17T14:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/PL.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 7",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Craven Cottage",
+        "city": "London",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 63,
+          "name": "Fulham",
+          "shortCode": "FUL",
+          "imageUrl": "https://crests.football-data.org/63.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 322,
+          "name": "Hull",
+          "shortCode": "HUL",
+          "imageUrl": "https://crests.football-data.org/322.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "api-football:1557428",
+      "providerId": 1557428,
+      "name": "Brentford vs Liverpool",
+      "startTime": "2026-10-17T14:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/PL.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 7",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Brentford Community Stadium",
+        "city": "London",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 402,
+          "name": "Brentford",
+          "shortCode": "BRE",
+          "imageUrl": "https://crests.football-data.org/402.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 64,
+          "name": "Liverpool",
+          "shortCode": "LIV",
+          "imageUrl": "https://crests.football-data.org/64.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:561881",
+      "providerId": null,
+      "name": "Norwich vs Portsmouth",
+      "startTime": "2026-10-17T14:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/ELC.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 11",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 68,
+          "name": "Norwich",
+          "shortCode": "NOR",
+          "imageUrl": "https://crests.football-data.org/68.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 325,
+          "name": "Portsmouth",
+          "shortCode": "POR",
+          "imageUrl": "https://crests.football-data.org/325.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:561885",
+      "providerId": null,
+      "name": "Bristol City vs Sheffield Utd",
+      "startTime": "2026-10-17T14:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/ELC.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 11",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 387,
+          "name": "Bristol City",
+          "shortCode": "BRI",
+          "imageUrl": "https://crests.football-data.org/387.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 356,
+          "name": "Sheffield Utd",
+          "shortCode": "SHE",
+          "imageUrl": "https://crests.football-data.org/356.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "football-data:561891",
+      "providerId": null,
+      "name": "West Brom vs Blackburn",
+      "startTime": "2026-10-17T14:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 2016,
+        "name": "Championship",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/ELC.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 11",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null,
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 74,
+          "name": "West Brom",
+          "shortCode": "WBA",
+          "imageUrl": "https://crests.football-data.org/74.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 59,
+          "name": "Blackburn",
+          "shortCode": "BLA",
+          "imageUrl": "https://crests.football-data.org/59.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
+      "id": "api-football:1557433",
+      "providerId": 1557433,
+      "name": "Man City vs Ipswich",
+      "startTime": "2026-10-17T14:00:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/PL.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 7",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Etihad Stadium",
+        "city": "Manchester",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 65,
+          "name": "Man City",
+          "shortCode": "MCI",
+          "imageUrl": "https://crests.football-data.org/65.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 349,
+          "name": "Ipswich",
+          "shortCode": "IPS",
+          "imageUrl": "https://crests.football-data.org/349.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "football-data:561882",
       "providerId": null,
       "name": "Southampton vs Bolton",
@@ -9781,144 +9919,6 @@
           "name": "Bolton",
           "shortCode": "BOL",
           "imageUrl": "https://crests.football-data.org/60.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:561892",
-      "providerId": null,
-      "name": "Wrexham vs Preston NE",
-      "startTime": "2026-10-17T14:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/ELC.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 11",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 404,
-          "name": "Wrexham",
-          "shortCode": "WRE",
-          "imageUrl": "https://crests.football-data.org/404.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 1081,
-          "name": "Preston NE",
-          "shortCode": "PNE",
-          "imageUrl": "https://crests.football-data.org/1081.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "football-data:561888",
-      "providerId": null,
-      "name": "Derby County vs Stoke",
-      "startTime": "2026-10-17T14:00:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 2016,
-        "name": "Championship",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/ELC.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 11",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": null,
-        "city": null,
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 342,
-          "name": "Derby County",
-          "shortCode": "DER",
-          "imageUrl": "https://crests.football-data.org/342.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 70,
-          "name": "Stoke",
-          "shortCode": "STK",
-          "imageUrl": "https://crests.football-data.org/70.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -10076,7 +10076,7 @@
     {
       "id": "api-football:1552790",
       "providerId": 1552790,
-      "name": "Strasbourg vs Paris Saint Germain",
+      "name": "Strasbourg vs Paris SG",
       "startTime": "2026-10-17T15:15:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -10123,7 +10123,7 @@
         },
         {
           "id": 524,
-          "name": "Paris Saint Germain",
+          "name": "Paris SG",
           "shortCode": "PSG",
           "imageUrl": "https://crests.football-data.org/524.png",
           "role": "away",
@@ -10145,7 +10145,7 @@
     {
       "id": "api-football:1550149",
       "providerId": 1550149,
-      "name": "Bologna vs Inter",
+      "name": "Bologna vs Internazionale",
       "startTime": "2026-10-17T16:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -10192,78 +10192,9 @@
         },
         {
           "id": 108,
-          "name": "Inter",
+          "name": "Internazionale",
           "shortCode": "INT",
           "imageUrl": "https://crests.football-data.org/108.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1570413",
-      "providerId": 1570413,
-      "name": "Real Betis vs Barcelona",
-      "startTime": "2026-10-17T16:30:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 140,
-        "name": "La Liga",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/laliga.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 9",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Estadio de La Cartuja",
-        "city": "Sevilla",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 90,
-          "name": "Real Betis",
-          "shortCode": "BET",
-          "imageUrl": "https://crests.football-data.org/90.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 81,
-          "name": "Barcelona",
-          "shortCode": "FCB",
-          "imageUrl": "https://crests.football-data.org/81.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -10419,6 +10350,75 @@
       "injuries": []
     },
     {
+      "id": "api-football:1570413",
+      "providerId": 1570413,
+      "name": "Betis vs Barcelona",
+      "startTime": "2026-10-17T16:30:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/laliga.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 9",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio de La Cartuja",
+        "city": "Sevilla",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 90,
+          "name": "Betis",
+          "shortCode": "BET",
+          "imageUrl": "https://crests.football-data.org/90.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 81,
+          "name": "Barcelona",
+          "shortCode": "FCB",
+          "imageUrl": "https://crests.football-data.org/81.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "football-data:558869",
       "providerId": null,
       "name": "Telstar vs Feyenoord",
@@ -10488,9 +10488,78 @@
       "injuries": []
     },
     {
+      "id": "api-football:1550148",
+      "providerId": 1550148,
+      "name": "Roma vs Genoa",
+      "startTime": "2026-10-17T18:45:00.000Z",
+      "resultInfo": null,
+      "seasonId": 2026,
+      "stageId": null,
+      "roundId": null,
+      "hasOdds": false,
+      "lastProcessedAt": null,
+      "status": {
+        "id": null,
+        "name": "Not Started",
+        "shortName": "NS",
+        "developerName": "NS",
+        "isLive": false,
+        "isFinished": false
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "shortCode": null,
+        "imageUrl": "https://crests.football-data.org/c111.png"
+      },
+      "round": {
+        "id": null,
+        "name": "Regular Season - 7",
+        "shortCode": null,
+        "imageUrl": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadio Olimpico",
+        "city": "Rome",
+        "capacity": null,
+        "imageUrl": null
+      },
+      "participants": [
+        {
+          "id": 100,
+          "name": "Roma",
+          "shortCode": "ROM",
+          "imageUrl": "https://crests.football-data.org/100.png",
+          "role": "home",
+          "position": null,
+          "winner": null
+        },
+        {
+          "id": 107,
+          "name": "Genoa",
+          "shortCode": "GEN",
+          "imageUrl": "https://crests.football-data.org/107.png",
+          "role": "away",
+          "position": null,
+          "winner": null
+        }
+      ],
+      "score": {
+        "home": null,
+        "away": null,
+        "halfTimeHome": null,
+        "halfTimeAway": null
+      },
+      "scores": [],
+      "events": [],
+      "lineups": [],
+      "injuries": []
+    },
+    {
       "id": "api-football:1552791",
       "providerId": 1552791,
-      "name": "Estac Troyes vs Lens",
+      "name": "Troyes vs Lens",
       "startTime": "2026-10-17T18:45:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -10528,7 +10597,7 @@
       "participants": [
         {
           "id": 531,
-          "name": "Estac Troyes",
+          "name": "Troyes",
           "shortCode": "ETR",
           "imageUrl": "https://crests.football-data.org/531.png",
           "role": "home",
@@ -10559,7 +10628,7 @@
     {
       "id": "api-football:1552786",
       "providerId": 1552786,
-      "name": "Lille vs Stade Brestois 29",
+      "name": "Lille vs Brest",
       "startTime": "2026-10-17T18:45:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -10606,78 +10675,9 @@
         },
         {
           "id": 512,
-          "name": "Stade Brestois 29",
+          "name": "Brest",
           "shortCode": "BRE",
           "imageUrl": "https://crests.football-data.org/512.png",
-          "role": "away",
-          "position": null,
-          "winner": null
-        }
-      ],
-      "score": {
-        "home": null,
-        "away": null,
-        "halfTimeHome": null,
-        "halfTimeAway": null
-      },
-      "scores": [],
-      "events": [],
-      "lineups": [],
-      "injuries": []
-    },
-    {
-      "id": "api-football:1550148",
-      "providerId": 1550148,
-      "name": "AS Roma vs Genoa",
-      "startTime": "2026-10-17T18:45:00.000Z",
-      "resultInfo": null,
-      "seasonId": 2026,
-      "stageId": null,
-      "roundId": null,
-      "hasOdds": false,
-      "lastProcessedAt": null,
-      "status": {
-        "id": null,
-        "name": "Not Started",
-        "shortName": "NS",
-        "developerName": "NS",
-        "isLive": false,
-        "isFinished": false
-      },
-      "league": {
-        "id": 135,
-        "name": "Serie A",
-        "shortCode": null,
-        "imageUrl": "https://crests.football-data.org/c111.png"
-      },
-      "round": {
-        "id": null,
-        "name": "Regular Season - 7",
-        "shortCode": null,
-        "imageUrl": null
-      },
-      "venue": {
-        "id": null,
-        "name": "Stadio Olimpico",
-        "city": "Rome",
-        "capacity": null,
-        "imageUrl": null
-      },
-      "participants": [
-        {
-          "id": 100,
-          "name": "AS Roma",
-          "shortCode": "ROM",
-          "imageUrl": "https://crests.football-data.org/100.png",
-          "role": "home",
-          "position": null,
-          "winner": null
-        },
-        {
-          "id": 107,
-          "name": "Genoa",
-          "shortCode": "GEN",
-          "imageUrl": "https://crests.football-data.org/107.png",
           "role": "away",
           "position": null,
           "winner": null
@@ -10766,7 +10766,7 @@
     {
       "id": "api-football:1570421",
       "providerId": 1570421,
-      "name": "Valencia vs Athletic Club",
+      "name": "Valencia vs Bilbao",
       "startTime": "2026-10-17T19:00:00.000Z",
       "resultInfo": null,
       "seasonId": 2026,
@@ -10813,7 +10813,7 @@
         },
         {
           "id": 77,
-          "name": "Athletic Club",
+          "name": "Bilbao",
           "shortCode": "ATH",
           "imageUrl": "https://crests.football-data.org/77.png",
           "role": "away",
@@ -11287,7 +11287,7 @@
           "roundId": null,
           "participant": {
             "id": 397,
-            "name": "Brighton Hove",
+            "name": "Brighton",
             "shortCode": "BHA",
             "imageUrl": "https://crests.football-data.org/397.png",
             "role": null,
@@ -11447,7 +11447,7 @@
           "roundId": null,
           "participant": {
             "id": 341,
-            "name": "Leeds United",
+            "name": "Leeds",
             "shortCode": "LEE",
             "imageUrl": "https://crests.football-data.org/341.png",
             "role": null,
@@ -11687,7 +11687,7 @@
           "roundId": null,
           "participant": {
             "id": 322,
-            "name": "Hull City",
+            "name": "Hull",
             "shortCode": "HUL",
             "imageUrl": "https://crests.football-data.org/322.png",
             "role": null,
@@ -11927,7 +11927,7 @@
           "roundId": null,
           "participant": {
             "id": 349,
-            "name": "Ipswich Town",
+            "name": "Ipswich",
             "shortCode": "IPS",
             "imageUrl": "https://crests.football-data.org/349.png",
             "role": null,
@@ -12087,7 +12087,7 @@
           "roundId": null,
           "participant": {
             "id": 351,
-            "name": "Nottingham",
+            "name": "Forest",
             "shortCode": "NOT",
             "imageUrl": "https://crests.football-data.org/351.png",
             "role": null,
@@ -12487,7 +12487,7 @@
           "roundId": null,
           "participant": {
             "id": 1076,
-            "name": "Coventry City",
+            "name": "Coventry",
             "shortCode": "COV",
             "imageUrl": "https://crests.football-data.org/1076.png",
             "role": null,
@@ -12733,7 +12733,7 @@
           "roundId": null,
           "participant": {
             "id": 81,
-            "name": "Barça",
+            "name": "Barcelona",
             "shortCode": "FCB",
             "imageUrl": "https://crests.football-data.org/81.png",
             "role": null,
@@ -12813,7 +12813,7 @@
           "roundId": null,
           "participant": {
             "id": 78,
-            "name": "Atleti",
+            "name": "Atlético",
             "shortCode": "ATL",
             "imageUrl": "https://crests.football-data.org/78.png",
             "role": null,
@@ -12893,7 +12893,7 @@
           "roundId": null,
           "participant": {
             "id": 90,
-            "name": "Real Betis",
+            "name": "Betis",
             "shortCode": "BET",
             "imageUrl": "https://crests.football-data.org/90.png",
             "role": null,
@@ -13053,7 +13053,7 @@
           "roundId": null,
           "participant": {
             "id": 559,
-            "name": "Sevilla FC",
+            "name": "Sevilla",
             "shortCode": "SEV",
             "imageUrl": "https://crests.football-data.org/559.png",
             "role": null,
@@ -13133,7 +13133,7 @@
           "roundId": null,
           "participant": {
             "id": 263,
-            "name": "Alavés",
+            "name": "Alaves",
             "shortCode": "ALA",
             "imageUrl": "https://crests.football-data.org/263.png",
             "role": null,
@@ -13213,7 +13213,7 @@
           "roundId": null,
           "participant": {
             "id": 560,
-            "name": "Deportivo",
+            "name": "Depor",
             "shortCode": "DEP",
             "imageUrl": "https://crests.football-data.org/560.png",
             "role": null,
@@ -13453,7 +13453,7 @@
           "roundId": null,
           "participant": {
             "id": 77,
-            "name": "Athletic",
+            "name": "Bilbao",
             "shortCode": "ATH",
             "imageUrl": "https://crests.football-data.org/77.png",
             "role": null,
@@ -14253,7 +14253,7 @@
           "roundId": null,
           "participant": {
             "id": 84,
-            "name": "Málaga",
+            "name": "Malaga",
             "shortCode": "MAL",
             "imageUrl": "https://crests.football-data.org/84.png",
             "role": null,
@@ -14419,7 +14419,7 @@
           "roundId": null,
           "participant": {
             "id": 108,
-            "name": "Inter",
+            "name": "Internazionale",
             "shortCode": "INT",
             "imageUrl": "https://crests.football-data.org/108.png",
             "role": null,
@@ -14899,7 +14899,7 @@
           "roundId": null,
           "participant": {
             "id": 7397,
-            "name": "Como 1907",
+            "name": "Como",
             "shortCode": "COM",
             "imageUrl": "https://crests.football-data.org/7397.png",
             "role": null,
@@ -15859,7 +15859,7 @@
           "roundId": null,
           "participant": {
             "id": 454,
-            "name": "Venezia FC",
+            "name": "Venezia",
             "shortCode": "VEN",
             "imageUrl": "https://crests.football-data.org/454.png",
             "role": null,
@@ -16021,7 +16021,7 @@
           "roundId": null,
           "participant": {
             "id": 5,
-            "name": "Bayern",
+            "name": "Bayern München",
             "shortCode": "FCB",
             "imageUrl": "https://crests.football-data.org/5.png",
             "role": null,
@@ -16477,7 +16477,7 @@
           "roundId": null,
           "participant": {
             "id": 12,
-            "name": "Bremen",
+            "name": "Werder",
             "shortCode": "SVW",
             "imageUrl": "https://crests.football-data.org/12.png",
             "role": null,
@@ -16781,7 +16781,7 @@
           "roundId": null,
           "participant": {
             "id": 29,
-            "name": "SC Paderborn",
+            "name": "Paderborn",
             "shortCode": "SCP",
             "imageUrl": "https://crests.football-data.org/29.png",
             "role": null,
@@ -16857,7 +16857,7 @@
           "roundId": null,
           "participant": {
             "id": 1,
-            "name": "1. FC Köln",
+            "name": "Köln",
             "shortCode": "KOE",
             "imageUrl": "https://crests.football-data.org/1.png",
             "role": null,
@@ -17085,7 +17085,7 @@
           "roundId": null,
           "participant": {
             "id": 7,
-            "name": "HSV",
+            "name": "Hamburg",
             "shortCode": "HSV",
             "imageUrl": "https://crests.football-data.org/7.png",
             "role": null,
@@ -17237,7 +17237,7 @@
           "roundId": null,
           "participant": {
             "id": 18,
-            "name": "M'gladbach",
+            "name": "Gladbach",
             "shortCode": "BMG",
             "imageUrl": "https://crests.football-data.org/18.png",
             "role": null,
@@ -17399,7 +17399,7 @@
           "roundId": null,
           "participant": {
             "id": 523,
-            "name": "Olympique Lyon",
+            "name": "Lyon",
             "shortCode": "LYO",
             "imageUrl": "https://crests.football-data.org/523.png",
             "role": null,
@@ -17639,7 +17639,7 @@
           "roundId": null,
           "participant": {
             "id": 529,
-            "name": "Stade Rennais",
+            "name": "Rennes",
             "shortCode": "REN",
             "imageUrl": "https://crests.football-data.org/529.png",
             "role": null,
@@ -17719,7 +17719,7 @@
           "roundId": null,
           "participant": {
             "id": 524,
-            "name": "PSG",
+            "name": "Paris SG",
             "shortCode": "PSG",
             "imageUrl": "https://crests.football-data.org/524.png",
             "role": null,
@@ -17799,7 +17799,7 @@
           "roundId": null,
           "participant": {
             "id": 532,
-            "name": "Angers SCO",
+            "name": "Angers",
             "shortCode": "ANG",
             "imageUrl": "https://crests.football-data.org/532.png",
             "role": null,
@@ -18439,7 +18439,7 @@
           "roundId": null,
           "participant": {
             "id": 546,
-            "name": "RC Lens",
+            "name": "Lens",
             "shortCode": "RCL",
             "imageUrl": "https://crests.football-data.org/546.png",
             "role": null,

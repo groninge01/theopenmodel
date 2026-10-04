@@ -173,6 +173,23 @@ try {
   }
   const clubIndex = buildClubIndex(teamDumps);
 
+  // fdId → canonical club name from the last roster build, so portal fixtures,
+  // standings and scorer rows all carry the site's short names ("Man City"),
+  // not provider names ("Manchester City FC"). Stale by a day at most and only
+  // for display.
+  const displayNames = new Map();
+  try {
+    const roster = JSON.parse(
+      readFileSync(join(process.cwd(), 'data', 'leagues-2026.json'), 'utf8'),
+    );
+    for (const rows of Object.values(roster)) {
+      for (const r of rows)
+        if (r.fdId != null) displayNames.set(r.fdId, r.club);
+    }
+  } catch {
+    /* no roster file yet — provider names stand in */
+  }
+
   // ── rolling portal window ────────────────────────────────
   // The API rejects windows wider than 10 days, so the range is chunked. No
   // competition filter: the free tier includes the five covered leagues plus a
@@ -184,7 +201,7 @@ try {
     for (const m of body.matches ?? []) seen.set(m.id, m);
   }
   const fixtures = [...seen.values()]
-    .map((m) => toPortalFixture(m, { index, seasonYear: SEASON }))
+    .map((m) => toPortalFixture(m, { index, seasonYear: SEASON, displayNames }))
     .sort((a, b) => a.startTime.localeCompare(b.startTime));
 
   const standings = [];
@@ -194,7 +211,12 @@ try {
         const body = await api(
           `/competitions/${comp.code}/standings?season=${SEASON}`,
         );
-        standings.push(toStandingTable(body, comp.code, clubIndex, SEASON));
+        standings.push(
+          toStandingTable(body, comp.code, clubIndex, {
+            seasonYear: SEASON,
+            displayNames,
+          }),
+        );
       } catch (error) {
         warnings.push(`Standings ${comp.code}/${SEASON}: ${messageFor(error)}`);
       }
@@ -234,6 +256,7 @@ try {
       scorerLeagues[comp.slug] = toScorerRows(body, comp, {
         clubIndex,
         now,
+        displayNames,
       });
       console.log(
         `  ${comp.slug.padEnd(16)} ${scorerLeagues[comp.slug].length} scorers`,

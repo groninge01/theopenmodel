@@ -41,6 +41,7 @@ export default async function LeaguePage({
   const league = leagueBySlug(slug);
   if (!league) notFound();
   const clubs = leagueClubs(league);
+  const clubByFdId = new Map(clubs.map((c) => [c.fdId, c]));
   const odds = seasonOdds(league.slug, clubs);
   const favorite = odds[0];
   const second = odds[1];
@@ -135,7 +136,7 @@ export default async function LeaguePage({
                         style={{ objectFit: 'contain' }}
                       />
                     )}
-                    {p.team}
+                    {clubByFdId.get(p.teamId ?? 0)?.club ?? p.team}
                   </div>
                   <div className="stat">
                     {p.goals} goals · {p.assists ?? 0} assists

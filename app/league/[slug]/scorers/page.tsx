@@ -165,7 +165,7 @@ export default async function LeagueScorersPage({
                               }}
                             />
                           )}
-                          {s.team}
+                          {club.club}
                         </Link>
                       ) : (
                         s.team

@@ -355,7 +355,7 @@ export function TodayPortal({
                       src={player.teamLogo}
                       width={180}
                       height={180}
-                      alt={`${player.name}, ${player.team}`}
+                      alt={`${player.name}, ${player.club?.club ?? player.team}`}
                       loading="lazy"
                       style={{ objectFit: 'contain' }}
                     />
@@ -363,7 +363,7 @@ export function TodayPortal({
                   <span className="portal-player-copy">
                     <small>{player.league.name}</small>
                     <strong>{player.name}</strong>
-                    <span>{player.team}</span>
+                    <span>{player.club?.club ?? player.team}</span>
                     <dl>
                       <div>
                         <dt>Goals</dt>

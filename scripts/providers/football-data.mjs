@@ -321,7 +321,11 @@ export function toTeamDump(body, comp) {
 
 // fd.org scorers response → the row shape lib/players.ts's Scorer expects.
 // playerId/fd team ids are exact joins — no cross-provider name matching.
-export function toScorerRows(body, comp, { clubIndex, now = new Date() } = {}) {
+export function toScorerRows(
+  body,
+  comp,
+  { clubIndex, now = new Date(), displayNames } = {},
+) {
   const seen = new Map();
   for (const s of body?.scorers ?? []) {
     const player = s?.player ?? {};
@@ -339,7 +343,11 @@ export function toScorerRows(body, comp, { clubIndex, now = new Date() } = {}) {
       position:
         stringOrNull(player.position) ?? stringOrNull(player.section) ?? null,
       nationality: stringOrNull(player.nationality),
-      team: club?.name ?? stringOrNull(s?.team?.name) ?? 'Unknown team',
+      team:
+        displayNames?.get(club?.fdId) ??
+        club?.name ??
+        stringOrNull(s?.team?.name) ??
+        'Unknown team',
       teamId: club?.fdId ?? null,
       teamLogo: club?.crest ?? safeHttpUrl(s?.team?.crest),
       goals: numberOrNull(s?.goals) ?? 0,
@@ -386,7 +394,10 @@ function roundName(match, comp) {
 // fd.org match → PortalFixture (the shape scripts/fetch-api-football.mjs writes
 // into data/portal.json). Identity fields come from the resolved schedule row;
 // everything else from the fd.org payload.
-export function toPortalFixture(match, { index, seasonYear = 2026 } = {}) {
+export function toPortalFixture(
+  match,
+  { index, seasonYear = 2026, displayNames } = {},
+) {
   const hit = index?.resolve(match) ?? null;
   const row = hit?.row ?? null;
   const comp = competitionForMatch(match);
@@ -400,12 +411,16 @@ export function toPortalFixture(match, { index, seasonYear = 2026 } = {}) {
   const winner = match?.score?.winner ?? null;
   const homeId = row?.homeId ?? numberOrNull(match?.homeTeam?.id);
   const awayId = row?.awayId ?? numberOrNull(match?.awayTeam?.id);
+  // displayNames: fdId → our canonical club name ("Man City"), so every
+  // surface — live feed, standings, scorer tables — speaks one vocabulary.
   const homeName =
+    displayNames?.get(homeId) ??
     row?.home ??
     match?.homeTeam?.shortName ??
     match?.homeTeam?.name ??
     'Unknown team';
   const awayName =
+    displayNames?.get(awayId) ??
     row?.away ??
     match?.awayTeam?.shortName ??
     match?.awayTeam?.name ??
@@ -520,7 +535,12 @@ function seasonYearOf(match) {
 
 // fd.org standings response → PortalStandingTable (the shape normalizeStandingTables
 // produced from API-Football data).
-export function toStandingTable(response, code, clubIndex, seasonYear = 2026) {
+export function toStandingTable(
+  response,
+  code,
+  clubIndex,
+  { seasonYear = 2026, displayNames } = {},
+) {
   const comp = byCode.get(code);
   const seasonId = seasonYearOf(response) ?? seasonYear;
   const groups = Array.isArray(response?.standings) ? response.standings : [];
@@ -548,6 +568,7 @@ export function toStandingTable(response, code, clubIndex, seasonYear = 2026) {
         participant: {
           id: fdId ?? numberOrNull(team.id),
           name:
+            displayNames?.get(fdId ?? numberOrNull(team.id)) ??
             stringOrNull(team.shortName) ??
             stringOrNull(team.name) ??
             'Unknown team',
