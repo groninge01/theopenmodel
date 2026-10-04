@@ -15,35 +15,47 @@
 // like a fresh one. This is the check that makes staleness loud.
 //
 //   node scripts/check-data-freshness.mjs
-import { readFileSync, existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
 
 const ROOT = process.cwd();
 const now = Date.now();
 const DAY = 86400_000;
-const problems = [];   // wrong or missing data — must not ship
-const warnings = [];   // stale but not wrong, or upstream's fault — must not be silent
+const problems = []; // wrong or missing data — must not ship
+const warnings = []; // stale but not wrong, or upstream's fault — must not be silent
 const notes = [];
 
 const ageDays = (iso) => (now - new Date(iso).getTime()) / DAY;
 const fmt = (d) => `${d.toFixed(1)}d`;
 
 function check(label, fn) {
-  try { fn(); } catch (e) { problems.push(`${label}: ${e.message}`); }
+  try {
+    fn();
+  } catch (e) {
+    problems.push(`${label}: ${e.message}`);
+  }
 }
 
 // ── ClubElo ratings: the input every projection is built from ──
-check("clubelo", () => {
-  const p = join(ROOT, "data", "clubelo-latest.csv");
-  if (!existsSync(p)) throw new Error("data/clubelo-latest.csv is missing");
-  const rows = readFileSync(p, "utf8").trim().split("\n").slice(1);
-  const froms = rows.map((l) => l.split(",")[5]).filter(Boolean).sort();
+check('clubelo', () => {
+  const p = join(ROOT, 'data', 'clubelo-latest.csv');
+  if (!existsSync(p)) throw new Error('data/clubelo-latest.csv is missing');
+  const rows = readFileSync(p, 'utf8').trim().split('\n').slice(1);
+  const froms = rows
+    .map((l) => l.split(',')[5])
+    .filter(Boolean)
+    .sort();
   const newest = froms[froms.length - 1];
   const age = ageDays(newest);
   // ClubElo rolls a club's rating period forward at each fixture, so in season the newest
   // period is always within a few days. Ten days means the refresh has stopped.
-  if (age > 10) throw new Error(`newest rating period is ${fmt(age)} old (${newest}) — refresh has stopped`);
-  notes.push(`clubelo: ${rows.length} clubs, newest period ${newest} (${fmt(age)})`);
+  if (age > 10)
+    throw new Error(
+      `newest rating period is ${fmt(age)} old (${newest}) — refresh has stopped`,
+    );
+  notes.push(
+    `clubelo: ${rows.length} clubs, newest period ${newest} (${fmt(age)})`,
+  );
 
   // A fresh file is not the same as a live rating. ClubElo rolls each club's validity
   // window forward at every fixture whether or not it has processed the result, so the
@@ -51,27 +63,47 @@ check("clubelo", () => {
   // happened at the start of the 2026-27 season. If matches have been played and no club's
   // rating has moved, the model is running on frozen strengths and nothing on the site can
   // change, however fresh the file looks.
-  const resultsPath = join(ROOT, "data", "results-2026.json");
+  const resultsPath = join(ROOT, 'data', 'results-2026.json');
   if (!existsSync(resultsPath)) return;
-  const results = Object.values(JSON.parse(readFileSync(resultsPath, "utf8")).results ?? {});
+  const results = Object.values(
+    JSON.parse(readFileSync(resultsPath, 'utf8')).results ?? {},
+  );
   const recent = results.filter((r) => ageDays(r.date) <= 14);
-  if (recent.length < 5) return;                 // too early in the season to expect movement
+  if (recent.length < 5) return; // too early in the season to expect movement
 
-  const dir = join(ROOT, "data", "elo-history");
+  const dir = join(ROOT, 'data', 'elo-history');
   if (!existsSync(dir)) return;
   const played = new Set(recent.flatMap((r) => [r.home, r.away]));
-  const current = new Map(rows.map((l) => { const c = l.split(","); return [c[1], Number(c[4])]; }));
-  let checked = 0, stationary = 0;
+  const current = new Map(
+    rows.map((l) => {
+      const c = l.split(',');
+      return [c[1], Number(c[4])];
+    }),
+  );
+  let checked = 0,
+    stationary = 0;
   for (const [club, elo] of current) {
     if (!played.has(club)) continue;
-    const f = join(dir, `${club.toLowerCase().replace(/[^a-z0-9]+/g, "-")}.csv`);
+    const f = join(
+      dir,
+      `${club.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.csv`,
+    );
     if (!existsSync(f)) continue;
-    const hist = readFileSync(f, "utf8").trim().split("\n").slice(1)
-      .map((l) => { const c = l.split(","); return { date: c[5], elo: Number(c[4]) }; })
+    const hist = readFileSync(f, 'utf8')
+      .trim()
+      .split('\n')
+      .slice(1)
+      .map((l) => {
+        const c = l.split(',');
+        return { date: c[5], elo: Number(c[4]) };
+      })
       .filter((x) => x.date);
     const cutoff = new Date(now - 21 * DAY).toISOString().slice(0, 10);
     let before = null;
-    for (const p of hist) { if (p.date <= cutoff) before = p.elo; else break; }
+    for (const p of hist) {
+      if (p.date <= cutoff) before = p.elo;
+      else break;
+    }
     if (before == null) continue;
     checked++;
     if (Math.abs(elo - before) < 0.5) stationary++;
@@ -82,96 +114,167 @@ check("clubelo", () => {
     // strictly worse than shipping a projection built on last month's strengths.
     warnings.push(
       `provider ratings are stalled — ${recent.length} matches played in the last 14 days, but none of ${checked} clubs ` +
-      `involved has moved in 21 days. lib/elo-live.ts is filling the gap from results, so projections still move; ` +
-      `this is worth watching because the correction is ours, not ClubElo's.`,
+        `involved has moved in 21 days. lib/elo-live.ts is filling the gap from results, so projections still move; ` +
+        `this is worth watching because the correction is ours, not ClubElo's.`,
     );
     return;
   }
-  if (checked) notes.push(`clubelo: ${checked - stationary}/${checked} recently-played clubs have moved rating`);
+  if (checked)
+    notes.push(
+      `clubelo: ${checked - stationary}/${checked} recently-played clubs have moved rating`,
+    );
 });
 
 // ── rosters: the file the site actually reads ratings from ──
 // Refreshing clubelo-latest.csv achieves nothing on its own: every page reads strengths
-// from leagues-2026.json, which is built by joining that CSV with the API-Football rosters.
+// from leagues-2026.json, which is built by joining that CSV with the fd.org rosters.
 // That join was not wired into the build either, so a refreshed CSV sat next to a
 // month-old roster file and the site kept serving July's numbers.
-check("rosters", () => {
-  const p = join(ROOT, "data", "leagues-2026.json");
-  if (!existsSync(p)) throw new Error("data/leagues-2026.json is missing");
-  const rosters = JSON.parse(readFileSync(p, "utf8"));
+check('rosters', () => {
+  const p = join(ROOT, 'data', 'leagues-2026.json');
+  if (!existsSync(p)) throw new Error('data/leagues-2026.json is missing');
+  const rosters = JSON.parse(readFileSync(p, 'utf8'));
   const clubs = Object.values(rosters).flat();
-  if (clubs.length < 90) throw new Error(`only ${clubs.length} clubs (expected ~96)`);
+  if (clubs.length < 90)
+    throw new Error(`only ${clubs.length} clubs (expected ~96)`);
 
-  const csv = join(ROOT, "data", "clubelo-latest.csv");
+  const csv = join(ROOT, 'data', 'clubelo-latest.csv');
   if (!existsSync(csv)) return;
   // Keyed by country+club: the rating file is global and names collide
   // (Liverpool ENG vs Liverpool URU, Everton ENG vs Everton CHI).
-  const elo = new Map(readFileSync(csv, "utf8").trim().split("\n").slice(1)
-    .map((l) => { const c = l.split(","); return [`${c[2]}|${c[1]}`, Number(c[4])]; }));
+  const elo = new Map(
+    readFileSync(csv, 'utf8')
+      .trim()
+      .split('\n')
+      .slice(1)
+      .map((l) => {
+        const c = l.split(',');
+        return [`${c[2]}|${c[1]}`, Number(c[4])];
+      }),
+  );
   const drifted = clubs.filter((c) => {
     const source = elo.get(`${c.country}|${c.club}`);
     return source != null && Math.abs(source - c.elo) >= 1;
   });
   if (drifted.length) {
     throw new Error(
-      `${drifted.length} clubs' ratings disagree with clubelo-latest.csv (e.g. ${drifted.slice(0, 3).map((c) => `${c.club} ${c.elo} vs ${elo.get(c.club).toFixed(0)}`).join(", ")}) — ` +
-      `the roster join has not been re-run, so the site is serving older strengths than the ratings file holds`,
+      `${drifted.length} clubs' ratings disagree with clubelo-latest.csv (e.g. ${drifted
+        .slice(0, 3)
+        .map((c) => `${c.club} ${c.elo} vs ${elo.get(c.club).toFixed(0)}`)
+        .join(', ')}) — ` +
+        `the roster join has not been re-run, so the site is serving older strengths than the ratings file holds`,
     );
   }
-  notes.push(`rosters: ${clubs.length} clubs, ratings match clubelo-latest.csv`);
+  notes.push(
+    `rosters: ${clubs.length} clubs, ratings match clubelo-latest.csv`,
+  );
 });
 
 // ── fixtures: kickoff times, match slugs, and what counts as pre-kickoff ──
-check("fixtures", () => {
-  const p = join(ROOT, "data", "fixtures-2026.json");
-  if (!existsSync(p)) throw new Error("data/fixtures-2026.json is missing");
-  const fx = JSON.parse(readFileSync(p, "utf8"));
+check('fixtures', () => {
+  const p = join(ROOT, 'data', 'fixtures-2026.json');
+  if (!existsSync(p)) throw new Error('data/fixtures-2026.json is missing');
+  const fx = JSON.parse(readFileSync(p, 'utf8'));
   const all = Object.values(fx).flat();
-  if (all.length < 1500) throw new Error(`only ${all.length} fixtures (expected ~1750)`);
+  if (all.length < 1500)
+    throw new Error(`only ${all.length} fixtures (expected ~1750)`);
   const upcoming = all.filter((f) => new Date(f.date).getTime() > now);
-  if (!upcoming.length) throw new Error("no upcoming fixtures — the season list has run out");
+  if (!upcoming.length)
+    throw new Error('no upcoming fixtures — the season list has run out');
   // The placeholder-schedule signature that shipped wrong dates: a whole round sharing one
   // kickoff instant.
   for (const [slug, rows] of Object.entries(fx)) {
     const slots = new Set(rows.map((f) => f.date.slice(11, 16)));
-    if (slots.size < 4) throw new Error(`${slug} has ${slots.size} distinct kickoff time(s) — looks like placeholder data`);
+    if (slots.size < 4)
+      throw new Error(
+        `${slug} has ${slots.size} distinct kickoff time(s) — looks like placeholder data`,
+      );
   }
   notes.push(`fixtures: ${all.length} total, ${upcoming.length} upcoming`);
 });
 
 // ── provider snapshot: results, which is what the track record scores against ──
-check("portal", () => {
-  const p = join(ROOT, "data", "portal.json");
-  if (!existsSync(p)) throw new Error("data/portal.json is missing");
-  const portal = JSON.parse(readFileSync(p, "utf8"));
+check('portal', () => {
+  const p = join(ROOT, 'data', 'portal.json');
+  if (!existsSync(p)) throw new Error('data/portal.json is missing');
+  const portal = JSON.parse(readFileSync(p, 'utf8'));
   const age = ageDays(portal.asOf);
-  if (age > 3) throw new Error(`asOf is ${fmt(age)} old (${portal.asOf}) — results will stop being recorded`);
+  if (age > 3)
+    throw new Error(
+      `asOf is ${fmt(age)} old (${portal.asOf}) — results will stop being recorded`,
+    );
   const from = portal.coverage?.dateFrom;
   // The window must reach back past yesterday, or matches that finished in the evening
   // fall outside it before the next build runs and are never scored.
   if (from && ageDays(`${from}T00:00:00Z`) < 1) {
-    throw new Error(`coverage starts ${from}, which is not far enough back to catch last night's results`);
+    throw new Error(
+      `coverage starts ${from}, which is not far enough back to catch last night's results`,
+    );
   }
-  notes.push(`portal: asOf ${portal.asOf.slice(0, 10)} (${fmt(age)}), covers ${from}→${portal.coverage?.dateTo}`);
+  notes.push(
+    `portal: asOf ${portal.asOf.slice(0, 10)} (${fmt(age)}), covers ${from}→${portal.coverage?.dateTo}`,
+  );
+});
+
+// ── squads + scorers: fd.org current-season player data ──
+// Squads refresh on a ≥72h cadence (the /teams calls dominate the request
+// budget), scorers on the portal cadence. A missing file or an `updated` stamp
+// well past its cadence means the fetch is failing silently — the page renders
+// the last good rows either way.
+check('squads', () => {
+  const p = join(ROOT, 'data', 'squads-2026.json');
+  if (!existsSync(p)) throw new Error('data/squads-2026.json is missing');
+  const squads = JSON.parse(readFileSync(p, 'utf8'));
+  const teams = Object.keys(squads.teams ?? {}).length;
+  if (teams < 90) throw new Error(`only ${teams} squads (expected ~96)`);
+  const age = ageDays(squads.updated);
+  if (age > 5)
+    throw new Error(
+      `squads updated ${fmt(age)} ago (${squads.updated}) — past the 72h cadence`,
+    );
+  notes.push(`squads: ${teams} clubs, updated ${fmt(age)} ago`);
+});
+
+check('scorers', () => {
+  const p = join(ROOT, 'data', 'scorers-2026.json');
+  if (!existsSync(p)) throw new Error('data/scorers-2026.json is missing');
+  const scorers = JSON.parse(readFileSync(p, 'utf8'));
+  const rows = Object.values(scorers.leagues ?? {}).flat().length;
+  if (rows < 200) throw new Error(`only ${rows} scorer rows (expected ~400)`);
+  const age = ageDays(scorers.updated);
+  if (age > 3)
+    throw new Error(`scorers updated ${fmt(age)} ago (${scorers.updated})`);
+  notes.push(`scorers: ${rows} rows, updated ${fmt(age)} ago`);
 });
 
 // ── snapshots: the published record itself ──
-check("snapshots", () => {
-  const dir = join(ROOT, "data", "snapshots");
-  const files = readdirSync(dir).filter((f) => f.endsWith(".json")).sort();
-  if (!files.length) throw new Error("no snapshots");
-  const newest = files[files.length - 1].replace(".json", "");
+check('snapshots', () => {
+  const dir = join(ROOT, 'data', 'snapshots');
+  const files = readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .sort();
+  if (!files.length) throw new Error('no snapshots');
+  const newest = files[files.length - 1].replace('.json', '');
   const age = ageDays(`${newest}T00:00:00Z`);
-  if (age > 2) throw new Error(`newest snapshot is ${newest} (${fmt(age)}) — the daily build is not running`);
+  if (age > 2)
+    throw new Error(
+      `newest snapshot is ${newest} (${fmt(age)}) — the daily build is not running`,
+    );
   notes.push(`snapshots: ${files.length} files, newest ${newest}`);
 });
 
 for (const n of notes) console.log(`  ✓ ${n}`);
 for (const w of warnings) console.warn(`  ⚠ ${w}`);
 if (problems.length) {
-  console.error("\n✗ data freshness check failed:");
+  console.error('\n✗ data freshness check failed:');
   for (const p of problems) console.error(`  · ${p}`);
-  console.error("\nA stale forecast looks exactly like a fresh one on the page, which is why this fails the build instead of warning.");
+  console.error(
+    '\nA stale forecast looks exactly like a fresh one on the page, which is why this fails the build instead of warning.',
+  );
   process.exit(1);
 }
-console.log(warnings.length ? `✓ no blocking problems (${warnings.length} warning)` : "✓ all datasets fresh");
+console.log(
+  warnings.length
+    ? `✓ no blocking problems (${warnings.length} warning)`
+    : '✓ all datasets fresh',
+);

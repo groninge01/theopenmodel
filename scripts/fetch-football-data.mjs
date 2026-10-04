@@ -6,6 +6,9 @@
 //   data/fixtures-2026.json      season schedule, updated in place (ids preserved)
 //   data/portal.json             rolling results+fixtures snapshot
 //   public/data/portal-live.json  browser-facing trim of the portal snapshot
+//   data/fd-teams.jsonl          league membership (input for build-teams-meta)
+//   data/squads-2026.json        squads keyed by fd.org team id (refreshed ≥72h)
+//   data/scorers-2026.json       current-season goals/assists per league
 //
 // Dormant without a key: no FOOTBALL_DATA_KEY → log + exit 0, existing files stay.
 // A failed season-schedule fetch still fails the run outright — shipping a stale
@@ -26,13 +29,16 @@ import {
 import { dirname, join, resolve } from 'node:path';
 import {
   COMPETITIONS,
+  buildClubIndex,
   buildFixtureIndex,
   buildSnapshot,
-  buildTeamIdIndex,
   mergeSeasonFixtures,
   publicSnapshot,
   toPortalFixture,
+  toScorerRows,
+  toSquadRows,
   toStandingTable,
+  toTeamDump,
 } from './providers/football-data.mjs';
 
 for (const envFile of ['.env.local', '.env']) {
@@ -64,6 +70,14 @@ const MIN_INTERVAL_MS = integerEnv(
   60_000,
 );
 const MIN_AGE_HOURS = integerEnv('FOOTBALL_DATA_MIN_AGE_HOURS', 20, 0, 720);
+// Squads move slowly; ~96 /teams calls cost ~10 minutes at free-tier pacing,
+// so they refresh on their own cadence rather than with every daily run.
+const SQUADS_MIN_AGE_HOURS = integerEnv(
+  'FOOTBALL_DATA_SQUADS_MIN_AGE_HOURS',
+  72,
+  0,
+  24 * 30,
+);
 const DRY = process.env.DRY_RUN === '1';
 const FORCE = process.argv.includes('--force') || process.env.FORCE === '1';
 const BASE = 'https://api.football-data.org/v4';
@@ -75,6 +89,9 @@ const PUBLIC_DEST = resolve(
     'public/data/portal-live.json',
 );
 const FIXTURES_DEST = join(process.cwd(), 'data', 'fixtures-2026.json');
+const SCORERS_DEST = join(process.cwd(), 'data', 'scorers-2026.json');
+const TEAMS_DEST = join(process.cwd(), 'data', 'fd-teams.jsonl');
+const SQUADS_DEST = join(process.cwd(), 'data', 'squads-2026.json');
 const observedRateLimits = [];
 let lastCall = 0;
 
@@ -101,11 +118,7 @@ const warnings = [];
 
 try {
   const existingFixtures = JSON.parse(readFileSync(FIXTURES_DEST, 'utf8'));
-  const teamsMeta = JSON.parse(
-    readFileSync(join(process.cwd(), 'data', 'teams-meta.json'), 'utf8'),
-  );
   const index = buildFixtureIndex(existingFixtures);
-  const teamIds = buildTeamIdIndex(teamsMeta);
 
   // ── season schedule ──────────────────────────────────────
   // Same validation as fetch-fixtures.mjs: a calendar that comes back all at one
@@ -141,6 +154,25 @@ try {
     }
   }
 
+  // ── league rosters ─────────────────────────────────────
+  // /competitions/{code}/teams is the authoritative membership list (replaces
+  // apifb-teams.jsonl) and keys everything downstream — squads, standings
+  // participants and scorers all resolve fd.org names onto these fdIds.
+  const teamDumps = [];
+  for (const comp of COMPETITIONS) {
+    try {
+      const body = await api(
+        `/competitions/${comp.code}/teams?season=${SEASON}`,
+      );
+      const dump = toTeamDump(body, comp);
+      teamDumps.push(dump);
+      console.log(`  ${comp.slug.padEnd(16)} ${dump.count} teams`);
+    } catch (error) {
+      warnings.push(`Teams ${comp.code}/${SEASON}: ${messageFor(error)}`);
+    }
+  }
+  const clubIndex = buildClubIndex(teamDumps);
+
   // ── rolling portal window ────────────────────────────────
   // The API rejects windows wider than 10 days, so the range is chunked. No
   // competition filter: the free tier includes the five covered leagues plus a
@@ -162,10 +194,52 @@ try {
         const body = await api(
           `/competitions/${comp.code}/standings?season=${SEASON}`,
         );
-        standings.push(toStandingTable(body, comp.code, teamIds, SEASON));
+        standings.push(toStandingTable(body, comp.code, clubIndex, SEASON));
       } catch (error) {
         warnings.push(`Standings ${comp.code}/${SEASON}: ${messageFor(error)}`);
       }
+    }
+  }
+
+  // ── squads ─────────────────────────────────────────────
+  // /teams/{id} squads feed the team pages, keyed by the same fd.org team ids
+  // the scorers feed uses. Refreshed on the slower SQUADS_MIN_AGE cadence.
+  const squads = {};
+  const squadsFresh = isFreshEnough(SQUADS_DEST, SQUADS_MIN_AGE_HOURS);
+  if (squadsFresh) {
+    console.log(
+      `  squads fresher than ${SQUADS_MIN_AGE_HOURS}h — skipping /teams calls`,
+    );
+  } else {
+    for (const dump of teamDumps) {
+      for (const team of dump.teams) {
+        try {
+          const detail = await api(`/teams/${team.id}`);
+          squads[String(team.id)] = toSquadRows(detail);
+        } catch (error) {
+          warnings.push(`Squad ${team.name}: ${messageFor(error)}`);
+        }
+      }
+    }
+  }
+
+  // ── current-season scorers ─────────────────────────────
+  // Feeds the league leaderboard and the per-club "spine" ranking.
+  const scorerLeagues = {};
+  for (const comp of COMPETITIONS) {
+    try {
+      const body = await api(
+        `/competitions/${comp.code}/scorers?season=${SEASON}&limit=100`,
+      );
+      scorerLeagues[comp.slug] = toScorerRows(body, comp, {
+        clubIndex,
+        now,
+      });
+      console.log(
+        `  ${comp.slug.padEnd(16)} ${scorerLeagues[comp.slug].length} scorers`,
+      );
+    } catch (error) {
+      warnings.push(`Scorers ${comp.code}/${SEASON}: ${messageFor(error)}`);
     }
   }
 
@@ -196,6 +270,36 @@ try {
     { destination: PORTAL_DEST, value: snapshot },
     { destination: PUBLIC_DEST, value: publicSnapshot(snapshot) },
   ]);
+  if (teamDumps.length) {
+    mkdirSync(dirname(TEAMS_DEST), { recursive: true });
+    const t = `${TEAMS_DEST}.${process.pid}.tmp`;
+    writeFileSync(
+      t,
+      `${teamDumps.map((d) => JSON.stringify(d)).join('\n')}\n`,
+      'utf8',
+    );
+    renameSync(t, TEAMS_DEST);
+  }
+  if (Object.keys(squads).length) {
+    writeJsonAtomic(SQUADS_DEST, {
+      updated: snapshot.updatedAt,
+      season: SEASON,
+      teams: squads,
+    });
+    console.log(
+      `  squads: ${Object.keys(squads).length} clubs → data/squads-2026.json`,
+    );
+  }
+  if (Object.keys(scorerLeagues).length) {
+    writeJsonAtomic(SCORERS_DEST, {
+      updated: snapshot.updatedAt,
+      season: SEASON,
+      leagues: scorerLeagues,
+    });
+    console.log(
+      `  scorers: ${Object.values(scorerLeagues).reduce((n, rows) => n + rows.length, 0)} rows → data/scorers-2026.json`,
+    );
+  }
   console.log(
     `\n✓ football-data.org: ${snapshot.fixtures.length} fixtures (${snapshot.coverage.finishedFixtureCount} finished, ${snapshot.coverage.liveFixtureCount} live), ` +
       `${snapshot.coverage.standingTableCount} standing tables, window ${dateFrom}→${dateTo}`,
@@ -239,7 +343,17 @@ async function api(path) {
       continue;
     }
     const body = await res.json().catch(() => ({}));
-    if (res.ok && Array.isArray(body.matches ?? body.standings)) return body;
+    if (
+      res.ok &&
+      Array.isArray(
+        body.matches ??
+          body.standings ??
+          body.scorers ??
+          body.teams ??
+          body.squad,
+      )
+    )
+      return body;
     const detail =
       body?.message || body?.error || res.statusText || 'request rejected';
     if (res.status >= 500 && attempt < RETRIES) {
@@ -276,7 +390,8 @@ function isFreshEnough(path, maxAgeHours) {
   if (!existsSync(path)) return false;
   try {
     const snap = JSON.parse(readFileSync(path, 'utf8'));
-    const age = Date.now() - new Date(snap.asOf).getTime();
+    const stamp = snap.asOf ?? snap.updated;
+    const age = Date.now() - new Date(stamp).getTime();
     return Number.isFinite(age) && age < maxAgeHours * 3_600_000;
   } catch {
     return false;

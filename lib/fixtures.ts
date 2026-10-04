@@ -1,4 +1,6 @@
-// 2026-27 fixtures (API-Football) joined to our club records.
+// 2026-27 fixtures joined to our club records. Team ids are football-data.org
+// ids; fixture ids stay on the legacy API-Football space the public record
+// joins on.
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { LEAGUES, leagueClubs, type ClubRow, type League } from './data';
@@ -36,10 +38,10 @@ export function allFixtures(): Fixture[] {
   );
   const out: Fixture[] = [];
   for (const league of LEAGUES) {
-    const byApi = new Map(leagueClubs(league).map((c) => [c.apiId, c]));
+    const byFd = new Map(leagueClubs(league).map((c) => [c.fdId, c]));
     for (const f of raw[league.slug] ?? []) {
-      const home = byApi.get(f.homeId);
-      const away = byApi.get(f.awayId);
+      const home = byFd.get(f.homeId);
+      const away = byFd.get(f.awayId);
       if (!home || !away) continue;
       out.push({
         id: f.id,
