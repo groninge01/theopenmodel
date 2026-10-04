@@ -41,14 +41,16 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
   const rank = leagueOdds.findIndex((o) => o.slug === club.slug) + 1;
   const rivals = (clubs.length ? clubs : topTeams(10)).filter((c) => c.slug !== club.slug);
   const hist = eloHistory(club.slug);
-  const spark = sparkPath(hist);
+  const chart = { width: 640, height: 150, left: 48, right: 616, top: 28, bottom: 126 };
+  const spark = sparkPath(hist, chart.right - chart.left + 12, chart.bottom - chart.top + 12);
+  const last = { x: chart.left - 6 + spark.last.x, y: chart.top - 6 + spark.last.y };
   const ticks: { x: number; label: string }[] = [];
   if (hist.length > 1) {
-    const step = (640 - 12) / (hist.length - 1);
+    const step = (chart.right - chart.left) / (hist.length - 1);
     let prev = "";
     hist.forEach((pt, i) => {
       const y = pt.date.slice(0, 4);
-      if (y !== prev) { if (prev) ticks.push({ x: 6 + i * step, label: y }); prev = y; }
+      if (y !== prev) { if (prev) ticks.push({ x: chart.left + i * step, label: y }); prev = y; }
     });
   }
 
@@ -97,25 +99,25 @@ export default async function TeamPage({ params }: { params: Promise<{ slug: str
               range {spark.min}–{spark.max} · {hist.length} rating periods · source: ClubElo
             </span>
           </div>
-          <svg viewBox="0 0 640 178" style={{ width: "100%", height: "auto", marginTop: 14, display: "block" }} role="img"
-            aria-label={`${club.club} Elo trend since 2020`}>
-            {[0, 0.33, 0.66, 1].map((f) => (
-              <line key={f} x1="6" x2="634" y1={6 + f * 148} y2={6 + f * 148} stroke="var(--rule)" strokeWidth="1" />
-            ))}
-            <text className="axis-label" x="6" y={12}>{spark.max}</text>
-            <text className="axis-label" x="6" y={158}>{spark.min}</text>
-            {ticks.map((t) => (
-              <g key={t.label}>
-                <line x1={t.x} x2={t.x} y1="6" y2="154" stroke="var(--rule)" strokeWidth="1" strokeDasharray="2 4" />
-                <text className="axis-label" x={t.x + 4} y="172">{t.label}</text>
-              </g>
-            ))}
-            <path d={spark.d} fill="none" stroke="var(--ink)" strokeWidth="1.8" strokeLinejoin="round" />
-            <circle cx={spark.last.x} cy={spark.last.y} r="3.5" fill="var(--accent)" />
-            <text className="axis-label" x={Math.min(spark.last.x + 8, 596)} y={Math.max(spark.last.y + 3, 12)} style={{ fontWeight: 600, fill: "var(--accent-ink)" }}>
-              {club.elo}
-            </text>
-          </svg>
+          <svg viewBox={`0 0 ${chart.width} ${chart.height}`} style={{ width: "100%", height: "auto", marginTop: 14, display: "block" }} role="img"
+              aria-label={`${club.club} Elo trend since 2020`}>
+              {[0, 0.33, 0.66, 1].map((f) => (
+                <line key={f} x1={chart.left} x2={chart.right} y1={chart.top + f * (chart.bottom - chart.top)} y2={chart.top + f * (chart.bottom - chart.top)} stroke="var(--rule)" strokeWidth="1" />
+              ))}
+              <text className="axis-label" x={chart.left - 12} y={chart.top + 4} textAnchor="end">{spark.max}</text>
+              <text className="axis-label" x={chart.left - 12} y={chart.bottom + 4} textAnchor="end">{spark.min}</text>
+              {ticks.map((t) => (
+                <g key={t.label}>
+                  <line x1={t.x} x2={t.x} y1={chart.top} y2={chart.bottom} stroke="var(--rule)" strokeWidth="1" strokeDasharray="2 4" />
+                  <text className="axis-label" x={t.x + 4} y={chart.height - 6}>{t.label}</text>
+                </g>
+              ))}
+              <path d={spark.d} transform={`translate(${chart.left - 6} ${chart.top - 6})`} fill="none" stroke="var(--ink)" strokeWidth="1.8" strokeLinejoin="round" />
+              <circle cx={last.x} cy={last.y} r="3.5" fill="var(--accent)" />
+              <text className="axis-label" x={last.x} y={last.y - 10} textAnchor="end" style={{ fontWeight: 600, fill: "var(--accent-ink)" }}>
+                {club.elo}
+              </text>
+            </svg>
         </div>
       )}
 
