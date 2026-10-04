@@ -10,7 +10,8 @@ import { portalSnapshot } from "@/lib/portal";
 import { Crest } from "./Crest";
 import { Kickoff } from "./Kickoff";
 import { PortalLeagueRail } from "./PortalLeagueRail";
-import { PortalLiveFeed } from "./PortalLiveFeed";
+// No live upstream since the provider switch — re-enable with the block below.
+// import { PortalLiveFeed } from "./PortalLiveFeed";
 import { PortalMatchday } from "./PortalMatchday";
 import { PortalLeadStory, PortalNewsCards, PortalNewsFeed, PortalNewsUpdated } from "./PortalNewsFeed";
 
@@ -25,7 +26,7 @@ function dateLabel(iso: string) {
 
 export function TodayPortal({ predictionSlot, tickerSlot }: { predictionSlot?: ReactNode; tickerSlot?: ReactNode } = {}) {
   const portal = portalSnapshot();
-  const providerReady = portal.provider === "api-football";
+  const providerReady = portal.provider === "api-football" || portal.provider === "football-data";
   const initialLiveFixtures = providerReady
     ? portal.fixtures.map((fixture) => ({
         ...fixture,
@@ -162,10 +163,12 @@ export function TodayPortal({ predictionSlot, tickerSlot }: { predictionSlot?: R
       </section>
 
       <div className="portal-content wrap">
+        {/* football-data.org's free tier has no live endpoint and refreshes once a
+            day, so this section showed stale "live" data — disabled for now.
         <PortalLiveFeed
           initialFixtures={initialLiveFixtures}
           initialAsOf={providerReady ? portal.asOf : null}
-        />
+        /> */}
 
         <PortalMatchday
           fixtures={matchdayFixtures}
