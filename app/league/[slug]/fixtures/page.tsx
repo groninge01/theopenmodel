@@ -137,6 +137,32 @@ export default async function LeagueFixturesPage({
           <div className="fixture-rows" style={{ marginTop: 12 }}>
             {byRound.get(r)!.map((f) => {
               const p = matchProb(f.home.elo, f.away.elo);
+              const outcome = f.score
+                ? f.score.home > f.score.away
+                  ? 'home'
+                  : f.score.home === f.score.away
+                    ? 'draw'
+                    : 'away'
+                : null;
+              const fav =
+                p.home >= p.draw && p.home >= p.away
+                  ? 'home'
+                  : p.draw >= p.away
+                    ? 'draw'
+                    : 'away';
+              const win = { color: 'var(--win)', fontWeight: 700 };
+              const drw = { color: 'var(--ink)', fontWeight: 700 };
+              const cell = (base: object | undefined, isOutcome: boolean) => ({
+                ...base,
+                ...(outcome ? { paddingBlock: 4 } : {}),
+                ...(isOutcome
+                  ? {
+                      boxShadow: 'inset 0 0 0 1px currentColor',
+                      borderRadius: 4,
+                      marginInline: -3,
+                    }
+                  : {}),
+              });
               return (
                 <Link
                   key={f.id}
@@ -152,7 +178,13 @@ export default async function LeagueFixturesPage({
                     <b>{f.home.club}</b>
                     <Crest club={f.home.club} slug={f.home.slug} size="sm" />
                   </span>
-                  <span className="fx-vs mono">v</span>
+                  {f.score ? (
+                    <span className="fx-score mono">
+                      {f.score.home}–{f.score.away}
+                    </span>
+                  ) : (
+                    <span className="fx-vs mono">v</span>
+                  )}
                   <span className="fx-team fx-away">
                     <Crest club={f.away.club} slug={f.away.slug} size="sm" />
                     <b>{f.away.club}</b>
@@ -163,31 +195,28 @@ export default async function LeagueFixturesPage({
                   >
                     <span
                       className="fx-p"
-                      style={
-                        p.home >= p.draw && p.home >= p.away
-                          ? { color: 'var(--win)', fontWeight: 700 }
-                          : undefined
-                      }
+                      style={cell(
+                        fav === 'home' ? win : undefined,
+                        outcome === 'home',
+                      )}
                     >
                       {pct(p.home, 0)}
                     </span>
                     <span
                       className="fx-p"
-                      style={
-                        p.draw >= p.home && p.draw >= p.away
-                          ? { color: 'var(--ink)', fontWeight: 700 }
-                          : { color: 'var(--muted)' }
-                      }
+                      style={cell(
+                        fav === 'draw' ? drw : { color: 'var(--muted)' },
+                        outcome === 'draw',
+                      )}
                     >
                       {pct(p.draw, 0)}
                     </span>
                     <span
                       className="fx-p"
-                      style={
-                        p.away >= p.home && p.away >= p.draw
-                          ? { color: 'var(--win)', fontWeight: 700 }
-                          : undefined
-                      }
+                      style={cell(
+                        fav === 'away' ? win : undefined,
+                        outcome === 'away',
+                      )}
                     >
                       {pct(p.away, 0)}
                     </span>

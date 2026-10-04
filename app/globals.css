@@ -9031,7 +9031,7 @@ a.portal-live-row:hover {
 }
 .fixture-row {
   display: grid;
-  grid-template-columns: 64px minmax(0, 1fr) 20px minmax(0, 1fr) 96px;
+  grid-template-columns: 64px minmax(0, 1fr) 38px minmax(0, 1fr) 96px;
   align-items: center;
   gap: 10px;
   padding: 10px 14px;
@@ -9076,6 +9076,13 @@ a.portal-live-row:hover {
   font-size: 10px;
   text-align: center;
 }
+.fixture-row .fx-score {
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
 .fixture-row .fx-odds {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -9088,7 +9095,7 @@ a.portal-live-row:hover {
 }
 @media (max-width: 640px) {
   .fixture-row {
-    grid-template-columns: 52px minmax(0, 1fr) 16px minmax(0, 1fr) 78px;
+    grid-template-columns: 52px minmax(0, 1fr) 30px minmax(0, 1fr) 78px;
     gap: 6px;
     padding: 9px 10px;
   }

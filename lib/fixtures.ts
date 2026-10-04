@@ -17,6 +17,11 @@ interface RawFixture {
   away: string;
 }
 
+interface RawResult {
+  hg: number;
+  ag: number;
+}
+
 export interface Fixture {
   id: number;
   slug: string;
@@ -27,6 +32,8 @@ export interface Fixture {
   league: League;
   home: ClubRow;
   away: ClubRow;
+  /** Final score when the match has been played, else null. */
+  score: { home: number; away: number } | null;
 }
 
 let cache: Fixture[] | null = null;
@@ -36,6 +43,13 @@ export function allFixtures(): Fixture[] {
   const raw: Record<string, RawFixture[]> = JSON.parse(
     readFileSync(join(process.cwd(), 'data', 'fixtures-2026.json'), 'utf8'),
   );
+  let results: Record<string, RawResult> = {};
+  try {
+    results =
+      JSON.parse(
+        readFileSync(join(process.cwd(), 'data', 'results-2026.json'), 'utf8'),
+      ).results ?? {};
+  } catch {}
   const out: Fixture[] = [];
   for (const league of LEAGUES) {
     const byFd = new Map(leagueClubs(league).map((c) => [c.fdId, c]));
@@ -43,6 +57,7 @@ export function allFixtures(): Fixture[] {
       const home = byFd.get(f.homeId);
       const away = byFd.get(f.awayId);
       if (!home || !away) continue;
+      const res = results[String(f.id)];
       out.push({
         id: f.id,
         slug: `${home.slug}-vs-${away.slug}-${f.date.slice(0, 10)}`,
@@ -53,6 +68,7 @@ export function allFixtures(): Fixture[] {
         league,
         home,
         away,
+        score: res ? { home: res.hg, away: res.ag } : null,
       });
     }
   }
