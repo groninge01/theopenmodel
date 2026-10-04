@@ -1,18 +1,24 @@
 // 2026-27 fixtures (API-Football) joined to our club records.
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
-import { LEAGUES, leagueClubs, type ClubRow, type League } from "./data";
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { LEAGUES, leagueClubs, type ClubRow, type League } from './data';
 
 interface RawFixture {
-  id: number; date: string; round: string;
-  venue: string | null; city: string | null;
-  homeId: number; awayId: number; home: string; away: string;
+  id: number;
+  date: string;
+  round: string;
+  venue: string | null;
+  city: string | null;
+  homeId: number;
+  awayId: number;
+  home: string;
+  away: string;
 }
 
 export interface Fixture {
   id: number;
   slug: string;
-  date: string;         // ISO kickoff
+  date: string; // ISO kickoff
   round: string;
   venue: string | null;
   city: string | null;
@@ -26,7 +32,8 @@ let cache: Fixture[] | null = null;
 export function allFixtures(): Fixture[] {
   if (cache) return cache;
   const raw: Record<string, RawFixture[]> = JSON.parse(
-    readFileSync(join(process.cwd(), "data", "fixtures-2026.json"), "utf8"));
+    readFileSync(join(process.cwd(), 'data', 'fixtures-2026.json'), 'utf8'),
+  );
   const out: Fixture[] = [];
   for (const league of LEAGUES) {
     const byApi = new Map(leagueClubs(league).map((c) => [c.apiId, c]));
@@ -41,7 +48,9 @@ export function allFixtures(): Fixture[] {
         round: f.round,
         venue: f.venue,
         city: f.city,
-        league, home, away,
+        league,
+        home,
+        away,
       });
     }
   }
@@ -56,8 +65,10 @@ export function fixtureBySlug(slug: string): Fixture | undefined {
 
 export function upcomingFixtures(n = 20, leagueSlug?: string): Fixture[] {
   const now = Date.now();
-  const fx = allFixtures().filter((f) =>
-    (!leagueSlug || f.league.slug === leagueSlug) && new Date(f.date).getTime() >= now
+  const fx = allFixtures().filter(
+    (f) =>
+      (!leagueSlug || f.league.slug === leagueSlug) &&
+      new Date(f.date).getTime() >= now,
   );
   return fx.slice(0, n);
 }
@@ -90,7 +101,14 @@ export function nextFixtureDate(): string {
   return dates.find((d) => d >= today) ?? dates[dates.length - 1] ?? today;
 }
 
-// Fixtures for a club, in date order.
+// Upcoming fixtures for a club, in date order.
 export function clubFixtures(clubSlug: string, n = 10): Fixture[] {
-  return allFixtures().filter((f) => f.home.slug === clubSlug || f.away.slug === clubSlug).slice(0, n);
+  const now = Date.now();
+  return allFixtures()
+    .filter(
+      (f) =>
+        (f.home.slug === clubSlug || f.away.slug === clubSlug) &&
+        new Date(f.date).getTime() >= now,
+    )
+    .slice(0, n);
 }
