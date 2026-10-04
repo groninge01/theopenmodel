@@ -115,18 +115,19 @@ export default async function MatchPage({ params }: { params: Promise<{ slug: st
         <b>Why does {pickTxt} have the highest number?</b>{" "}
         {f.home.elo >= f.away.elo ? f.home.club : f.away.club} currently has the stronger
         recent-results rating. The calculation also allows for {f.home.club} playing at home.
-        Across many simulated versions of this match, the average goal totals are {p.xgHome.toFixed(2)}
+        Across many simulated versions of this match, the average goal totals are {p.xgHome.toFixed(2)}{" "}
         for {f.home.club} and {p.xgAway.toFixed(2)} for {f.away.club}. That makes {pickTxt} the highest
         of the three result estimates at {pct(Math.max(p.home, p.draw, p.away))}.{" "}
         {oH && oA && (
-          <>For the full league season, {f.home.club} is projected to earn about {oH.avgPts.toFixed(0)}
+          <>For the full league season, {f.home.club} is projected to earn about {oH.avgPts.toFixed(0)}{" "}
           points and {f.away.club} about {oA.avgPts.toFixed(0)}.</>
         )}{" "}
+        <br />
         <Link href="/guide/">Read the beginner&apos;s guide</Link> or{" "}
         <Link href="/methodology/">see the technical calculation</Link>.
       </p>
 
-      <section className="panel" style={{ marginTop: 22, maxWidth: 760, borderLeft: "2px solid var(--accent)" }}>
+      <section className="panel" style={{ marginTop: 22, borderLeft: "2px solid var(--accent)" }}>
         <span className="eyebrow plain">Model reading — citable summary</span>
         <p style={{ fontSize: 14.5, lineHeight: 1.65, margin: "10px 0 0", color: "var(--ink)" }}>
           The Open Model gives <b>{f.home.club}</b> a <b className="tnum">{pct(p.home)}</b> chance of
