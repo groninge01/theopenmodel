@@ -1,24 +1,39 @@
-// 2026-27 fixtures (API-Football) joined to our club records.
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
-import { LEAGUES, leagueClubs, type ClubRow, type League } from "./data";
+// 2026-27 fixtures joined to our club records. Team ids are football-data.org
+// ids; fixture ids stay on the legacy API-Football space the public record
+// joins on.
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { LEAGUES, leagueClubs, type ClubRow, type League } from './data';
 
 interface RawFixture {
-  id: number; date: string; round: string;
-  venue: string | null; city: string | null;
-  homeId: number; awayId: number; home: string; away: string;
+  id: number;
+  date: string;
+  round: string;
+  venue: string | null;
+  city: string | null;
+  homeId: number;
+  awayId: number;
+  home: string;
+  away: string;
+}
+
+interface RawResult {
+  hg: number;
+  ag: number;
 }
 
 export interface Fixture {
   id: number;
   slug: string;
-  date: string;         // ISO kickoff
+  date: string; // ISO kickoff
   round: string;
   venue: string | null;
   city: string | null;
   league: League;
   home: ClubRow;
   away: ClubRow;
+  /** Final score when the match has been played, else null. */
+  score: { home: number; away: number } | null;
 }
 
 let cache: Fixture[] | null = null;
@@ -26,14 +41,23 @@ let cache: Fixture[] | null = null;
 export function allFixtures(): Fixture[] {
   if (cache) return cache;
   const raw: Record<string, RawFixture[]> = JSON.parse(
-    readFileSync(join(process.cwd(), "data", "fixtures-2026.json"), "utf8"));
+    readFileSync(join(process.cwd(), 'data', 'fixtures-2026.json'), 'utf8'),
+  );
+  let results: Record<string, RawResult> = {};
+  try {
+    results =
+      JSON.parse(
+        readFileSync(join(process.cwd(), 'data', 'results-2026.json'), 'utf8'),
+      ).results ?? {};
+  } catch {}
   const out: Fixture[] = [];
   for (const league of LEAGUES) {
-    const byApi = new Map(leagueClubs(league).map((c) => [c.apiId, c]));
+    const byFd = new Map(leagueClubs(league).map((c) => [c.fdId, c]));
     for (const f of raw[league.slug] ?? []) {
-      const home = byApi.get(f.homeId);
-      const away = byApi.get(f.awayId);
+      const home = byFd.get(f.homeId);
+      const away = byFd.get(f.awayId);
       if (!home || !away) continue;
+      const res = results[String(f.id)];
       out.push({
         id: f.id,
         slug: `${home.slug}-vs-${away.slug}-${f.date.slice(0, 10)}`,
@@ -41,7 +65,10 @@ export function allFixtures(): Fixture[] {
         round: f.round,
         venue: f.venue,
         city: f.city,
-        league, home, away,
+        league,
+        home,
+        away,
+        score: res ? { home: res.hg, away: res.ag } : null,
       });
     }
   }
@@ -56,8 +83,10 @@ export function fixtureBySlug(slug: string): Fixture | undefined {
 
 export function upcomingFixtures(n = 20, leagueSlug?: string): Fixture[] {
   const now = Date.now();
-  const fx = allFixtures().filter((f) =>
-    (!leagueSlug || f.league.slug === leagueSlug) && new Date(f.date).getTime() >= now
+  const fx = allFixtures().filter(
+    (f) =>
+      (!leagueSlug || f.league.slug === leagueSlug) &&
+      new Date(f.date).getTime() >= now,
   );
   return fx.slice(0, n);
 }
@@ -90,7 +119,14 @@ export function nextFixtureDate(): string {
   return dates.find((d) => d >= today) ?? dates[dates.length - 1] ?? today;
 }
 
-// Fixtures for a club, in date order.
+// Upcoming fixtures for a club, in date order.
 export function clubFixtures(clubSlug: string, n = 10): Fixture[] {
-  return allFixtures().filter((f) => f.home.slug === clubSlug || f.away.slug === clubSlug).slice(0, n);
+  const now = Date.now();
+  return allFixtures()
+    .filter(
+      (f) =>
+        (f.home.slug === clubSlug || f.away.slug === clubSlug) &&
+        new Date(f.date).getTime() >= now,
+    )
+    .slice(0, n);
 }

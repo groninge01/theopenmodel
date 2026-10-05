@@ -243,15 +243,124 @@ function daysBetween(a, b) {
   );
 }
 
-// slug → {apiId, apiName} from data/teams-meta.json, indexed by normalized name
-// so fd.org team names resolve to API-Football team ids (used for standings).
-export function buildTeamIdIndex(teamsMeta) {
+// normalized fd.org team name → {slug, fdId, name, crest}, built from the
+// fd-teams.jsonl dumps fetched in the same run — same-provider names on both
+// sides of every join (standings, scorers).
+export function buildClubIndex(teamDumps) {
   const byName = new Map();
-  for (const meta of Object.values(teamsMeta ?? {})) {
-    const key = normalizeTeamKey(meta?.apiName);
-    if (key && meta.apiId != null) byName.set(key, meta.apiId);
+  for (const dump of teamDumps ?? []) {
+    const comp = byFdId.get(dump?.league);
+    for (const t of dump?.teams ?? []) {
+      const key = normalizeTeamKey(t?.name);
+      if (!key) continue;
+      byName.set(key, {
+        slug: comp?.slug ?? null,
+        fdId: t.id ?? null,
+        name: t.name ?? key,
+        crest: t.logo ?? null,
+      });
+    }
   }
   return byName;
+}
+
+function ageFromDob(dob, now) {
+  const born = new Date(dob);
+  if (Number.isNaN(born.getTime())) return null;
+  let age = now.getUTCFullYear() - born.getUTCFullYear();
+  const before =
+    now.getUTCMonth() < born.getUTCMonth() ||
+    (now.getUTCMonth() === born.getUTCMonth() &&
+      now.getUTCDate() < born.getUTCDate());
+  return before ? age - 1 : age;
+}
+
+// fd.org squad vocabulary → the four buckets the site renders.
+const POSITION_MAP = {
+  goalkeeper: 'Goalkeeper',
+  defence: 'Defender',
+  defense: 'Defender',
+  midfield: 'Midfielder',
+  offence: 'Attacker',
+  offense: 'Attacker',
+};
+
+export function mapPosition(position) {
+  const key = String(position ?? '')
+    .toLowerCase()
+    .trim();
+  return POSITION_MAP[key] ?? stringOrNull(position) ?? 'Midfielder';
+}
+
+// fd.org /teams/{id} → squads-2026.json rows. fd.org gives no photos or shirt
+// numbers on the free tier; player.id is the join key the scorers feed shares.
+export function toSquadRows(teamBody) {
+  return (teamBody?.squad ?? [])
+    .map((p) => ({
+      id: numberOrNull(p?.id),
+      name: stringOrNull(p?.name),
+      position: mapPosition(p?.position),
+      dob: stringOrNull(p?.dateOfBirth),
+      nationality: stringOrNull(p?.nationality),
+    }))
+    .filter((p) => p.id !== null && p.name);
+}
+
+// fd.org /competitions/{code}/teams → one fd-teams.jsonl line (same envelope
+// the old apifb-teams.jsonl used: {league, count, teams:[{id,name,logo}]}).
+export function toTeamDump(body, comp) {
+  const teams = (body?.teams ?? [])
+    .map((t) => ({
+      id: numberOrNull(t?.id),
+      name: stringOrNull(t?.name),
+      logo: safeHttpUrl(t?.crest),
+    }))
+    .filter((t) => t.id !== null && t.name);
+  return { league: comp.fdId, count: teams.length, teams };
+}
+
+// fd.org scorers response → the row shape lib/players.ts's Scorer expects.
+// playerId/fd team ids are exact joins — no cross-provider name matching.
+export function toScorerRows(
+  body,
+  comp,
+  { clubIndex, now = new Date(), displayNames } = {},
+) {
+  const seen = new Map();
+  for (const s of body?.scorers ?? []) {
+    const player = s?.player ?? {};
+    const playerId = numberOrNull(player.id);
+    const name = stringOrNull(player.name);
+    if (playerId === null || !name) continue;
+    const club =
+      clubIndex?.get(normalizeTeamKey(s?.team?.name)) ??
+      clubIndex?.get(normalizeTeamKey(s?.team?.shortName)) ??
+      null;
+    const row = {
+      playerId,
+      name,
+      age: ageFromDob(player.dateOfBirth, now),
+      position:
+        stringOrNull(player.position) ?? stringOrNull(player.section) ?? null,
+      nationality: stringOrNull(player.nationality),
+      team:
+        displayNames?.get(club?.fdId) ??
+        club?.name ??
+        stringOrNull(s?.team?.name) ??
+        'Unknown team',
+      teamId: club?.fdId ?? null,
+      teamLogo: club?.crest ?? safeHttpUrl(s?.team?.crest),
+      goals: numberOrNull(s?.goals) ?? 0,
+      assists: numberOrNull(s?.assists) ?? 0,
+      apps: numberOrNull(s?.playedMatches) ?? 0,
+      penalties: numberOrNull(s?.penalties),
+    };
+    // Same player can appear twice after a mid-window move; keep the entry
+    // with more goals rather than listing them under two clubs.
+    const prev = seen.get(playerId);
+    if (!prev || row.goals > prev.goals) seen.set(playerId, row);
+  }
+  return [...seen.values()];
 }
 
 const LIVE_SHORT = new Set([
@@ -285,7 +394,10 @@ function roundName(match, comp) {
 // fd.org match → PortalFixture (the shape scripts/fetch-api-football.mjs writes
 // into data/portal.json). Identity fields come from the resolved schedule row;
 // everything else from the fd.org payload.
-export function toPortalFixture(match, { index, seasonYear = 2026 } = {}) {
+export function toPortalFixture(
+  match,
+  { index, seasonYear = 2026, displayNames } = {},
+) {
   const hit = index?.resolve(match) ?? null;
   const row = hit?.row ?? null;
   const comp = competitionForMatch(match);
@@ -299,12 +411,16 @@ export function toPortalFixture(match, { index, seasonYear = 2026 } = {}) {
   const winner = match?.score?.winner ?? null;
   const homeId = row?.homeId ?? numberOrNull(match?.homeTeam?.id);
   const awayId = row?.awayId ?? numberOrNull(match?.awayTeam?.id);
+  // displayNames: fdId → our canonical club name ("Man City"), so every
+  // surface — live feed, standings, scorer tables — speaks one vocabulary.
   const homeName =
+    displayNames?.get(homeId) ??
     row?.home ??
     match?.homeTeam?.shortName ??
     match?.homeTeam?.name ??
     'Unknown team';
   const awayName =
+    displayNames?.get(awayId) ??
     row?.away ??
     match?.awayTeam?.shortName ??
     match?.awayTeam?.name ??
@@ -419,7 +535,12 @@ function seasonYearOf(match) {
 
 // fd.org standings response → PortalStandingTable (the shape normalizeStandingTables
 // produced from API-Football data).
-export function toStandingTable(response, code, teamIds, seasonYear = 2026) {
+export function toStandingTable(
+  response,
+  code,
+  clubIndex,
+  { seasonYear = 2026, displayNames } = {},
+) {
   const comp = byCode.get(code);
   const seasonId = seasonYearOf(response) ?? seasonYear;
   const groups = Array.isArray(response?.standings) ? response.standings : [];
@@ -428,14 +549,14 @@ export function toStandingTable(response, code, teamIds, seasonYear = 2026) {
     .map((row) => {
       const team = row?.team ?? {};
       const key = normalizeTeamKey(team.name ?? team.shortName);
-      const apiId = (key && teamIds?.get(key)) ?? null;
+      const fdId = (key && clubIndex?.get(key)?.fdId) ?? null;
       const form =
         typeof row?.form === 'string'
           ? row.form.split(',').filter(Boolean)
           : [];
       return {
         id: null,
-        participantId: apiId ?? numberOrNull(team.id),
+        participantId: fdId ?? numberOrNull(team.id),
         position: numberOrNull(row?.position),
         points: numberOrNull(row?.points),
         result: null,
@@ -445,8 +566,9 @@ export function toStandingTable(response, code, teamIds, seasonYear = 2026) {
         groupId: null,
         roundId: null,
         participant: {
-          id: apiId ?? numberOrNull(team.id),
+          id: fdId ?? numberOrNull(team.id),
           name:
+            displayNames?.get(fdId ?? numberOrNull(team.id)) ??
             stringOrNull(team.shortName) ??
             stringOrNull(team.name) ??
             'Unknown team',
@@ -595,12 +717,6 @@ export function publicSnapshot(snapshot) {
 export function loadFixturesFile(root = process.cwd()) {
   return JSON.parse(
     readFileSync(join(root, 'data', 'fixtures-2026.json'), 'utf8'),
-  );
-}
-
-export function loadTeamsMeta(root = process.cwd()) {
-  return JSON.parse(
-    readFileSync(join(root, 'data', 'teams-meta.json'), 'utf8'),
   );
 }
 

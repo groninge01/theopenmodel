@@ -5,160 +5,180 @@
    "club": "Arsenal",
    "country": "ENG",
    "elo": 2040,
+   "fdId": 57,
    "apiId": 42,
-   "logo": "https://media.api-sports.io/football/teams/42.png"
+   "logo": "https://crests.football-data.org/57.png"
   },
   {
    "slug": "man-city",
    "club": "Man City",
    "country": "ENG",
    "elo": 2028,
+   "fdId": 65,
    "apiId": 50,
-   "logo": "https://media.api-sports.io/football/teams/50.png"
+   "logo": "https://crests.football-data.org/65.png"
   },
   {
    "slug": "liverpool",
    "club": "Liverpool",
    "country": "ENG",
    "elo": 1937,
+   "fdId": 64,
    "apiId": 40,
-   "logo": "https://media.api-sports.io/football/teams/40.png"
+   "logo": "https://crests.football-data.org/64.png"
   },
   {
    "slug": "aston-villa",
    "club": "Aston Villa",
    "country": "ENG",
    "elo": 1895,
+   "fdId": 58,
    "apiId": 66,
-   "logo": "https://media.api-sports.io/football/teams/66.png"
+   "logo": "https://crests.football-data.org/58.png"
   },
   {
    "slug": "brighton",
    "club": "Brighton",
    "country": "ENG",
    "elo": 1891,
+   "fdId": 397,
    "apiId": 51,
-   "logo": "https://media.api-sports.io/football/teams/51.png"
+   "logo": "https://crests.football-data.org/397.png"
   },
   {
    "slug": "chelsea",
    "club": "Chelsea",
    "country": "ENG",
    "elo": 1881,
+   "fdId": 61,
    "apiId": 49,
-   "logo": "https://media.api-sports.io/football/teams/49.png"
+   "logo": "https://crests.football-data.org/61.png"
   },
   {
    "slug": "man-united",
    "club": "Man United",
    "country": "ENG",
    "elo": 1879,
+   "fdId": 66,
    "apiId": 33,
-   "logo": "https://media.api-sports.io/football/teams/33.png"
+   "logo": "https://crests.football-data.org/66.png"
   },
   {
    "slug": "newcastle",
    "club": "Newcastle",
    "country": "ENG",
    "elo": 1879,
+   "fdId": 67,
    "apiId": 34,
-   "logo": "https://media.api-sports.io/football/teams/34.png"
+   "logo": "https://crests.football-data.org/67.png"
   },
   {
    "slug": "brentford",
    "club": "Brentford",
    "country": "ENG",
    "elo": 1862,
+   "fdId": 402,
    "apiId": 55,
-   "logo": "https://media.api-sports.io/football/teams/55.png"
+   "logo": "https://crests.football-data.org/402.png"
   },
   {
    "slug": "bournemouth",
    "club": "Bournemouth",
    "country": "ENG",
    "elo": 1861,
+   "fdId": 1044,
    "apiId": 35,
-   "logo": "https://media.api-sports.io/football/teams/35.png"
+   "logo": "https://crests.football-data.org/bournemouth.png"
   },
   {
    "slug": "everton",
    "club": "Everton",
    "country": "ENG",
    "elo": 1827,
+   "fdId": 62,
    "apiId": 45,
-   "logo": "https://media.api-sports.io/football/teams/45.png"
+   "logo": "https://crests.football-data.org/62.png"
   },
   {
    "slug": "crystal-palace",
    "club": "Crystal Palace",
    "country": "ENG",
    "elo": 1824,
+   "fdId": 354,
    "apiId": 52,
-   "logo": "https://media.api-sports.io/football/teams/52.png"
+   "logo": "https://crests.football-data.org/354.png"
   },
   {
    "slug": "leeds",
    "club": "Leeds",
    "country": "ENG",
    "elo": 1816,
+   "fdId": 341,
    "apiId": 63,
-   "logo": "https://media.api-sports.io/football/teams/63.png"
+   "logo": "https://crests.football-data.org/341.png"
   },
   {
    "slug": "fulham",
    "club": "Fulham",
    "country": "ENG",
    "elo": 1807,
+   "fdId": 63,
    "apiId": 36,
-   "logo": "https://media.api-sports.io/football/teams/36.png"
+   "logo": "https://crests.football-data.org/63.png"
   },
   {
    "slug": "forest",
    "club": "Forest",
    "country": "ENG",
    "elo": 1805,
+   "fdId": 351,
    "apiId": 65,
-   "logo": "https://media.api-sports.io/football/teams/65.png"
+   "logo": "https://crests.football-data.org/351.png"
   },
   {
    "slug": "tottenham",
    "club": "Tottenham",
    "country": "ENG",
    "elo": 1798,
+   "fdId": 73,
    "apiId": 47,
-   "logo": "https://media.api-sports.io/football/teams/47.png"
+   "logo": "https://crests.football-data.org/73.png"
   },
   {
    "slug": "sunderland",
    "club": "Sunderland",
    "country": "ENG",
    "elo": 1737,
+   "fdId": 71,
    "apiId": 746,
-   "logo": "https://media.api-sports.io/football/teams/746.png"
+   "logo": "https://crests.football-data.org/71.png"
   },
   {
    "slug": "ipswich",
    "club": "Ipswich",
    "country": "ENG",
    "elo": 1694,
+   "fdId": 349,
    "apiId": 57,
-   "logo": "https://media.api-sports.io/football/teams/57.png"
+   "logo": "https://crests.football-data.org/349.png"
   },
   {
    "slug": "coventry",
    "club": "Coventry",
    "country": "ENG",
    "elo": 1689,
+   "fdId": 1076,
    "apiId": 1346,
-   "logo": "https://media.api-sports.io/football/teams/1346.png"
+   "logo": "https://crests.football-data.org/1076.png"
   },
   {
    "slug": "hull",
    "club": "Hull",
    "country": "ENG",
    "elo": 1634,
+   "fdId": 322,
    "apiId": 64,
-   "logo": "https://media.api-sports.io/football/teams/64.png"
+   "logo": "https://crests.football-data.org/322.png"
   }
  ],
  "la-liga": [
@@ -167,160 +187,180 @@
    "club": "Barcelona",
    "country": "ESP",
    "elo": 2024,
+   "fdId": 81,
    "apiId": 529,
-   "logo": "https://media.api-sports.io/football/teams/529.png"
+   "logo": "https://crests.football-data.org/81.png"
   },
   {
    "slug": "real-madrid",
    "club": "Real Madrid",
    "country": "ESP",
    "elo": 1972,
+   "fdId": 86,
    "apiId": 541,
-   "logo": "https://media.api-sports.io/football/teams/541.png"
+   "logo": "https://crests.football-data.org/86.png"
   },
   {
    "slug": "atletico",
    "club": "Atlético",
    "country": "ESP",
    "elo": 1903,
+   "fdId": 78,
    "apiId": 530,
-   "logo": "https://media.api-sports.io/football/teams/530.png"
+   "logo": "https://crests.football-data.org/78.png"
   },
   {
    "slug": "betis",
    "club": "Betis",
    "country": "ESP",
    "elo": 1818,
+   "fdId": 90,
    "apiId": 543,
-   "logo": "https://media.api-sports.io/football/teams/543.png"
+   "logo": "https://crests.football-data.org/90.png"
   },
   {
    "slug": "villarreal",
    "club": "Villarreal",
    "country": "ESP",
    "elo": 1798,
+   "fdId": 94,
    "apiId": 533,
-   "logo": "https://media.api-sports.io/football/teams/533.png"
+   "logo": "https://crests.football-data.org/94.png"
   },
   {
    "slug": "real-sociedad",
    "club": "Real Sociedad",
    "country": "ESP",
    "elo": 1769,
+   "fdId": 92,
    "apiId": 548,
-   "logo": "https://media.api-sports.io/football/teams/548.png"
+   "logo": "https://crests.football-data.org/92.png"
   },
   {
    "slug": "celta",
    "club": "Celta",
    "country": "ESP",
    "elo": 1750,
+   "fdId": 558,
    "apiId": 538,
-   "logo": "https://media.api-sports.io/football/teams/538.png"
+   "logo": "https://crests.football-data.org/558.png"
   },
   {
    "slug": "rayo-vallecano",
    "club": "Rayo Vallecano",
    "country": "ESP",
    "elo": 1744,
+   "fdId": 87,
    "apiId": 728,
-   "logo": "https://media.api-sports.io/football/teams/728.png"
+   "logo": "https://crests.football-data.org/87.png"
   },
   {
    "slug": "valencia",
    "club": "Valencia",
    "country": "ESP",
    "elo": 1741,
+   "fdId": 95,
    "apiId": 532,
-   "logo": "https://media.api-sports.io/football/teams/532.png"
+   "logo": "https://crests.football-data.org/95.png"
   },
   {
    "slug": "sevilla",
    "club": "Sevilla",
    "country": "ESP",
    "elo": 1725,
+   "fdId": 559,
    "apiId": 536,
-   "logo": "https://media.api-sports.io/football/teams/536.png"
+   "logo": "https://crests.football-data.org/559.png"
   },
   {
    "slug": "alaves",
    "club": "Alaves",
    "country": "ESP",
    "elo": 1723,
+   "fdId": 263,
    "apiId": 542,
-   "logo": "https://media.api-sports.io/football/teams/542.png"
+   "logo": "https://crests.football-data.org/263.png"
   },
   {
    "slug": "osasuna",
    "club": "Osasuna",
    "country": "ESP",
    "elo": 1717,
+   "fdId": 79,
    "apiId": 727,
-   "logo": "https://media.api-sports.io/football/teams/727.png"
+   "logo": "https://crests.football-data.org/79.png"
   },
   {
    "slug": "levante",
    "club": "Levante",
    "country": "ESP",
    "elo": 1708,
+   "fdId": 88,
    "apiId": 539,
-   "logo": "https://media.api-sports.io/football/teams/539.png"
+   "logo": "https://crests.football-data.org/88.png"
   },
   {
    "slug": "elche",
    "club": "Elche",
    "country": "ESP",
    "elo": 1701,
+   "fdId": 285,
    "apiId": 797,
-   "logo": "https://media.api-sports.io/football/teams/797.png"
+   "logo": "https://crests.football-data.org/285.png"
   },
   {
    "slug": "getafe",
    "club": "Getafe",
    "country": "ESP",
    "elo": 1700,
+   "fdId": 82,
    "apiId": 546,
-   "logo": "https://media.api-sports.io/football/teams/546.png"
+   "logo": "https://crests.football-data.org/82.png"
   },
   {
    "slug": "espanyol",
    "club": "Espanyol",
    "country": "ESP",
    "elo": 1697,
+   "fdId": 80,
    "apiId": 540,
-   "logo": "https://media.api-sports.io/football/teams/540.png"
+   "logo": "https://crests.football-data.org/80.png"
   },
   {
    "slug": "depor",
    "club": "Depor",
    "country": "ESP",
    "elo": 1691,
+   "fdId": 560,
    "apiId": 544,
-   "logo": "https://media.api-sports.io/football/teams/544.png"
+   "logo": "https://crests.football-data.org/560.png"
   },
   {
    "slug": "santander",
    "club": "Santander",
    "country": "ESP",
    "elo": 1685,
+   "fdId": 5335,
    "apiId": 4665,
-   "logo": "https://media.api-sports.io/football/teams/4665.png"
+   "logo": "https://crests.football-data.org/5335.png"
   },
   {
    "slug": "bilbao",
    "club": "Bilbao",
    "country": "ESP",
    "elo": 1677.9,
+   "fdId": 77,
    "apiId": 531,
-   "logo": "https://media.api-sports.io/football/teams/531.png"
+   "logo": "https://crests.football-data.org/77.png"
   },
   {
    "slug": "malaga",
    "club": "Malaga",
    "country": "ESP",
    "elo": 1666,
+   "fdId": 84,
    "apiId": 535,
-   "logo": "https://media.api-sports.io/football/teams/535.png"
+   "logo": "https://crests.football-data.org/84.png"
   }
  ],
  "serie-a": [
@@ -329,160 +369,180 @@
    "club": "Internazionale",
    "country": "ITA",
    "elo": 1946,
+   "fdId": 108,
    "apiId": 505,
-   "logo": "https://media.api-sports.io/football/teams/505.png"
+   "logo": "https://crests.football-data.org/108.png"
   },
   {
    "slug": "roma",
    "club": "Roma",
    "country": "ITA",
    "elo": 1857,
+   "fdId": 100,
    "apiId": 497,
-   "logo": "https://media.api-sports.io/football/teams/497.png"
+   "logo": "https://crests.football-data.org/100.png"
   },
   {
    "slug": "juventus",
    "club": "Juventus",
    "country": "ITA",
    "elo": 1841,
+   "fdId": 109,
    "apiId": 496,
-   "logo": "https://media.api-sports.io/football/teams/496.png"
+   "logo": "https://crests.football-data.org/109.png"
   },
   {
    "slug": "napoli",
    "club": "Napoli",
    "country": "ITA",
    "elo": 1833,
+   "fdId": 113,
    "apiId": 492,
-   "logo": "https://media.api-sports.io/football/teams/492.png"
+   "logo": "https://crests.football-data.org/113.png"
   },
   {
    "slug": "milan",
    "club": "Milan",
    "country": "ITA",
    "elo": 1823,
+   "fdId": 98,
    "apiId": 489,
-   "logo": "https://media.api-sports.io/football/teams/489.png"
+   "logo": "https://crests.football-data.org/98.png"
   },
   {
    "slug": "atalanta",
    "club": "Atalanta",
    "country": "ITA",
    "elo": 1807,
+   "fdId": 102,
    "apiId": 499,
-   "logo": "https://media.api-sports.io/football/teams/499.png"
+   "logo": "https://crests.football-data.org/102.png"
   },
   {
    "slug": "como",
    "club": "Como",
    "country": "ITA",
    "elo": 1806,
+   "fdId": 7397,
    "apiId": 895,
-   "logo": "https://media.api-sports.io/football/teams/895.png"
+   "logo": "https://crests.football-data.org/7397.png"
   },
   {
    "slug": "lazio",
    "club": "Lazio",
    "country": "ITA",
    "elo": 1777,
+   "fdId": 110,
    "apiId": 487,
-   "logo": "https://media.api-sports.io/football/teams/487.png"
+   "logo": "https://crests.football-data.org/110.png"
   },
   {
    "slug": "bologna",
    "club": "Bologna",
    "country": "ITA",
    "elo": 1753,
+   "fdId": 103,
    "apiId": 500,
-   "logo": "https://media.api-sports.io/football/teams/500.png"
+   "logo": "https://crests.football-data.org/103.png"
   },
   {
    "slug": "fiorentina",
    "club": "Fiorentina",
    "country": "ITA",
    "elo": 1721,
+   "fdId": 99,
    "apiId": 502,
-   "logo": "https://media.api-sports.io/football/teams/502.png"
+   "logo": "https://crests.football-data.org/99.png"
   },
   {
    "slug": "sassuolo",
    "club": "Sassuolo",
    "country": "ITA",
    "elo": 1697,
+   "fdId": 471,
    "apiId": 488,
-   "logo": "https://media.api-sports.io/football/teams/488.png"
+   "logo": "https://crests.football-data.org/471.png"
   },
   {
    "slug": "udinese",
    "club": "Udinese",
    "country": "ITA",
    "elo": 1696,
+   "fdId": 115,
    "apiId": 494,
-   "logo": "https://media.api-sports.io/football/teams/494.png"
+   "logo": "https://crests.football-data.org/115.png"
   },
   {
    "slug": "frosinone",
    "club": "Frosinone",
    "country": "ITA",
    "elo": 1690,
+   "fdId": 470,
    "apiId": 512,
-   "logo": "https://media.api-sports.io/football/teams/512.png"
+   "logo": "https://crests.football-data.org/470.png"
   },
   {
    "slug": "torino",
    "club": "Torino",
    "country": "ITA",
    "elo": 1682,
+   "fdId": 586,
    "apiId": 503,
-   "logo": "https://media.api-sports.io/football/teams/503.png"
+   "logo": "https://crests.football-data.org/586.png"
   },
   {
    "slug": "cagliari",
    "club": "Cagliari",
    "country": "ITA",
    "elo": 1678,
+   "fdId": 104,
    "apiId": 490,
-   "logo": "https://media.api-sports.io/football/teams/490.png"
+   "logo": "https://crests.football-data.org/104.png"
   },
   {
    "slug": "genoa",
    "club": "Genoa",
    "country": "ITA",
    "elo": 1660,
+   "fdId": 107,
    "apiId": 495,
-   "logo": "https://media.api-sports.io/football/teams/495.png"
+   "logo": "https://crests.football-data.org/107.png"
   },
   {
    "slug": "parma",
    "club": "Parma",
    "country": "ITA",
    "elo": 1648,
+   "fdId": 112,
    "apiId": 523,
-   "logo": "https://media.api-sports.io/football/teams/523.png"
+   "logo": "https://crests.football-data.org/112.png"
   },
   {
    "slug": "venezia",
    "club": "Venezia",
    "country": "ITA",
    "elo": 1646,
+   "fdId": 454,
    "apiId": 517,
-   "logo": "https://media.api-sports.io/football/teams/517.png"
+   "logo": "https://crests.football-data.org/454.png"
   },
   {
    "slug": "monza",
    "club": "Monza",
    "country": "ITA",
    "elo": 1642,
+   "fdId": 5911,
    "apiId": 1579,
-   "logo": "https://media.api-sports.io/football/teams/1579.png"
+   "logo": "https://crests.football-data.org/5911.png"
   },
   {
    "slug": "lecce",
    "club": "Lecce",
    "country": "ITA",
    "elo": 1615,
+   "fdId": 5890,
    "apiId": 867,
-   "logo": "https://media.api-sports.io/football/teams/867.png"
+   "logo": "https://crests.football-data.org/5890.png"
   }
  ],
  "bundesliga": [
@@ -491,144 +551,162 @@
    "club": "Bayern München",
    "country": "GER",
    "elo": 2046,
+   "fdId": 5,
    "apiId": 157,
-   "logo": "https://media.api-sports.io/football/teams/157.png"
+   "logo": "https://crests.football-data.org/5.png"
   },
   {
    "slug": "dortmund",
    "club": "Dortmund",
    "country": "GER",
    "elo": 1900,
+   "fdId": 4,
    "apiId": 165,
-   "logo": "https://media.api-sports.io/football/teams/165.png"
+   "logo": "https://crests.football-data.org/4.png"
   },
   {
    "slug": "leverkusen",
    "club": "Leverkusen",
    "country": "GER",
    "elo": 1870,
+   "fdId": 3,
    "apiId": 168,
-   "logo": "https://media.api-sports.io/football/teams/168.png"
+   "logo": "https://crests.football-data.org/3.png"
   },
   {
    "slug": "stuttgart",
    "club": "Stuttgart",
    "country": "GER",
    "elo": 1818,
+   "fdId": 10,
    "apiId": 172,
-   "logo": "https://media.api-sports.io/football/teams/172.png"
+   "logo": "https://crests.football-data.org/10.png"
   },
   {
    "slug": "rb-leipzig",
    "club": "RB Leipzig",
    "country": "GER",
    "elo": 1816,
+   "fdId": 721,
    "apiId": 173,
-   "logo": "https://media.api-sports.io/football/teams/173.png"
+   "logo": "https://crests.football-data.org/721.png"
   },
   {
    "slug": "freiburg",
    "club": "Freiburg",
    "country": "GER",
    "elo": 1790,
+   "fdId": 17,
    "apiId": 160,
-   "logo": "https://media.api-sports.io/football/teams/160.png"
+   "logo": "https://crests.football-data.org/17.png"
   },
   {
    "slug": "mainz",
    "club": "Mainz",
    "country": "GER",
    "elo": 1742,
+   "fdId": 15,
    "apiId": 164,
-   "logo": "https://media.api-sports.io/football/teams/164.png"
+   "logo": "https://crests.football-data.org/15.png"
   },
   {
    "slug": "frankfurt",
    "club": "Frankfurt",
    "country": "GER",
    "elo": 1740,
+   "fdId": 19,
    "apiId": 169,
-   "logo": "https://media.api-sports.io/football/teams/169.png"
+   "logo": "https://crests.football-data.org/19.png"
   },
   {
    "slug": "hoffenheim",
    "club": "Hoffenheim",
    "country": "GER",
    "elo": 1728,
+   "fdId": 2,
    "apiId": 167,
-   "logo": "https://media.api-sports.io/football/teams/167.png"
+   "logo": "https://crests.football-data.org/2.png"
   },
   {
    "slug": "augsburg",
    "club": "Augsburg",
    "country": "GER",
    "elo": 1724,
+   "fdId": 16,
    "apiId": 170,
-   "logo": "https://media.api-sports.io/football/teams/170.png"
+   "logo": "https://crests.football-data.org/16.png"
   },
   {
    "slug": "werder",
    "club": "Werder",
    "country": "GER",
    "elo": 1687,
+   "fdId": 12,
    "apiId": 162,
-   "logo": "https://media.api-sports.io/football/teams/162.png"
+   "logo": "https://crests.football-data.org/12.png"
   },
   {
    "slug": "union-berlin",
    "club": "Union Berlin",
    "country": "GER",
    "elo": 1676,
+   "fdId": 28,
    "apiId": 182,
-   "logo": "https://media.api-sports.io/football/teams/182.png"
+   "logo": "https://crests.football-data.org/28.png"
   },
   {
    "slug": "elversberg",
    "club": "Elversberg",
    "country": "GER",
    "elo": 1675,
+   "fdId": 719,
    "apiId": 1660,
-   "logo": "https://media.api-sports.io/football/teams/1660.png"
+   "logo": "https://crests.football-data.org/719.png"
   },
   {
    "slug": "gladbach",
    "club": "Gladbach",
    "country": "GER",
    "elo": 1672,
+   "fdId": 18,
    "apiId": 163,
-   "logo": "https://media.api-sports.io/football/teams/163.png"
+   "logo": "https://crests.football-data.org/18.png"
   },
   {
    "slug": "hamburg",
    "club": "Hamburg",
    "country": "GER",
    "elo": 1671,
+   "fdId": 7,
    "apiId": 175,
-   "logo": "https://media.api-sports.io/football/teams/175.png"
+   "logo": "https://crests.football-data.org/7.png"
   },
   {
    "slug": "paderborn",
    "club": "Paderborn",
    "country": "GER",
    "elo": 1665,
+   "fdId": 29,
    "apiId": 185,
-   "logo": "https://media.api-sports.io/football/teams/185.png"
+   "logo": "https://crests.football-data.org/29.png"
   },
   {
    "slug": "koln",
    "club": "Köln",
    "country": "GER",
    "elo": 1652,
+   "fdId": 1,
    "apiId": 192,
-   "logo": "https://media.api-sports.io/football/teams/192.png"
+   "logo": "https://crests.football-data.org/1.png"
   },
   {
    "slug": "schalke",
    "club": "Schalke",
    "country": "GER",
    "elo": 1649,
+   "fdId": 6,
    "apiId": 174,
-   "logo": "https://media.api-sports.io/football/teams/174.png"
+   "logo": "https://crests.football-data.org/6.png"
   }
  ],
  "ligue-1": [
@@ -637,144 +715,162 @@
    "club": "Paris SG",
    "country": "FRA",
    "elo": 1956,
+   "fdId": 524,
    "apiId": 85,
-   "logo": "https://media.api-sports.io/football/teams/85.png"
+   "logo": "https://crests.football-data.org/524.png"
   },
   {
    "slug": "lens",
    "club": "Lens",
    "country": "FRA",
    "elo": 1812,
+   "fdId": 546,
    "apiId": 116,
-   "logo": "https://media.api-sports.io/football/teams/116.png"
+   "logo": "https://crests.football-data.org/546.png"
   },
   {
    "slug": "monaco",
    "club": "Monaco",
    "country": "FRA",
    "elo": 1802,
+   "fdId": 548,
    "apiId": 91,
-   "logo": "https://media.api-sports.io/football/teams/91.png"
+   "logo": "https://crests.football-data.org/548.png"
   },
   {
    "slug": "lyon",
    "club": "Lyon",
    "country": "FRA",
    "elo": 1800,
+   "fdId": 523,
    "apiId": 80,
-   "logo": "https://media.api-sports.io/football/teams/80.png"
+   "logo": "https://crests.football-data.org/523.png"
   },
   {
    "slug": "lille",
    "club": "Lille",
    "country": "FRA",
    "elo": 1780,
+   "fdId": 521,
    "apiId": 79,
-   "logo": "https://media.api-sports.io/football/teams/79.png"
+   "logo": "https://crests.football-data.org/521.png"
   },
   {
    "slug": "marseille",
    "club": "Marseille",
    "country": "FRA",
    "elo": 1762,
+   "fdId": 516,
    "apiId": 81,
-   "logo": "https://media.api-sports.io/football/teams/81.png"
+   "logo": "https://crests.football-data.org/516.png"
   },
   {
    "slug": "rennes",
    "club": "Rennes",
    "country": "FRA",
    "elo": 1754,
+   "fdId": 529,
    "apiId": 94,
-   "logo": "https://media.api-sports.io/football/teams/94.png"
+   "logo": "https://crests.football-data.org/529.png"
   },
   {
    "slug": "strasbourg",
    "club": "Strasbourg",
    "country": "FRA",
    "elo": 1742,
+   "fdId": 576,
    "apiId": 95,
-   "logo": "https://media.api-sports.io/football/teams/95.png"
+   "logo": "https://crests.football-data.org/576.png"
   },
   {
    "slug": "paris-fc",
    "club": "Paris FC",
    "country": "FRA",
    "elo": 1705,
+   "fdId": 1045,
    "apiId": 114,
-   "logo": "https://media.api-sports.io/football/teams/114.png"
+   "logo": "https://crests.football-data.org/1045.png"
   },
   {
    "slug": "toulouse",
    "club": "Toulouse",
    "country": "FRA",
    "elo": 1688,
+   "fdId": 511,
    "apiId": 96,
-   "logo": "https://media.api-sports.io/football/teams/96.png"
+   "logo": "https://crests.football-data.org/511.png"
   },
   {
    "slug": "lorient",
    "club": "Lorient",
    "country": "FRA",
    "elo": 1688,
+   "fdId": 525,
    "apiId": 97,
-   "logo": "https://media.api-sports.io/football/teams/97.png"
+   "logo": "https://crests.football-data.org/525.png"
   },
   {
    "slug": "brest",
    "club": "Brest",
    "country": "FRA",
    "elo": 1672,
+   "fdId": 512,
    "apiId": 106,
-   "logo": "https://media.api-sports.io/football/teams/106.png"
+   "logo": "https://crests.football-data.org/512.png"
   },
   {
    "slug": "nice",
    "club": "Nice",
    "country": "FRA",
    "elo": 1667,
+   "fdId": 522,
    "apiId": 84,
-   "logo": "https://media.api-sports.io/football/teams/84.png"
+   "logo": "https://crests.football-data.org/522.png"
   },
   {
    "slug": "auxerre",
    "club": "Auxerre",
    "country": "FRA",
    "elo": 1651,
+   "fdId": 519,
    "apiId": 108,
-   "logo": "https://media.api-sports.io/football/teams/108.png"
+   "logo": "https://crests.football-data.org/519.png"
   },
   {
    "slug": "angers",
    "club": "Angers",
    "country": "FRA",
    "elo": 1620,
+   "fdId": 532,
    "apiId": 77,
-   "logo": "https://media.api-sports.io/football/teams/77.png"
+   "logo": "https://crests.football-data.org/532.png"
   },
   {
    "slug": "le-havre",
    "club": "Le Havre",
    "country": "FRA",
    "elo": 1606,
+   "fdId": 533,
    "apiId": 111,
-   "logo": "https://media.api-sports.io/football/teams/111.png"
+   "logo": "https://crests.football-data.org/533.png"
   },
   {
    "slug": "troyes",
    "club": "Troyes",
    "country": "FRA",
    "elo": 1603,
+   "fdId": 531,
    "apiId": 110,
-   "logo": "https://media.api-sports.io/football/teams/110.png"
+   "logo": "https://crests.football-data.org/531.png"
   },
   {
    "slug": "le-mans",
    "club": "Le Mans",
    "country": "FRA",
    "elo": 1596,
+   "fdId": 535,
    "apiId": 1298,
-   "logo": "https://media.api-sports.io/football/teams/1298.png"
+   "logo": "https://crests.football-data.org/535.png"
   }
  ]
 }

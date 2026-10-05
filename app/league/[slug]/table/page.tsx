@@ -1,140 +1,271 @@
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { LEAGUES, leagueBySlug, leagueClubs, flagUrl } from "@/lib/data";
-import { seasonOdds } from "@/lib/season";
-import { pct } from "@/lib/ui";
-import { LeagueTabs } from "../../../components/LeagueTabs";
-import { LeagueSubnav } from "../../../components/LeagueSubnav";
-import { Crest } from "../../../components/Crest";
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { LEAGUES, leagueBySlug, leagueClubs, flagUrl } from '@/lib/data';
+import { seasonOdds } from '@/lib/season';
+import { portalSnapshot, portalStandings } from '@/lib/portal';
+import { LeagueTabs } from '../../../components/LeagueTabs';
+import { LeagueSubnav } from '../../../components/LeagueSubnav';
+import { Crest } from '../../../components/Crest';
 
 export function generateStaticParams() {
   return LEAGUES.map((l) => ({ slug: l.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const league = leagueBySlug(slug);
   if (!league) return {};
   return {
-    title: `${league.name} table 2026-27 — predicted final standings`,
-    description: `${league.name} 2026-27 predicted final table: projected points, finishing position and title / top-4 / relegation probability for every club, from 5,000 season simulations. Switches to the live table once the season starts.`,
+    title: `${league.name} table 2026-27 — live standings`,
+    description: `${league.name} 2026-27 live table: position, points, goal difference and recent form for every club, refreshed daily from football-data.org — with the model's projected finish alongside.`,
   };
 }
 
-const BUILT = new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-
-// Ordinal helper (1 → 1st).
-const ord = (n: number) => {
-  const s = ["th", "st", "nd", "rd"], v = n % 100;
-  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+// Standing-table leagueId is the legacy API-Football league id the portal
+// envelope carries (see scripts/providers/football-data.mjs COMPETITIONS).
+const LEAGUE_ID: Record<string, number> = {
+  'premier-league': 39,
+  'la-liga': 140,
+  'serie-a': 135,
+  bundesliga: 78,
+  'ligue-1': 61,
 };
 
-export default async function LeagueTablePage({ params }: { params: Promise<{ slug: string }> }) {
+const detail = (
+  row: {
+    details: {
+      description: string | null;
+      value: string | number | boolean | null;
+    }[];
+  },
+  label: string,
+) => row.details.find((d) => d.description === label)?.value ?? null;
+
+export default async function LeagueTablePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const league = leagueBySlug(slug);
   if (!league) notFound();
   const clubs = leagueClubs(league);
+  const byFdId = new Map(clubs.map((c) => [c.fdId, c]));
+
+  const table = portalStandings().find((t) => t.leagueId === LEAGUE_ID[slug]);
+  const asOf = portalSnapshot().asOf.slice(0, 10);
+
+  // Model projection for the context column: rank by projected points, keyed
+  // on fdId to match the standings rows.
   const odds = seasonOdds(league.slug, clubs);
-  const n = odds.length;
+  const fdBySlug = new Map(clubs.map((c) => [c.slug, c.fdId]));
+  const projPos = new Map(odds.map((o, i) => [fdBySlug.get(o.slug), i + 1]));
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: `${league.name} 2026-27 predicted final table`,
-    numberOfItems: n,
-    itemListElement: odds.map((o, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: o.club,
-      url: `https://theopenmodel.com/team/${o.slug}/`,
-    })),
-  };
-
-  // Zones: top club(s) = title race, top 4 = Champions League, 5-6 = Europe, bottom 3 = relegation.
+  const n = table?.rows.length ?? 0;
   const zone = (i: number): { cls: string; label: string } | null => {
-    if (i < 4) return { cls: "cl", label: "Champions League places" };
-    if (i < 6) return { cls: "el", label: "European places" };
-    if (i >= n - 3) return { cls: "rel", label: "Relegation zone" };
+    if (i < 4) return { cls: 'cl', label: 'Champions League places' };
+    if (i < 6) return { cls: 'el', label: 'European places' };
+    if (i >= n - 3) return { cls: 'rel', label: 'Relegation zone' };
     return null;
   };
 
   return (
     <main className="wrap">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section>
         <p className="crumbs">
-          <Link href="/">Home</Link> › <Link href="/leagues/">Leagues</Link> ›{" "}
+          <Link href="/">Home</Link> › <Link href="/leagues/">Leagues</Link>›{' '}
           <Link href={`/league/${league.slug}/`}>{league.name}</Link> › Table
         </p>
-        <h1 className="pagetitle" style={{ display: "flex", alignItems: "center", gap: 10 }}>
+        <h1
+          className="pagetitle"
+          style={{ display: 'flex', alignItems: 'center', gap: 10 }}
+        >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img className="flag" src={flagUrl(league.flagCode, 40)} width={28} height={21} alt="" />
+          <img
+            className="flag"
+            src={flagUrl(league.flagCode, 40)}
+            width={28}
+            height={21}
+            alt=""
+          />
           {league.name} table 2026-27
         </h1>
         <p className="pagedesc">
-          The predicted final table — where each club is most likely to finish, from 5,000 simulated
-          seasons. Projected points are the average across every simulation; the range shows the
-          10th-to-90th percentile. Once the season kicks off in August this page shows the live
-          standings alongside the projection.
+          The live {league.name} standings — actual points, goal difference and
+          recent form — alongside where the model expects each club to finish.
+          For the full projection see the{' '}
+          <Link href={`/league/${league.slug}/`}>forecast</Link>.
         </p>
-        <p className="updated" style={{ margin: "6px 0 14px" }}>
-          Predicted table · updated {BUILT} · ClubElo ratings → Dixon-Coles → 5,000 simulations
+        <p className="updated" style={{ margin: '6px 0 14px' }}>
+          Live standings · football-data.org · updated {asOf}
         </p>
         <LeagueTabs current={league.slug} />
         <LeagueSubnav slug={league.slug} current="table" />
       </section>
 
-      <div style={{ marginTop: 18, overflowX: "auto" }}>
-        <table className="data leaguetable">
-          <thead>
-            <tr>
-              <th style={{ width: 34 }} className="c">#</th>
-              <th>Club</th>
-              <th className="c" title="Projected final points (average across 5,000 simulations)">Proj. Pts</th>
-              <th className="c hide-m" title="10th–90th percentile points range">Range</th>
-              <th className="c" title="Probability of winning the league">Title</th>
-              <th className="c hide-m" title="Probability of a top-4 finish">Top 4</th>
-              <th className="c" title="Probability of relegation">Rel.</th>
-            </tr>
-          </thead>
-          <tbody>
-            {odds.map((o, i) => {
-              const z = zone(i);
-              return (
-                <tr key={o.slug} className={z ? `zone-${z.cls}` : undefined}>
-                  <td className="c num" style={{ position: "relative" }}>
-                    {z && <span className="zone-bar" title={z.label} aria-label={z.label} />}
-                    {i + 1}
-                  </td>
-                  <td>
-                    <Link href={`/team/${o.slug}/`} style={{ display: "inline-flex", alignItems: "center", gap: 9 }}>
-                      <Crest club={o.club} slug={o.slug} size="sm" />{o.club}
-                    </Link>
-                  </td>
-                  <td className="c num"><b>{o.avgPts.toFixed(0)}</b></td>
-                  <td className="c num hide-m" style={{ color: "var(--muted)" }}>{o.ptsLo}–{o.ptsHi}</td>
-                  <td className="c num" style={o.title >= 0.01 ? { color: "var(--accent-ink)", fontWeight: 600 } : { color: "var(--faint)" }}>{pct(o.title)}</td>
-                  <td className="c num hide-m">{pct(o.top4)}</td>
-                  <td className="c num" style={o.releg >= 0.01 ? { color: "var(--loss)" } : { color: "var(--faint)" }}>{pct(o.releg)}</td>
+      {!table || !table.rows.length ? (
+        <p className="pagedesc" style={{ marginTop: 20 }}>
+          Live standings for this league aren&apos;t available yet — they appear
+          once the first matchday is recorded.
+        </p>
+      ) : (
+        <>
+          <div style={{ marginTop: 18, overflowX: 'auto' }}>
+            <table className="data leaguetable">
+              <thead>
+                <tr>
+                  <th style={{ width: 34 }} className="c">
+                    #
+                  </th>
+                  <th>Club</th>
+                  <th className="c" title="Matches played">
+                    P
+                  </th>
+                  <th className="c hide-m" title="Won">
+                    W
+                  </th>
+                  <th className="c hide-m" title="Drawn">
+                    D
+                  </th>
+                  <th className="c hide-m" title="Lost">
+                    L
+                  </th>
+                  <th className="c hide-m" title="Goals for / against">
+                    GF:GA
+                  </th>
+                  <th className="c" title="Goal difference">
+                    GD
+                  </th>
+                  <th className="c" title="Points">
+                    Pts
+                  </th>
+                  <th className="c hide-m" title="Last five results">
+                    Form
+                  </th>
+                  <th
+                    className="c hide-m"
+                    title="Model's projected final position"
+                  >
+                    Proj.
+                  </th>
                 </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
+              </thead>
+              <tbody>
+                {table.rows.map((r, i) => {
+                  const z = zone(i);
+                  const club = byFdId.get(r.participantId ?? undefined);
+                  const form = r.form
+                    .map((f) => f.form)
+                    .filter(Boolean)
+                    .slice(-5) as string[];
+                  return (
+                    <tr
+                      key={r.participantId ?? i}
+                      className={z ? `zone-${z.cls}` : undefined}
+                    >
+                      <td className="c num" style={{ position: 'relative' }}>
+                        {z && (
+                          <span
+                            className="zone-bar"
+                            title={z.label}
+                            aria-label={z.label}
+                          />
+                        )}
+                        {r.position ?? i + 1}
+                      </td>
+                      <td>
+                        {club ? (
+                          <Link
+                            href={`/team/${club.slug}/`}
+                            style={{
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: 9,
+                            }}
+                          >
+                            <Crest
+                              club={club.club}
+                              slug={club.slug}
+                              size="sm"
+                            />
+                            {club.club}
+                          </Link>
+                        ) : (
+                          r.participant.name
+                        )}
+                      </td>
+                      <td className="c num">{detail(r, 'Played')}</td>
+                      <td className="c num hide-m">{detail(r, 'Won')}</td>
+                      <td className="c num hide-m">{detail(r, 'Drawn')}</td>
+                      <td className="c num hide-m">{detail(r, 'Lost')}</td>
+                      <td
+                        className="c num hide-m"
+                        style={{ color: 'var(--muted)' }}
+                      >
+                        {detail(r, 'Goals for')}:{detail(r, 'Goals against')}
+                      </td>
+                      <td className="c num">{detail(r, 'Goal difference')}</td>
+                      <td className="c num">
+                        <b>{r.points}</b>
+                      </td>
+                      <td className="c num hide-m">
+                        <span style={{ display: 'inline-flex', gap: 3 }}>
+                          {form.map((f, j) => (
+                            <span
+                              key={j}
+                              className="mono"
+                              style={{
+                                fontSize: 10,
+                                fontWeight: 700,
+                                color:
+                                  f === 'W'
+                                    ? 'var(--win)'
+                                    : f === 'L'
+                                      ? 'var(--loss)'
+                                      : 'var(--muted)',
+                              }}
+                            >
+                              {f}
+                            </span>
+                          ))}
+                        </span>
+                      </td>
+                      <td
+                        className="c num hide-m"
+                        style={{ color: 'var(--muted)' }}
+                      >
+                        {projPos.get(r.participantId ?? 0) ?? '—'}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
 
-      <div className="tablekey" style={{ marginTop: 14 }}>
-        <span className="k"><span className="sw cl" /> Champions League (top 4)</span>
-        <span className="k"><span className="sw el" /> European places (5–6)</span>
-        <span className="k"><span className="sw rel" /> Relegation (bottom 3)</span>
-      </div>
-      <p className="foot-src" style={{ marginTop: 10 }}>
-        Projected points are means over 5,000 Monte Carlo seasons from current ClubElo ratings; a club
-        can finish well outside this order in any single season. This is a forecast, not a result —
-        see the <Link href="/record/">public track record</Link> and{" "}
-        <Link href="/methodology/">methodology</Link>. Data reusable under{" "}
-        <Link href="/data/">CC BY 4.0</Link>.
-      </p>
+          <div className="tablekey" style={{ marginTop: 14 }}>
+            <span className="k">
+              <span className="sw cl" /> Champions League (top 4)
+            </span>
+            <span className="k">
+              <span className="sw el" /> European places (5–6)
+            </span>
+            <span className="k">
+              <span className="sw rel" /> Relegation (bottom 3)
+            </span>
+          </div>
+          <p className="foot-src" style={{ marginTop: 10 }}>
+            Standings: football-data.org, refreshed daily. Proj. = the
+            model&apos;s projected final position from 5,000 simulated seasons (
+            <Link href="/methodology/">method</Link>). Data reusable under{' '}
+            <Link href="/data/">CC BY 4.0</Link>.
+          </p>
+        </>
+      )}
     </main>
   );
 }
